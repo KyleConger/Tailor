@@ -1,0 +1,42 @@
+{
+  "name": "Testing Project",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+
+      "Packages": {
+        "$path": "Packages"
+      },
+
+      "Source": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+
+      "Source": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$properties": {
+        "CharacterWalkSpeed": 16
+      },
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+
+        "Source": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
