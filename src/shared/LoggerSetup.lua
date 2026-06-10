@@ -1,8 +1,6 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 
-local Packages = ReplicatedStorage:WaitForChild("Packages")
-local Log = require(Packages.Log)
+local Log = require(script.Parent.Log)
 
 local LoggerConfig = require(script.Parent.LoggerConfig)
 

@@ -1,8 +1,9 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Packages = ReplicatedStorage:WaitForChild("Packages")
+local Source = ReplicatedStorage:WaitForChild("Source")
 local Knit = require(Packages.Knit)
-local Log = require(Packages.Log)
+local Log = require(Source.Log)
 
 local BootstrapController = Knit.CreateController({
 	Name = "BootstrapController",

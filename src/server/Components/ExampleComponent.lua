@@ -1,8 +1,9 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Packages = ReplicatedStorage:WaitForChild("Packages")
+local Source = ReplicatedStorage:WaitForChild("Source")
 local Component = require(Packages.Component)
-local Log = require(Packages.Log)
+local Log = require(Source.Log)
 
 local ExampleComponent = Component.new({
 	Tag = "Example",

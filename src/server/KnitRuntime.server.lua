@@ -4,7 +4,7 @@ local ServerScriptService = game:GetService("ServerScriptService")
 local Packages = ReplicatedStorage:WaitForChild("Packages")
 local Source = ReplicatedStorage:WaitForChild("Source")
 local Knit = require(Packages.Knit)
-local Log = require(Packages.Log)
+local Log = require(Source.Log)
 
 local LoggerSetup = require(Source.LoggerSetup)
 local SentryLoader = require(Source.SentryLoader)
