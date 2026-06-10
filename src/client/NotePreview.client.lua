@@ -18,6 +18,7 @@ local NOTES_BY_KEY = {
 
 local PREVIEW_ATTRIBUTE = "NotePreview"
 local REMOTE_NAME = "NotePreviewRemote"
+local CLOSE_ACTION = "close"
 
 local VALID_MODES = {
 	[MODES.Light] = true,
@@ -83,15 +84,84 @@ local function initServer()
 	remote.Parent = ReplicatedStorage
 
 	remote.OnServerInvoke = function(player, modeName, noteName)
+		if modeName == CLOSE_ACTION then
+			clearPreview(player)
+			return true
+		end
+
 		return showNote(player, modeName, noteName)
 	end
 end
 
 local function initClient()
+	local Players = game:GetService("Players")
 	local clientRemote = ReplicatedStorage:WaitForChild(REMOTE_NAME)
 	local currentMode = MODES.Light
+	local currentNote = nil
 
 	logInfo(`Note preview ready. Q toggles mode (currently {currentMode}). 1-5 load notes.`)
+
+	local function findCloseButton(screenGui)
+		local container = screenGui:FindFirstChild("Container", true)
+		if not container then
+			return nil
+		end
+
+		local closeFrame = container:FindFirstChild("Close X (Vector)")
+		if not closeFrame then
+			return nil
+		end
+
+		local closeButton = closeFrame:FindFirstChild("Image")
+		if closeButton and closeButton:IsA("ImageButton") then
+			return closeButton
+		end
+
+		return nil
+	end
+
+	local function getActivePreview()
+		local playerGui = Players.LocalPlayer:WaitForChild("PlayerGui")
+
+		for _, child in playerGui:GetChildren() do
+			if child:IsA("ScreenGui") and child:GetAttribute(PREVIEW_ATTRIBUTE) then
+				return child
+			end
+		end
+
+		return nil
+	end
+
+	local function wireCloseButton(screenGui)
+		local closeButton = findCloseButton(screenGui)
+		if not closeButton then
+			logWarn("Close button not found on note preview")
+			return
+		end
+
+		closeButton.Activated:Connect(function()
+			clientRemote:InvokeServer(CLOSE_ACTION)
+		end)
+	end
+
+	local function showCurrentNote()
+		if not currentNote then
+			return
+		end
+
+		local success, err = clientRemote:InvokeServer(currentMode, currentNote)
+		if not success then
+			logWarn(`Failed to show {currentNote} ({currentMode}): {err or "unknown error"}`)
+			return
+		end
+
+		task.defer(function()
+			local preview = getActivePreview()
+			if preview then
+				wireCloseButton(preview)
+			end
+		end)
+	end
 
 	UserInputService.InputBegan:Connect(function(input, gameProcessed)
 		if gameProcessed or UserInputService:GetFocusedTextBox() then
@@ -110,6 +180,7 @@ local function initClient()
 			end
 
 			logInfo(`Switched to {currentMode}`)
+			showCurrentNote()
 			return
 		end
 
@@ -118,10 +189,8 @@ local function initClient()
 			return
 		end
 
-		local success, err = clientRemote:InvokeServer(currentMode, noteName)
-		if not success then
-			logWarn(`Failed to show {noteName} ({currentMode}): {err or "unknown error"}`)
-		end
+		currentNote = noteName
+		showCurrentNote()
 	end)
 end
 
