@@ -120,8 +120,7 @@ function Get-GroupClothingIds {
         if ($cursor) { Start-Sleep -Milliseconds $ThrottleMs }
     } while ($cursor)
 
-    # Unary comma prevents PowerShell from unrolling the collection to the caller.
-    return , $ids.ToArray()
+    return $ids
 }
 
 function Get-ItemDetails {
@@ -146,7 +145,7 @@ function Get-ItemDetails {
         if ($i + $BatchSize -lt $Ids.Count) { Start-Sleep -Milliseconds $ThrottleMs }
     }
 
-    return , $results.ToArray()
+    return $results
 }
 
 function Get-GroupClothing {
@@ -169,7 +168,7 @@ function Get-GroupClothing {
     $ids = @(Get-GroupClothingIds -GroupId $GroupId -CsrfRef $CsrfRef)
     if ($ids.Count -eq 0) { return @() }
 
-    $details = @(Get-ItemDetails -Ids $ids -CsrfRef $CsrfRef)
+    $details = @(Get-ItemDetails -Ids ([long[]]$ids) -CsrfRef $CsrfRef)
 
     $records = New-Object System.Collections.Generic.List[object]
     foreach ($d in $details) {
@@ -192,7 +191,7 @@ function Get-GroupClothing {
         })
     }
 
-    return , $records.ToArray()
+    return $records
 }
 
 Export-ModuleMember -Function `
