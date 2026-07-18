@@ -10,10 +10,10 @@
 $script:SearchUrl  = 'https://catalog.roblox.com/v1/search/items'
 $script:DetailsUrl = 'https://catalog.roblox.com/v1/catalog/items/details'
 
-# assetTypeId -> our normalized role. Everything else is ignored (bundles, UGC,
-# accessories, etc.) because the request is scoped to 2D clothing.
+# assetTypeId -> our normalized role. Classic T-Shirts (2) and all 3D / layered
+# clothing accessories are intentionally omitted — we only catalog 2D shirts and
+# pants so tops can be paired with bottoms.
 $script:RoleByAssetType = @{
-    2  = 'tshirt'  # Classic T-Shirt
     11 = 'top'     # Classic Shirt
     12 = 'bottom'  # Classic Pants
 }
@@ -150,8 +150,8 @@ function Get-ItemDetails {
 
 function Get-GroupClothing {
     <#
-        High-level: returns normalized 2D-clothing records for a group.
-        Each record: id, name, role (top|bottom|tshirt), assetType, price,
+        High-level: returns normalized Classic Shirt / Classic Pants records.
+        Each record: id, name, role (top|bottom), assetType, price,
         productId, collectibleItemId, groupId, groupName, url, created.
     #>
     param(

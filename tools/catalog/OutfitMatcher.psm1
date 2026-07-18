@@ -51,15 +51,14 @@ function Get-OutfitKey {
 function Get-OutfitMatches {
     <#
         Input: flat list of normalized clothing records (see Get-GroupClothing).
-        Output: pscustomobject with .matched, .unmatchedTops, .unmatchedBottoms,
-        .tshirts arrays. Matching is scoped per group + outfit key.
+        Output: pscustomobject with .matched, .unmatchedTops, .unmatchedBottoms
+        arrays. Matching is scoped per group + outfit key.
     #>
     param([Parameter(Mandatory)] [AllowEmptyCollection()] [object[]] $Records)
 
     $matched          = New-Object System.Collections.Generic.List[object]
     $unmatchedTops    = New-Object System.Collections.Generic.List[object]
     $unmatchedBottoms = New-Object System.Collections.Generic.List[object]
-    $tshirts          = New-Object System.Collections.Generic.List[object]
 
     # Bucket by group so identical names across groups never cross-match.
     $byGroup = $Records | Group-Object -Property groupId
@@ -69,7 +68,7 @@ function Get-OutfitMatches {
         $bottoms = @{}  # key -> list of bottom records
 
         foreach ($rec in $group.Group) {
-            if ($rec.role -eq 'tshirt') { $tshirts.Add($rec); continue }
+            if ($rec.role -ne 'top' -and $rec.role -ne 'bottom') { continue }
 
             $key = Get-OutfitKey -Name $rec.name
             $rec | Add-Member -NotePropertyName outfitKey -NotePropertyValue $key -Force
@@ -126,7 +125,6 @@ function Get-OutfitMatches {
         matched          = $matched.ToArray()
         unmatchedTops    = $unmatchedTops.ToArray()
         unmatchedBottoms = $unmatchedBottoms.ToArray()
-        tshirts          = $tshirts.ToArray()
     }
 }
 

@@ -1,111 +1,141 @@
 ﻿{
-    "generatedUtc":  "2026-07-18T23:50:42.9447937Z",
+    "generatedUtc":  "2026-07-18T23:55:48.3568079Z",
+    "scope":  "Classic Shirts + Classic Pants only (no t-shirts, no 3D clothing)",
     "groups":  [
                    {
                        "group":  "Beneventi\u0027s",
                        "slug":  "beneventis",
                        "groupId":  15843731,
+                       "defaultGender":  "masculine",
                        "tops":  336,
                        "bottoms":  289,
-                       "tshirts":  6,
-                       "total":  631
+                       "total":  625
                    },
                    {
                        "group":  "Parkson \u0026 Co. Tailors",
                        "slug":  "parkson-co-tailors",
                        "groupId":  15446013,
+                       "defaultGender":  "masculine",
                        "tops":  31,
                        "bottoms":  31,
-                       "tshirts":  3,
-                       "total":  65
+                       "total":  62
                    },
                    {
                        "group":  "Gravelle",
                        "slug":  "gravelle",
                        "groupId":  211813163,
+                       "defaultGender":  "masculine",
                        "tops":  9,
                        "bottoms":  9,
-                       "tshirts":  0,
                        "total":  18
                    },
                    {
                        "group":  "Style Abby",
                        "slug":  "style-abby",
                        "groupId":  3211189,
+                       "defaultGender":  "unclassified",
                        "tops":  457,
                        "bottoms":  478,
-                       "tshirts":  65,
-                       "total":  1000
+                       "total":  935
                    },
                    {
                        "group":  "Avrenzi",
                        "slug":  "avrenzi",
                        "groupId":  8638017,
+                       "defaultGender":  "unclassified",
                        "tops":  175,
                        "bottoms":  165,
-                       "tshirts":  0,
                        "total":  340
                    },
                    {
                        "group":  "Formalitat | Formal Attire \u0026 UGC",
                        "slug":  "formalitat",
                        "groupId":  14086029,
+                       "defaultGender":  "masculine",
                        "tops":  503,
                        "bottoms":  486,
-                       "tshirts":  3,
-                       "total":  992
+                       "total":  989
                    },
                    {
                        "group":  "Kestrel",
                        "slug":  "kestrel",
                        "groupId":  851558,
+                       "defaultGender":  "unclassified",
                        "tops":  555,
                        "bottoms":  420,
-                       "tshirts":  5,
-                       "total":  980
+                       "total":  975
                    },
                    {
                        "group":  "Blox Channel",
                        "slug":  "blox-channel",
                        "groupId":  515698,
+                       "defaultGender":  "masculine",
                        "tops":  319,
                        "bottoms":  165,
-                       "tshirts":  2,
-                       "total":  486
+                       "total":  484
                    },
                    {
                        "group":  "Obleceni",
                        "slug":  "obleceni",
                        "groupId":  3100013,
+                       "defaultGender":  "masculine",
                        "tops":  530,
                        "bottoms":  465,
-                       "tshirts":  5,
-                       "total":  1000
+                       "total":  995
                    },
                    {
                        "group":  "Henri Bendel",
                        "slug":  "henri-bendel",
                        "groupId":  5049429,
+                       "defaultGender":  "masculine",
                        "tops":  33,
                        "bottoms":  29,
-                       "tshirts":  1,
-                       "total":  63
+                       "total":  62
                    },
                    {
                        "group":  "Casablanca",
                        "slug":  "casablanca",
                        "groupId":  2617916,
+                       "defaultGender":  "masculine",
                        "tops":  299,
                        "bottoms":  280,
-                       "tshirts":  4,
-                       "total":  583
+                       "total":  579
                    }
                ],
+    "byGender":  {
+                     "masculine":  {
+                                       "gender":  "masculine",
+                                       "items":  3878,
+                                       "tops":  2094,
+                                       "bottoms":  1784,
+                                       "matchedOutfits":  1513,
+                                       "unmatchedTops":  642,
+                                       "unmatchedBottoms":  334
+                                   },
+                     "feminine":  {
+                                      "gender":  "feminine",
+                                      "items":  382,
+                                      "tops":  171,
+                                      "bottoms":  211,
+                                      "matchedOutfits":  165,
+                                      "unmatchedTops":  79,
+                                      "unmatchedBottoms":  128
+                                  },
+                     "unclassified":  {
+                                          "gender":  "unclassified",
+                                          "items":  1804,
+                                          "tops":  982,
+                                          "bottoms":  822,
+                                          "matchedOutfits":  776,
+                                          "unmatchedTops":  616,
+                                          "unmatchedBottoms":  468
+                                      }
+                 },
     "totals":  {
-                   "items":  6158,
-                   "matchedOutfits":  2458,
-                   "unmatchedTops":  1335,
-                   "unmatchedBottoms":  927,
-                   "tshirts":  94
+                   "items":  6064,
+                   "masculine":  3878,
+                   "feminine":  382,
+                   "unclassified":  1804,
+                   "matchedOutfits":  2454
                }
 }
