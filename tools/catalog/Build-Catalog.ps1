@@ -61,7 +61,10 @@ foreach ($group in $groups) {
     if ($SkipFetch) {
         if (Test-Path $rawPath) {
             Write-Host "[skip-fetch] $($group.name) <- $rawPath"
-            $records = @(Get-Content $rawPath -Raw | ConvertFrom-Json)
+            # Assign first, then wrap: ConvertFrom-Json emits an array as a single
+            # pipeline object, so @(... | ConvertFrom-Json) would nest it.
+            $parsed = Get-Content $rawPath -Raw | ConvertFrom-Json
+            $records = @($parsed)
         } else {
             Write-Warning "[skip-fetch] no cache for $($group.name); skipping."
             $records = @()

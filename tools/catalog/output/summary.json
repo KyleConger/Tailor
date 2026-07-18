@@ -1,21 +1,21 @@
 ﻿{
-    "generatedUtc":  "2026-07-18T23:28:12.0000975Z",
+    "generatedUtc":  "2026-07-18T23:28:47.4224600Z",
     "groups":  [
                    {
                        "group":  "Beneventi\u0027s",
                        "slug":  "beneventis",
                        "groupId":  15843731,
-                       "tops":  1,
-                       "bottoms":  1,
-                       "tshirts":  1,
-                       "total":  1
+                       "tops":  336,
+                       "bottoms":  289,
+                       "tshirts":  6,
+                       "total":  631
                    }
                ],
     "totals":  {
-                   "items":  1,
-                   "matchedOutfits":  0,
-                   "unmatchedTops":  0,
-                   "unmatchedBottoms":  0,
-                   "tshirts":  1
+                   "items":  631,
+                   "matchedOutfits":  279,
+                   "unmatchedTops":  63,
+                   "unmatchedBottoms":  19,
+                   "tshirts":  6
                }
 }
