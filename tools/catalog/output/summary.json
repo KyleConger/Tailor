@@ -1,0 +1,21 @@
+﻿{
+    "generatedUtc":  "2026-07-18T23:24:10.1354756Z",
+    "groups":  [
+                   {
+                       "group":  "Beneventi\u0027s",
+                       "slug":  "beneventis",
+                       "groupId":  15843731,
+                       "tops":  0,
+                       "bottoms":  0,
+                       "tshirts":  0,
+                       "total":  0
+                   }
+               ],
+    "totals":  {
+                   "items":  0,
+                   "matchedOutfits":  0,
+                   "unmatchedTops":  0,
+                   "unmatchedBottoms":  0,
+                   "tshirts":  0
+               }
+}

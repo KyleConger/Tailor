@@ -76,6 +76,7 @@ foreach ($group in $groups) {
         }
         # Persist raw per-group snapshot even when empty for traceability.
         ($records | ConvertTo-Json -Depth 6) | Set-Content -Path $rawPath -Encoding UTF8
+        Start-Sleep -Seconds 2  # be polite between groups to avoid 429s
     }
 
     foreach ($r in $records) { $allRecords.Add($r) }

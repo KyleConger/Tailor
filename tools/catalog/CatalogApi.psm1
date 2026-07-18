@@ -77,7 +77,7 @@ function Invoke-CatalogRequest {
             }
 
             if ($status -eq 429) {
-                $wait = [Math]::Min(30, [Math]::Pow(2, $attempt))
+                $wait = [Math]::Min(60, 5 * [Math]::Pow(2, $attempt - 1))
                 Write-Warning "Rate limited (429). Backing off $wait s (attempt $attempt/$MaxRetries)."
                 Start-Sleep -Seconds $wait
                 continue
@@ -101,7 +101,7 @@ function Get-GroupClothingIds {
     param(
         [Parameter(Mandatory)] [long] $GroupId,
         [ref] $CsrfRef,
-        [int] $ThrottleMs = 350
+        [int] $ThrottleMs = 800
     )
 
     $ids = New-Object System.Collections.Generic.List[long]
@@ -120,7 +120,8 @@ function Get-GroupClothingIds {
         if ($cursor) { Start-Sleep -Milliseconds $ThrottleMs }
     } while ($cursor)
 
-    return $ids
+    # Unary comma prevents PowerShell from unrolling the collection to the caller.
+    return , $ids.ToArray()
 }
 
 function Get-ItemDetails {
@@ -129,7 +130,7 @@ function Get-ItemDetails {
         [Parameter(Mandatory)] [long[]] $Ids,
         [ref] $CsrfRef,
         [int] $BatchSize = 50,
-        [int] $ThrottleMs = 350
+        [int] $ThrottleMs = 800
     )
 
     $results = New-Object System.Collections.Generic.List[object]
@@ -145,7 +146,7 @@ function Get-ItemDetails {
         if ($i + $BatchSize -lt $Ids.Count) { Start-Sleep -Milliseconds $ThrottleMs }
     }
 
-    return $results
+    return , $results.ToArray()
 }
 
 function Get-GroupClothing {
@@ -165,10 +166,10 @@ function Get-GroupClothing {
         if ($CsrfRef) { $CsrfRef.Value = $token }
     }
 
-    $ids = Get-GroupClothingIds -GroupId $GroupId -CsrfRef $CsrfRef
+    $ids = @(Get-GroupClothingIds -GroupId $GroupId -CsrfRef $CsrfRef)
     if ($ids.Count -eq 0) { return @() }
 
-    $details = Get-ItemDetails -Ids $ids.ToArray() -CsrfRef $CsrfRef
+    $details = @(Get-ItemDetails -Ids $ids -CsrfRef $CsrfRef)
 
     $records = New-Object System.Collections.Generic.List[object]
     foreach ($d in $details) {
@@ -191,7 +192,7 @@ function Get-GroupClothing {
         })
     }
 
-    return $records
+    return , $records.ToArray()
 }
 
 Export-ModuleMember -Function `
