@@ -126,20 +126,6 @@
         "created":  "2025-04-11T16:55:23.523Z"
     },
     {
-        "id":  10822756003,
-        "name":  "[EA7] Blue Enzo Tracksuit",
-        "role":  "top",
-        "assetType":  11,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  5882406684450127,
-        "collectibleItemId":  "b035f59a-bfe1-4be2-8655-87636b18153a",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/10822756003",
-        "created":  "2022-09-04T20:42:17.837Z"
-    },
-    {
         "id":  16962260809,
         "name":  "[Emporio Armani] 50s Woollen Overcoat, Lower",
         "role":  "bottom",
@@ -152,6 +138,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/16962260809",
         "created":  "2024-03-31T22:53:34.863Z"
+    },
+    {
+        "id":  10822756003,
+        "name":  "[EA7] Blue Enzo Tracksuit",
+        "role":  "top",
+        "assetType":  11,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  5882406684450127,
+        "collectibleItemId":  "b035f59a-bfe1-4be2-8655-87636b18153a",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/10822756003",
+        "created":  "2022-09-04T20:42:17.837Z"
     },
     {
         "id":  18490367204,
@@ -210,20 +210,6 @@
         "created":  "2024-04-11T16:00:42.017Z"
     },
     {
-        "id":  16911080156,
-        "name":  "[EA7] Morocco Slacks",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  1471346852755802,
-        "collectibleItemId":  "9d25b056-5677-44b4-906a-9bfb90f58430",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16911080156",
-        "created":  "2024-03-28T20:23:48.823Z"
-    },
-    {
         "id":  16837366315,
         "name":  "[Emporio Armani] The Ego, Lower",
         "role":  "bottom",
@@ -236,6 +222,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/16837366315",
         "created":  "2024-03-23T10:05:33.953Z"
+    },
+    {
+        "id":  16911080156,
+        "name":  "[EA7] Morocco Slacks",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  1471346852755802,
+        "collectibleItemId":  "9d25b056-5677-44b4-906a-9bfb90f58430",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16911080156",
+        "created":  "2024-03-28T20:23:48.823Z"
     },
     {
         "id":  13557974397,
@@ -910,34 +910,6 @@
         "created":  "2024-04-27T13:32:29.64Z"
     },
     {
-        "id":  130820668192223,
-        "name":  "[Emporio Armani] The Shark, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  1379000134417154,
-        "collectibleItemId":  "31859536-4930-48fd-99fd-861d3a517ae9",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/130820668192223",
-        "created":  "2024-08-21T21:38:40.307Z"
-    },
-    {
-        "id":  18490497947,
-        "name":  "[EA7] The Artist, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  7048517292826949,
-        "collectibleItemId":  "1ce672cf-7259-4406-9a51-a3c2d7d24bb7",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18490497947",
-        "created":  "2024-07-14T18:13:50.62Z"
-    },
-    {
         "id":  10822722031,
         "name":  "[Emporio Armani] Buffalo, Upper",
         "role":  "top",
@@ -964,6 +936,34 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/128991560109334",
         "created":  "2025-04-11T16:44:33.56Z"
+    },
+    {
+        "id":  18490497947,
+        "name":  "[EA7] The Artist, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  7048517292826949,
+        "collectibleItemId":  "1ce672cf-7259-4406-9a51-a3c2d7d24bb7",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/18490497947",
+        "created":  "2024-07-14T18:13:50.62Z"
+    },
+    {
+        "id":  130820668192223,
+        "name":  "[Emporio Armani] The Shark, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  1379000134417154,
+        "collectibleItemId":  "31859536-4930-48fd-99fd-861d3a517ae9",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/130820668192223",
+        "created":  "2024-08-21T21:38:40.307Z"
     },
     {
         "id":  17490109476,
@@ -994,18 +994,18 @@
         "created":  "2024-05-25T21:15:42.923Z"
     },
     {
-        "id":  18490311462,
-        "name":  "[Emporio Armani] The Turk, Lower",
+        "id":  17368871206,
+        "name":  "[Emporio Armani] Leon, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  1661210719692971,
-        "collectibleItemId":  "15bb1d9e-795b-4bdd-8cbd-7dc5dd3305ed",
+        "productId":  4757520490001584,
+        "collectibleItemId":  "6814b341-a51f-48b4-92e8-adde2632f71f",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18490311462",
-        "created":  "2024-07-14T17:58:52.237Z"
+        "url":  "https://www.roblox.com/catalog/17368871206",
+        "created":  "2024-05-03T12:39:05.923Z"
     },
     {
         "id":  18490483568,
@@ -1022,18 +1022,18 @@
         "created":  "2024-07-14T18:12:45.11Z"
     },
     {
-        "id":  17368871206,
-        "name":  "[Emporio Armani] Leon, Lower",
+        "id":  18490311462,
+        "name":  "[Emporio Armani] The Turk, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  4757520490001584,
-        "collectibleItemId":  "6814b341-a51f-48b4-92e8-adde2632f71f",
+        "productId":  1661210719692971,
+        "collectibleItemId":  "15bb1d9e-795b-4bdd-8cbd-7dc5dd3305ed",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17368871206",
-        "created":  "2024-05-03T12:39:05.923Z"
+        "url":  "https://www.roblox.com/catalog/18490311462",
+        "created":  "2024-07-14T17:58:52.237Z"
     },
     {
         "id":  139820021373764,
@@ -1092,20 +1092,6 @@
         "created":  "2025-01-07T15:32:58.543Z"
     },
     {
-        "id":  97100840158018,
-        "name":  "[B] Donato, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  8848015140271061,
-        "collectibleItemId":  "b617a587-f4a3-42e4-965a-baf193ab232c",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/97100840158018",
-        "created":  "2025-04-11T16:59:17.827Z"
-    },
-    {
         "id":  79220089181221,
         "name":  "[B] Dorado, Lower",
         "role":  "bottom",
@@ -1120,18 +1106,18 @@
         "created":  "2025-02-23T12:47:07Z"
     },
     {
-        "id":  81357136254027,
-        "name":  "[B] Sonny\u0027s Long Sleeved Shirt",
-        "role":  "top",
-        "assetType":  11,
+        "id":  97100840158018,
+        "name":  "[B] Donato, Lower",
+        "role":  "bottom",
+        "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  8115974030246910,
-        "collectibleItemId":  "763bd84c-e33c-433e-96af-e5957350b5a1",
+        "productId":  8848015140271061,
+        "collectibleItemId":  "b617a587-f4a3-42e4-965a-baf193ab232c",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/81357136254027",
-        "created":  "2025-01-07T15:38:32.657Z"
+        "url":  "https://www.roblox.com/catalog/97100840158018",
+        "created":  "2025-04-11T16:59:17.827Z"
     },
     {
         "id":  17614476855,
@@ -1148,18 +1134,18 @@
         "created":  "2024-05-25T21:29:40.5Z"
     },
     {
-        "id":  16962274177,
-        "name":  "[Emporio Armani] Black Blazer \u0026 Black Shirt, Upper",
+        "id":  81357136254027,
+        "name":  "[B] Sonny\u0027s Long Sleeved Shirt",
         "role":  "top",
         "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  1019690609524078,
-        "collectibleItemId":  "326325ec-29cf-4fae-a72e-893a145ceeae",
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  8115974030246910,
+        "collectibleItemId":  "763bd84c-e33c-433e-96af-e5957350b5a1",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16962274177",
-        "created":  "2024-03-31T22:55:01.177Z"
+        "url":  "https://www.roblox.com/catalog/81357136254027",
+        "created":  "2025-01-07T15:38:32.657Z"
     },
     {
         "id":  105096218908120,
@@ -1174,6 +1160,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/105096218908120",
         "created":  "2025-05-23T21:17:58.367Z"
+    },
+    {
+        "id":  16962274177,
+        "name":  "[Emporio Armani] Black Blazer \u0026 Black Shirt, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  1019690609524078,
+        "collectibleItemId":  "326325ec-29cf-4fae-a72e-893a145ceeae",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16962274177",
+        "created":  "2024-03-31T22:55:01.177Z"
     },
     {
         "id":  17368798739,
@@ -1442,20 +1442,6 @@
         "created":  "2022-09-15T17:07:48.033Z"
     },
     {
-        "id":  17614402618,
-        "name":  "[Emporio Armani] Daniel, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  7527675650552439,
-        "collectibleItemId":  "26aef798-7d1e-45a8-92b4-bd89f6ea0923",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17614402618",
-        "created":  "2024-05-25T21:21:15.16Z"
-    },
-    {
         "id":  18727258025,
         "name":  "[Emporio Armani] Royal Overcoat, Lower",
         "role":  "bottom",
@@ -1470,18 +1456,18 @@
         "created":  "2024-07-30T20:06:43.053Z"
     },
     {
-        "id":  13557968774,
-        "name":  "[Emporio Armani] Italo, Lower",
+        "id":  17614402618,
+        "name":  "[Emporio Armani] Daniel, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  5845231494235067,
-        "collectibleItemId":  "4dd1d3d2-8871-449e-9217-3a65fddad65d",
+        "productId":  7527675650552439,
+        "collectibleItemId":  "26aef798-7d1e-45a8-92b4-bd89f6ea0923",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/13557968774",
-        "created":  "2023-05-26T21:37:31.073Z"
+        "url":  "https://www.roblox.com/catalog/17614402618",
+        "created":  "2024-05-25T21:21:15.16Z"
     },
     {
         "id":  17775409764,
@@ -1496,6 +1482,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17775409764",
         "created":  "2024-06-08T07:16:41.43Z"
+    },
+    {
+        "id":  13557968774,
+        "name":  "[Emporio Armani] Italo, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  5845231494235067,
+        "collectibleItemId":  "4dd1d3d2-8871-449e-9217-3a65fddad65d",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/13557968774",
+        "created":  "2023-05-26T21:37:31.073Z"
     },
     {
         "id":  17219684167,
@@ -1596,20 +1596,6 @@
         "created":  "2024-09-15T11:44:40.583Z"
     },
     {
-        "id":  95689982603784,
-        "name":  "[B] The Chinese, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  2439167588559809,
-        "collectibleItemId":  "eeb72d5e-b13d-48c0-a5a7-e9dabb518513",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/95689982603784",
-        "created":  "2025-04-11T16:57:11.74Z"
-    },
-    {
         "id":  18727837536,
         "name":  "[Emporio Armani] The Minister, Upper",
         "role":  "top",
@@ -1638,18 +1624,18 @@
         "created":  "2024-03-31T23:03:04.207Z"
     },
     {
-        "id":  17614447879,
-        "name":  "[Emporio Armani] Brief, Upper",
+        "id":  95689982603784,
+        "name":  "[B] The Chinese, Upper",
         "role":  "top",
         "assetType":  11,
         "price":  10,
         "lowestPrice":  10,
-        "productId":  6714102485605841,
-        "collectibleItemId":  "619a1f3d-72d9-44f5-9422-a8761d9b82ea",
+        "productId":  2439167588559809,
+        "collectibleItemId":  "eeb72d5e-b13d-48c0-a5a7-e9dabb518513",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17614447879",
-        "created":  "2024-05-25T21:26:21.247Z"
+        "url":  "https://www.roblox.com/catalog/95689982603784",
+        "created":  "2025-04-11T16:57:11.74Z"
     },
     {
         "id":  17693040630,
@@ -1666,6 +1652,34 @@
         "created":  "2024-06-01T11:54:20.847Z"
     },
     {
+        "id":  17614447879,
+        "name":  "[Emporio Armani] Brief, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  6714102485605841,
+        "collectibleItemId":  "619a1f3d-72d9-44f5-9422-a8761d9b82ea",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17614447879",
+        "created":  "2024-05-25T21:26:21.247Z"
+    },
+    {
+        "id":  89605887048751,
+        "name":  "[B] il Generale, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  573287759494586,
+        "collectibleItemId":  "fa98f28d-615c-4c47-b137-5bac457c4501",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/89605887048751",
+        "created":  "2025-02-23T13:05:21.37Z"
+    },
+    {
         "id":  118215230668951,
         "name":  "[Emporio Armani] The Intern, Upper",
         "role":  "top",
@@ -1678,20 +1692,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/118215230668951",
         "created":  "2024-10-05T18:46:35.67Z"
-    },
-    {
-        "id":  16910930928,
-        "name":  "[Emporio Armani] Quavo, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  6145893290400082,
-        "collectibleItemId":  "71509666-d31b-40ed-97e5-b060c202d337",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16910930928",
-        "created":  "2024-03-28T20:11:02.36Z"
     },
     {
         "id":  17368805216,
@@ -1708,6 +1708,20 @@
         "created":  "2024-05-03T12:31:22.217Z"
     },
     {
+        "id":  16910930928,
+        "name":  "[Emporio Armani] Quavo, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  6145893290400082,
+        "collectibleItemId":  "71509666-d31b-40ed-97e5-b060c202d337",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16910930928",
+        "created":  "2024-03-28T20:11:02.36Z"
+    },
+    {
         "id":  91797826014184,
         "name":  "[EA7] Purple Wiseguy Polo",
         "role":  "top",
@@ -1720,20 +1734,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/91797826014184",
         "created":  "2025-01-07T15:34:46.16Z"
-    },
-    {
-        "id":  89605887048751,
-        "name":  "[B] il Generale, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  573287759494586,
-        "collectibleItemId":  "fa98f28d-615c-4c47-b137-5bac457c4501",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/89605887048751",
-        "created":  "2025-02-23T13:05:21.37Z"
     },
     {
         "id":  18490437603,
@@ -1764,48 +1764,6 @@
         "created":  "2025-01-07T15:31:20.887Z"
     },
     {
-        "id":  17692974248,
-        "name":  "[Emporio Armani] The Shelby Waistcoat, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  5715183034619323,
-        "collectibleItemId":  "b511bdcf-cb4a-4a7e-b6a5-b299aad6ec2e",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17692974248",
-        "created":  "2024-06-01T11:48:10.833Z"
-    },
-    {
-        "id":  17052727122,
-        "name":  "[Emporio Armani] The Pilot, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  7201775222932829,
-        "collectibleItemId":  "98941e1a-0d09-4ae3-bbc0-aa7c2bfb2709",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17052727122",
-        "created":  "2024-04-07T13:46:50.133Z"
-    },
-    {
-        "id":  18590275283,
-        "name":  "[Emporio Armani] Vinny Polo, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  972653582943413,
-        "collectibleItemId":  "79aaef83-e146-41f6-a59b-b3e2a8497877",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18590275283",
-        "created":  "2024-07-21T12:36:19.463Z"
-    },
-    {
         "id":  17614451982,
         "name":  "[Emporio Armani] Brief, Lower",
         "role":  "bottom",
@@ -1818,20 +1776,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17614451982",
         "created":  "2024-05-25T21:26:51.053Z"
-    },
-    {
-        "id":  129218837885517,
-        "name":  "[B] Out of Ordinary Lifestyle, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  5647279790537326,
-        "collectibleItemId":  "106a0ca3-f9d3-4b63-8b36-a618ab6a7d26",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/129218837885517",
-        "created":  "2025-06-14T22:29:19.85Z"
     },
     {
         "id":  10822911379,
@@ -1874,6 +1818,62 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/110189731875043",
         "created":  "2024-10-29T17:32:59.693Z"
+    },
+    {
+        "id":  17692974248,
+        "name":  "[Emporio Armani] The Shelby Waistcoat, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  5715183034619323,
+        "collectibleItemId":  "b511bdcf-cb4a-4a7e-b6a5-b299aad6ec2e",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17692974248",
+        "created":  "2024-06-01T11:48:10.833Z"
+    },
+    {
+        "id":  129218837885517,
+        "name":  "[B] Out of Ordinary Lifestyle, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  5647279790537326,
+        "collectibleItemId":  "106a0ca3-f9d3-4b63-8b36-a618ab6a7d26",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/129218837885517",
+        "created":  "2025-06-14T22:29:19.85Z"
+    },
+    {
+        "id":  18590275283,
+        "name":  "[Emporio Armani] Vinny Polo, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  972653582943413,
+        "collectibleItemId":  "79aaef83-e146-41f6-a59b-b3e2a8497877",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/18590275283",
+        "created":  "2024-07-21T12:36:19.463Z"
+    },
+    {
+        "id":  17052727122,
+        "name":  "[Emporio Armani] The Pilot, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  7201775222932829,
+        "collectibleItemId":  "98941e1a-0d09-4ae3-bbc0-aa7c2bfb2709",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17052727122",
+        "created":  "2024-04-07T13:46:50.133Z"
     },
     {
         "id":  84372789712607,
@@ -2044,20 +2044,6 @@
         "created":  "2025-04-11T17:06:48.72Z"
     },
     {
-        "id":  18490247400,
-        "name":  "[Emporio Armani] Roma, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2229439401019769,
-        "collectibleItemId":  "8306040f-2e87-49f5-8432-c5ae2f2cfe54",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18490247400",
-        "created":  "2024-07-14T17:53:35.627Z"
-    },
-    {
         "id":  77285884734713,
         "name":  "[Emporio Armani] Giovanni Barese\u0027s Overcoat, Upper",
         "role":  "top",
@@ -2072,18 +2058,18 @@
         "created":  "2025-01-07T15:08:52.673Z"
     },
     {
-        "id":  77592432840877,
-        "name":  "[B] The Professor, Lower",
+        "id":  18490247400,
+        "name":  "[Emporio Armani] Roma, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  8669222502199380,
-        "collectibleItemId":  "5b4503af-be0f-475e-a888-14bca236c7bd",
+        "productId":  2229439401019769,
+        "collectibleItemId":  "8306040f-2e87-49f5-8432-c5ae2f2cfe54",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/77592432840877",
-        "created":  "2025-05-23T21:05:22.873Z"
+        "url":  "https://www.roblox.com/catalog/18490247400",
+        "created":  "2024-07-14T17:53:35.627Z"
     },
     {
         "id":  97042952325847,
@@ -2100,18 +2086,18 @@
         "created":  "2024-10-05T17:37:50.397Z"
     },
     {
-        "id":  135741560780615,
-        "name":  "[EA7] Red Long Sleeved Shirt",
+        "id":  118961740933603,
+        "name":  "[B] il Hitman, Upper",
         "role":  "top",
         "assetType":  11,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  1589499112664028,
-        "collectibleItemId":  "3fa87dc0-831e-4b90-b35c-c570f88f5c1e",
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  4828703482301567,
+        "collectibleItemId":  "1d21936d-3ba4-4485-b475-f9f834076667",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/135741560780615",
-        "created":  "2025-01-07T15:30:11.867Z"
+        "url":  "https://www.roblox.com/catalog/118961740933603",
+        "created":  "2025-05-23T21:41:10.577Z"
     },
     {
         "id":  17614457126,
@@ -2142,18 +2128,32 @@
         "created":  "2024-10-29T17:49:05.147Z"
     },
     {
-        "id":  118961740933603,
-        "name":  "[B] il Hitman, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  4828703482301567,
-        "collectibleItemId":  "1d21936d-3ba4-4485-b475-f9f834076667",
+        "id":  77592432840877,
+        "name":  "[B] The Professor, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  8669222502199380,
+        "collectibleItemId":  "5b4503af-be0f-475e-a888-14bca236c7bd",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/118961740933603",
-        "created":  "2025-05-23T21:41:10.577Z"
+        "url":  "https://www.roblox.com/catalog/77592432840877",
+        "created":  "2025-05-23T21:05:22.873Z"
+    },
+    {
+        "id":  135741560780615,
+        "name":  "[EA7] Red Long Sleeved Shirt",
+        "role":  "top",
+        "assetType":  11,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  1589499112664028,
+        "collectibleItemId":  "3fa87dc0-831e-4b90-b35c-c570f88f5c1e",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/135741560780615",
+        "created":  "2025-01-07T15:30:11.867Z"
     },
     {
         "id":  17052571431,
@@ -2268,20 +2268,6 @@
         "created":  "2024-05-25T20:55:24.38Z"
     },
     {
-        "id":  16837427096,
-        "name":  "[Emporio Armani] Vegas Checked, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  6400658281493743,
-        "collectibleItemId":  "de632d89-d67a-40d3-b3b2-3f653da766da",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16837427096",
-        "created":  "2024-03-23T10:11:46.287Z"
-    },
-    {
         "id":  16910941056,
         "name":  "[Emporio Armani] Quavo, Lower",
         "role":  "bottom",
@@ -2294,6 +2280,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/16910941056",
         "created":  "2024-03-28T20:11:54.93Z"
+    },
+    {
+        "id":  16837427096,
+        "name":  "[Emporio Armani] Vegas Checked, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  6400658281493743,
+        "collectibleItemId":  "de632d89-d67a-40d3-b3b2-3f653da766da",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16837427096",
+        "created":  "2024-03-23T10:11:46.287Z"
     },
     {
         "id":  17693066255,
@@ -2408,20 +2408,6 @@
         "created":  "2025-01-07T15:12:29.853Z"
     },
     {
-        "id":  16962497221,
-        "name":  "[Emporio Armani] Thomas, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2671322980546861,
-        "collectibleItemId":  "ee10337e-70c5-4e49-8c05-fb43e9fd0f78",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16962497221",
-        "created":  "2024-03-31T23:15:43.11Z"
-    },
-    {
         "id":  17614438521,
         "name":  "[Emporio Armani] Cavallio, Upper",
         "role":  "top",
@@ -2436,18 +2422,18 @@
         "created":  "2024-05-25T21:25:22.917Z"
     },
     {
-        "id":  10822907346,
-        "name":  "[Emporio Armani] il Siciliano, Upper ",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  8561434209229776,
-        "collectibleItemId":  "0723da81-62b1-4e55-8b4d-362daa665fcc",
+        "id":  16962497221,
+        "name":  "[Emporio Armani] Thomas, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2671322980546861,
+        "collectibleItemId":  "ee10337e-70c5-4e49-8c05-fb43e9fd0f78",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/10822907346",
-        "created":  "2022-09-04T20:59:39.753Z"
+        "url":  "https://www.roblox.com/catalog/16962497221",
+        "created":  "2024-03-31T23:15:43.11Z"
     },
     {
         "id":  16910987215,
@@ -2462,6 +2448,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/16910987215",
         "created":  "2024-03-28T20:15:36.11Z"
+    },
+    {
+        "id":  10822907346,
+        "name":  "[Emporio Armani] il Siciliano, Upper ",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  8561434209229776,
+        "collectibleItemId":  "0723da81-62b1-4e55-8b4d-362daa665fcc",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/10822907346",
+        "created":  "2022-09-04T20:59:39.753Z"
     },
     {
         "id":  111571959443744,
@@ -2646,48 +2646,6 @@
         "created":  "2025-01-07T15:20:29.117Z"
     },
     {
-        "id":  17614481798,
-        "name":  "[Emporio Armani] 70s Mobster, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  5322878646742124,
-        "collectibleItemId":  "c127e755-f73b-4f58-9d63-cf334b8b917f",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17614481798",
-        "created":  "2024-05-25T21:30:11.017Z"
-    },
-    {
-        "id":  16576832008,
-        "name":  "[Emporio Armani] The High Roller, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  1964757801859057,
-        "collectibleItemId":  "ba226f90-d67e-46bd-9b91-381ed6600455",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16576832008",
-        "created":  "2024-03-01T12:13:59.777Z"
-    },
-    {
-        "id":  121830998539594,
-        "name":  "[B] The Gerry, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  6338950037591726,
-        "collectibleItemId":  "cef9b056-ac39-44d8-87ba-7413bf1a3f25",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/121830998539594",
-        "created":  "2025-03-22T18:51:37.737Z"
-    },
-    {
         "id":  17614461650,
         "name":  "[Emporio Armani] Brief Overcoat, Lower",
         "role":  "bottom",
@@ -2700,20 +2658,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17614461650",
         "created":  "2024-05-25T21:27:54.11Z"
-    },
-    {
-        "id":  18727243548,
-        "name":  "[Emporio Armani] Jack, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2202844396358451,
-        "collectibleItemId":  "18ab21a7-cfa4-4bf5-b948-f91b589c3c04",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18727243548",
-        "created":  "2024-07-30T20:05:40.77Z"
     },
     {
         "id":  111066037019102,
@@ -2730,6 +2674,20 @@
         "created":  "2025-03-22T18:43:21.077Z"
     },
     {
+        "id":  121830998539594,
+        "name":  "[B] The Gerry, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  6338950037591726,
+        "collectibleItemId":  "cef9b056-ac39-44d8-87ba-7413bf1a3f25",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/121830998539594",
+        "created":  "2025-03-22T18:51:37.737Z"
+    },
+    {
         "id":  16983273059,
         "name":  "[Emporio Armani] The Legend, Upper",
         "role":  "top",
@@ -2742,6 +2700,34 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/16983273059",
         "created":  "2024-04-02T13:34:32.343Z"
+    },
+    {
+        "id":  16576832008,
+        "name":  "[Emporio Armani] The High Roller, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  1964757801859057,
+        "collectibleItemId":  "ba226f90-d67e-46bd-9b91-381ed6600455",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16576832008",
+        "created":  "2024-03-01T12:13:59.777Z"
+    },
+    {
+        "id":  17614481798,
+        "name":  "[Emporio Armani] 70s Mobster, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  5322878646742124,
+        "collectibleItemId":  "c127e755-f73b-4f58-9d63-cf334b8b917f",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17614481798",
+        "created":  "2024-05-25T21:30:11.017Z"
     },
     {
         "id":  104003418372841,
@@ -2758,18 +2744,32 @@
         "created":  "2024-10-29T17:55:53.373Z"
     },
     {
-        "id":  18189441546,
-        "name":  "[Emporio Armani] Mr. Avanti, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  12,
-        "lowestPrice":  12,
-        "productId":  1556454663294497,
-        "collectibleItemId":  "9f3cfcfa-722a-4f03-81cc-80695256ba79",
+        "id":  18727243548,
+        "name":  "[Emporio Armani] Jack, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2202844396358451,
+        "collectibleItemId":  "18ab21a7-cfa4-4bf5-b948-f91b589c3c04",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18189441546",
-        "created":  "2024-06-24T11:45:13.023Z"
+        "url":  "https://www.roblox.com/catalog/18727243548",
+        "created":  "2024-07-30T20:05:40.77Z"
+    },
+    {
+        "id":  16910980180,
+        "name":  "[Emporio Armani] Milano, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  6077869629664457,
+        "collectibleItemId":  "9a3bd32b-485a-4e0e-a9ef-2982f41e8647",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16910980180",
+        "created":  "2024-03-28T20:15:03.827Z"
     },
     {
         "id":  135343879554422,
@@ -2784,6 +2784,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/135343879554422",
         "created":  "2025-04-11T16:49:12.13Z"
+    },
+    {
+        "id":  18189441546,
+        "name":  "[Emporio Armani] Mr. Avanti, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  12,
+        "lowestPrice":  12,
+        "productId":  1556454663294497,
+        "collectibleItemId":  "9f3cfcfa-722a-4f03-81cc-80695256ba79",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/18189441546",
+        "created":  "2024-06-24T11:45:13.023Z"
     },
     {
         "id":  17614097917,
@@ -2812,20 +2826,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/72532601055818",
         "created":  "2024-09-15T11:28:15.263Z"
-    },
-    {
-        "id":  16910980180,
-        "name":  "[Emporio Armani] Milano, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  6077869629664457,
-        "collectibleItemId":  "9a3bd32b-485a-4e0e-a9ef-2982f41e8647",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16910980180",
-        "created":  "2024-03-28T20:15:03.827Z"
     },
     {
         "id":  18189447877,
@@ -2898,20 +2898,6 @@
         "created":  "2025-06-14T22:15:23.62Z"
     },
     {
-        "id":  18727842884,
-        "name":  "[Emporio Armani] The Minister, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  378723739629008,
-        "collectibleItemId":  "8290446a-9744-48dc-91e9-a55aee6a4d0b",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18727842884",
-        "created":  "2024-07-30T20:55:03.99Z"
-    },
-    {
         "id":  17036346113,
         "name":  "[Emporio Armani] il Vero, Upper",
         "role":  "top",
@@ -2924,20 +2910,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17036346113",
         "created":  "2024-04-06T14:44:05.303Z"
-    },
-    {
-        "id":  17220482399,
-        "name":  "[Emporio Armani] El Diablo, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  5619381701796097,
-        "collectibleItemId":  "ad28895f-bc4b-4128-af2d-52e0206a3207",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17220482399",
-        "created":  "2024-04-20T12:29:19.753Z"
     },
     {
         "id":  18858759780,
@@ -2954,6 +2926,34 @@
         "created":  "2024-08-08T11:11:40.39Z"
     },
     {
+        "id":  17220482399,
+        "name":  "[Emporio Armani] El Diablo, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  5619381701796097,
+        "collectibleItemId":  "ad28895f-bc4b-4128-af2d-52e0206a3207",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17220482399",
+        "created":  "2024-04-20T12:29:19.753Z"
+    },
+    {
+        "id":  18727842884,
+        "name":  "[Emporio Armani] The Minister, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  378723739629008,
+        "collectibleItemId":  "8290446a-9744-48dc-91e9-a55aee6a4d0b",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/18727842884",
+        "created":  "2024-07-30T20:55:03.99Z"
+    },
+    {
         "id":  92157441673877,
         "name":  "[B] Green Trenchcoat, Lower",
         "role":  "bottom",
@@ -2968,18 +2968,18 @@
         "created":  "2025-03-22T18:40:56.28Z"
     },
     {
-        "id":  17035701959,
-        "name":  "[EA7] White Hawaii, Upper",
+        "id":  91974216682027,
+        "name":  "[B] I Mean Business, Upper",
         "role":  "top",
         "assetType":  11,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  7360132860865855,
-        "collectibleItemId":  "2b156312-d966-4cd8-a91b-58b32f7fcbe6",
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  2856840202808698,
+        "collectibleItemId":  "36d090fe-3570-4727-ae7a-4cfc7aa32cb9",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17035701959",
-        "created":  "2024-04-06T13:58:43.727Z"
+        "url":  "https://www.roblox.com/catalog/91974216682027",
+        "created":  "2025-03-22T18:57:18.347Z"
     },
     {
         "id":  18727818080,
@@ -2996,18 +2996,18 @@
         "created":  "2024-07-30T20:53:01.92Z"
     },
     {
-        "id":  91974216682027,
-        "name":  "[B] I Mean Business, Upper",
+        "id":  17035701959,
+        "name":  "[EA7] White Hawaii, Upper",
         "role":  "top",
         "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  2856840202808698,
-        "collectibleItemId":  "36d090fe-3570-4727-ae7a-4cfc7aa32cb9",
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  7360132860865855,
+        "collectibleItemId":  "2b156312-d966-4cd8-a91b-58b32f7fcbe6",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/91974216682027",
-        "created":  "2025-03-22T18:57:18.347Z"
+        "url":  "https://www.roblox.com/catalog/17035701959",
+        "created":  "2024-04-06T13:58:43.727Z"
     },
     {
         "id":  16837306411,
@@ -3192,20 +3192,6 @@
         "created":  "2024-03-01T12:08:48.977Z"
     },
     {
-        "id":  17303500634,
-        "name":  "[Emporio Armani] Big Guy in Town, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  6591882241693240,
-        "collectibleItemId":  "6efeae6a-6d6a-47da-9f87-612cc1f559ee",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17303500634",
-        "created":  "2024-04-27T13:37:50.2Z"
-    },
-    {
         "id":  134859552005785,
         "name":  "[B] Scogliano, Upper",
         "role":  "top",
@@ -3218,6 +3204,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/134859552005785",
         "created":  "2025-01-07T15:54:22.4Z"
+    },
+    {
+        "id":  17303500634,
+        "name":  "[Emporio Armani] Big Guy in Town, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  6591882241693240,
+        "collectibleItemId":  "6efeae6a-6d6a-47da-9f87-612cc1f559ee",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17303500634",
+        "created":  "2024-04-27T13:37:50.2Z"
     },
     {
         "id":  17775473048,
@@ -3276,6 +3276,20 @@
         "created":  "2025-06-14T22:39:35.88Z"
     },
     {
+        "id":  17775444269,
+        "name":  "[Emporio Armani] The Prophet, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2876587627353297,
+        "collectibleItemId":  "96467951-38b3-4dc0-aed6-60e3a7c509c3",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17775444269",
+        "created":  "2024-06-08T07:20:48.417Z"
+    },
+    {
         "id":  17219742495,
         "name":  "[Emporio Armani] Sonny",
         "role":  "top",
@@ -3288,6 +3302,48 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17219742495",
         "created":  "2024-04-20T11:39:06.06Z"
+    },
+    {
+        "id":  10822710733,
+        "name":  "[Emporio Armani] Blue Closed, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  7537148487345815,
+        "collectibleItemId":  "215fb6fb-2007-4e06-a334-78fdaa16ba8c",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/10822710733",
+        "created":  "2022-09-04T20:37:16.407Z"
+    },
+    {
+        "id":  17135275105,
+        "name":  "[EA7] The Spilotro, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  8259125979491999,
+        "collectibleItemId":  "35513041-af09-423b-a647-e92c94772687",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17135275105",
+        "created":  "2024-04-13T21:22:13.1Z"
+    },
+    {
+        "id":  97120047559284,
+        "name":  "[Emporio Armani] Bulgari Waistcoat",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  3588529539337293,
+        "collectibleItemId":  "a370f5a4-b651-476b-8a26-86dc3e37a9ff",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/97120047559284",
+        "created":  "2024-08-21T21:36:50.957Z"
     },
     {
         "id":  17368658501,
@@ -3316,62 +3372,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/89317503305030",
         "created":  "2024-10-05T18:05:47.153Z"
-    },
-    {
-        "id":  97120047559284,
-        "name":  "[Emporio Armani] Bulgari Waistcoat",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  3588529539337293,
-        "collectibleItemId":  "a370f5a4-b651-476b-8a26-86dc3e37a9ff",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/97120047559284",
-        "created":  "2024-08-21T21:36:50.957Z"
-    },
-    {
-        "id":  17775444269,
-        "name":  "[Emporio Armani] The Prophet, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2876587627353297,
-        "collectibleItemId":  "96467951-38b3-4dc0-aed6-60e3a7c509c3",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17775444269",
-        "created":  "2024-06-08T07:20:48.417Z"
-    },
-    {
-        "id":  17135275105,
-        "name":  "[EA7] The Spilotro, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  8259125979491999,
-        "collectibleItemId":  "35513041-af09-423b-a647-e92c94772687",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17135275105",
-        "created":  "2024-04-13T21:22:13.1Z"
-    },
-    {
-        "id":  10822710733,
-        "name":  "[Emporio Armani] Blue Closed, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  7537148487345815,
-        "collectibleItemId":  "215fb6fb-2007-4e06-a334-78fdaa16ba8c",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/10822710733",
-        "created":  "2022-09-04T20:37:16.407Z"
     },
     {
         "id":  16911064909,
@@ -3528,48 +3528,6 @@
         "created":  "2024-04-06T12:45:30.867Z"
     },
     {
-        "id":  16962531876,
-        "name":  "[Emporio Armani] The Bookie, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  4996168096602824,
-        "collectibleItemId":  "6071fe0c-2c73-4873-9bfc-86cfaee3f839",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16962531876",
-        "created":  "2024-03-31T23:18:58.927Z"
-    },
-    {
-        "id":  17103767931,
-        "name":  "[Emporio Armani] Jose\u0027s Vacation, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  7623662297799270,
-        "collectibleItemId":  "a265e2f0-bbc0-4842-8e7f-f322cbfa6126",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17103767931",
-        "created":  "2024-04-11T16:08:15.283Z"
-    },
-    {
-        "id":  127081720626825,
-        "name":  "[B] Crop of The Top, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  1864826292376234,
-        "collectibleItemId":  "c537f4a1-0c3b-4af3-a85d-3e30323a996f",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/127081720626825",
-        "created":  "2025-06-14T22:40:57.98Z"
-    },
-    {
         "id":  85133819677927,
         "name":  "[EA7] Navy Blue Wiseguy Polo",
         "role":  "top",
@@ -3598,6 +3556,48 @@
         "created":  "2025-04-11T16:58:55.027Z"
     },
     {
+        "id":  127081720626825,
+        "name":  "[B] Crop of The Top, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  1864826292376234,
+        "collectibleItemId":  "c537f4a1-0c3b-4af3-a85d-3e30323a996f",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/127081720626825",
+        "created":  "2025-06-14T22:40:57.98Z"
+    },
+    {
+        "id":  17103767931,
+        "name":  "[Emporio Armani] Jose\u0027s Vacation, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  7623662297799270,
+        "collectibleItemId":  "a265e2f0-bbc0-4842-8e7f-f322cbfa6126",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17103767931",
+        "created":  "2024-04-11T16:08:15.283Z"
+    },
+    {
+        "id":  16962531876,
+        "name":  "[Emporio Armani] The Bookie, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  4996168096602824,
+        "collectibleItemId":  "6071fe0c-2c73-4873-9bfc-86cfaee3f839",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16962531876",
+        "created":  "2024-03-31T23:18:58.927Z"
+    },
+    {
         "id":  73948506647512,
         "name":  "[Emporio Armani] Giunta, Upper",
         "role":  "top",
@@ -3610,6 +3610,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/73948506647512",
         "created":  "2024-10-29T17:31:16.363Z"
+    },
+    {
+        "id":  73330891530015,
+        "name":  "[Emporio Armani] Pesci, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  8878778039291466,
+        "collectibleItemId":  "dd8e7697-9634-4599-88f9-789d25238175",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/73330891530015",
+        "created":  "2024-10-29T17:27:52.19Z"
     },
     {
         "id":  121834232108693,
@@ -3640,20 +3654,6 @@
         "created":  "2024-09-15T11:49:38.127Z"
     },
     {
-        "id":  73330891530015,
-        "name":  "[Emporio Armani] Pesci, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  8878778039291466,
-        "collectibleItemId":  "dd8e7697-9634-4599-88f9-789d25238175",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/73330891530015",
-        "created":  "2024-10-29T17:27:52.19Z"
-    },
-    {
         "id":  17103894814,
         "name":  "[Emporio Armani] Connected Guy, Upper",
         "role":  "top",
@@ -3682,18 +3682,18 @@
         "created":  "2024-04-06T14:48:12Z"
     },
     {
-        "id":  17104040184,
-        "name":  "[EA7] Casino Hitman, Upper",
+        "id":  135480511044381,
+        "name":  "[B] Fring, Upper",
         "role":  "top",
         "assetType":  11,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2114373878468547,
-        "collectibleItemId":  "e02d77dd-122f-4872-a2d5-2bcf5ad1f09d",
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  7571071646382938,
+        "collectibleItemId":  "0bf2b3a9-9edf-4af8-981b-2f8dfd197c11",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17104040184",
-        "created":  "2024-04-11T16:36:39.847Z"
+        "url":  "https://www.roblox.com/catalog/135480511044381",
+        "created":  "2025-04-11T16:30:21.377Z"
     },
     {
         "id":  92296649801802,
@@ -3724,18 +3724,18 @@
         "created":  "2025-04-11T16:33:01.997Z"
     },
     {
-        "id":  135480511044381,
-        "name":  "[B] Fring, Upper",
+        "id":  17104040184,
+        "name":  "[EA7] Casino Hitman, Upper",
         "role":  "top",
         "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  7571071646382938,
-        "collectibleItemId":  "0bf2b3a9-9edf-4af8-981b-2f8dfd197c11",
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2114373878468547,
+        "collectibleItemId":  "e02d77dd-122f-4872-a2d5-2bcf5ad1f09d",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/135480511044381",
-        "created":  "2025-04-11T16:30:21.377Z"
+        "url":  "https://www.roblox.com/catalog/17104040184",
+        "created":  "2024-04-11T16:36:39.847Z"
     },
     {
         "id":  16882419906,
@@ -3822,34 +3822,6 @@
         "created":  "2024-05-03T12:38:42.82Z"
     },
     {
-        "id":  10822861759,
-        "name":  "[Emporio Armani] Working Man, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  5199798168901854,
-        "collectibleItemId":  "b8764ccb-390e-45d5-a284-fd0c5a3177be",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/10822861759",
-        "created":  "2022-09-04T20:54:38.387Z"
-    },
-    {
-        "id":  120815401864753,
-        "name":  "[B] Big Pockets, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  3043301150881802,
-        "collectibleItemId":  "6ea31254-88ed-4386-9423-24bbb8ee5ad4",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/120815401864753",
-        "created":  "2025-02-23T13:15:10.113Z"
-    },
-    {
         "id":  119612764269393,
         "name":  "[B] Franco, Lower",
         "role":  "bottom",
@@ -3864,18 +3836,18 @@
         "created":  "2025-05-23T21:45:59.943Z"
     },
     {
-        "id":  18490277972,
-        "name":  "[Emporio Armani] Roma Overcoat, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2939180934359660,
-        "collectibleItemId":  "7bc7f833-d747-4cfa-a14d-e4dc7482aac4",
+        "id":  119340175971868,
+        "name":  "[Emporio Armani] Massimo, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  6795479234416852,
+        "collectibleItemId":  "0b977538-b745-4979-95ec-f136376c0d82",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18490277972",
-        "created":  "2024-07-14T17:56:08.12Z"
+        "url":  "https://www.roblox.com/catalog/119340175971868",
+        "created":  "2024-09-15T11:59:25.05Z"
     },
     {
         "id":  130550023826556,
@@ -3892,6 +3864,48 @@
         "created":  "2024-09-15T11:41:04.967Z"
     },
     {
+        "id":  120815401864753,
+        "name":  "[B] Big Pockets, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  3043301150881802,
+        "collectibleItemId":  "6ea31254-88ed-4386-9423-24bbb8ee5ad4",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/120815401864753",
+        "created":  "2025-02-23T13:15:10.113Z"
+    },
+    {
+        "id":  10822861759,
+        "name":  "[Emporio Armani] Working Man, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  5199798168901854,
+        "collectibleItemId":  "b8764ccb-390e-45d5-a284-fd0c5a3177be",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/10822861759",
+        "created":  "2022-09-04T20:54:38.387Z"
+    },
+    {
+        "id":  18490277972,
+        "name":  "[Emporio Armani] Roma Overcoat, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2939180934359660,
+        "collectibleItemId":  "7bc7f833-d747-4cfa-a14d-e4dc7482aac4",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/18490277972",
+        "created":  "2024-07-14T17:56:08.12Z"
+    },
+    {
         "id":  17036398468,
         "name":  "[Emporio Armani] The Distributor, Upper",
         "role":  "top",
@@ -3904,20 +3918,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17036398468",
         "created":  "2024-04-06T14:47:43.4Z"
-    },
-    {
-        "id":  119340175971868,
-        "name":  "[Emporio Armani] Massimo, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  6795479234416852,
-        "collectibleItemId":  "0b977538-b745-4979-95ec-f136376c0d82",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/119340175971868",
-        "created":  "2024-09-15T11:59:25.05Z"
     },
     {
         "id":  84893170773427,
@@ -4312,20 +4312,6 @@
         "created":  "2024-08-21T21:31:25.247Z"
     },
     {
-        "id":  18490430227,
-        "name":  "[Emporio Armani] Tommy\u0027s Waistcoat, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  817681612289808,
-        "collectibleItemId":  "1afb10f1-df07-446d-a082-4d5cdb442b19",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18490430227",
-        "created":  "2024-07-14T18:08:33.69Z"
-    },
-    {
         "id":  18727716485,
         "name":  "[Emporio Armani] Dmitro, Lower",
         "role":  "bottom",
@@ -4340,46 +4326,18 @@
         "created":  "2024-07-30T20:44:42.753Z"
     },
     {
-        "id":  115448046817011,
-        "name":  "[Emporio Armani] Mickey, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  8659575007903670,
-        "collectibleItemId":  "c5065ae6-efc4-4d97-bb85-2bc511abe253",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/115448046817011",
-        "created":  "2024-10-29T17:47:33.787Z"
-    },
-    {
-        "id":  17368766814,
-        "name":  "[Emporio Armani] Monte Carlo, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  1912116832051901,
-        "collectibleItemId":  "049ab02b-0032-4c3d-89bb-6a71f966ee17",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17368766814",
-        "created":  "2024-05-03T12:26:58.957Z"
-    },
-    {
-        "id":  18490239473,
-        "name":  "[Emporio Armani] Roma, Upper",
+        "id":  18490430227,
+        "name":  "[Emporio Armani] Tommy\u0027s Waistcoat, Upper",
         "role":  "top",
         "assetType":  11,
         "price":  10,
         "lowestPrice":  10,
-        "productId":  5309032916750000,
-        "collectibleItemId":  "fd3c6ee4-685b-40dc-96f3-4a5ddcfddc21",
+        "productId":  817681612289808,
+        "collectibleItemId":  "1afb10f1-df07-446d-a082-4d5cdb442b19",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18490239473",
-        "created":  "2024-07-14T17:52:54.813Z"
+        "url":  "https://www.roblox.com/catalog/18490430227",
+        "created":  "2024-07-14T18:08:33.69Z"
     },
     {
         "id":  75868727397006,
@@ -4410,32 +4368,32 @@
         "created":  "2024-08-21T21:27:15.393Z"
     },
     {
-        "id":  17034686763,
-        "name":  "[Emporio Armani] The Host, Lower",
+        "id":  115448046817011,
+        "name":  "[Emporio Armani] Mickey, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  1089561175080806,
-        "collectibleItemId":  "90edc8b8-bf15-4366-8cb1-d60c39dfbf90",
+        "productId":  8659575007903670,
+        "collectibleItemId":  "c5065ae6-efc4-4d97-bb85-2bc511abe253",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17034686763",
-        "created":  "2024-04-06T12:43:44.463Z"
+        "url":  "https://www.roblox.com/catalog/115448046817011",
+        "created":  "2024-10-29T17:47:33.787Z"
     },
     {
-        "id":  83210194159994,
-        "name":  "[B] Reservoir Dogs, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  7301313228642620,
-        "collectibleItemId":  "45cc126e-8376-4afd-9520-cba85a5f7267",
+        "id":  17368766814,
+        "name":  "[Emporio Armani] Monte Carlo, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  1912116832051901,
+        "collectibleItemId":  "049ab02b-0032-4c3d-89bb-6a71f966ee17",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/83210194159994",
-        "created":  "2025-04-11T16:28:45.743Z"
+        "url":  "https://www.roblox.com/catalog/17368766814",
+        "created":  "2024-05-03T12:26:58.957Z"
     },
     {
         "id":  18490335009,
@@ -4480,18 +4438,46 @@
         "created":  "2024-04-27T13:45:38.75Z"
     },
     {
-        "id":  100598027722069,
-        "name":  "[Emporio Armani] Scarpitti, Upper",
+        "id":  17034686763,
+        "name":  "[Emporio Armani] The Host, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  1089561175080806,
+        "collectibleItemId":  "90edc8b8-bf15-4366-8cb1-d60c39dfbf90",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17034686763",
+        "created":  "2024-04-06T12:43:44.463Z"
+    },
+    {
+        "id":  18490239473,
+        "name":  "[Emporio Armani] Roma, Upper",
         "role":  "top",
         "assetType":  11,
         "price":  10,
         "lowestPrice":  10,
-        "productId":  4464362941028122,
-        "collectibleItemId":  "fba5455a-8e89-4bb6-85a8-c06d64cba21d",
+        "productId":  5309032916750000,
+        "collectibleItemId":  "fd3c6ee4-685b-40dc-96f3-4a5ddcfddc21",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/100598027722069",
-        "created":  "2024-10-29T17:35:26.833Z"
+        "url":  "https://www.roblox.com/catalog/18490239473",
+        "created":  "2024-07-14T17:52:54.813Z"
+    },
+    {
+        "id":  83210194159994,
+        "name":  "[B] Reservoir Dogs, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  7301313228642620,
+        "collectibleItemId":  "45cc126e-8376-4afd-9520-cba85a5f7267",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/83210194159994",
+        "created":  "2025-04-11T16:28:45.743Z"
     },
     {
         "id":  17103762761,
@@ -4506,6 +4492,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17103762761",
         "created":  "2024-04-11T16:07:41.313Z"
+    },
+    {
+        "id":  100598027722069,
+        "name":  "[Emporio Armani] Scarpitti, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  4464362941028122,
+        "collectibleItemId":  "fba5455a-8e89-4bb6-85a8-c06d64cba21d",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/100598027722069",
+        "created":  "2024-10-29T17:35:26.833Z"
     },
     {
         "id":  17036320752,
@@ -4648,6 +4648,62 @@
         "created":  "2024-07-30T20:53:31.917Z"
     },
     {
+        "id":  16962333553,
+        "name":  "[Emporio Armani] Barocco Black Overcoat, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  7275350187053862,
+        "collectibleItemId":  "57281c52-99a0-48f8-9b78-fdc7e3973f24",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16962333553",
+        "created":  "2024-03-31T23:00:30.723Z"
+    },
+    {
+        "id":  16911070081,
+        "name":  "[EA7] Casual Black Slacks",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  5338624733505524,
+        "collectibleItemId":  "bf66e174-b6c4-4b31-a24e-b3291ec0da20",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16911070081",
+        "created":  "2024-03-28T20:22:57.027Z"
+    },
+    {
+        "id":  137016212687798,
+        "name":  "[Emporio Armani] Johnny Boy, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  7065301093972513,
+        "collectibleItemId":  "7e3173e9-ecbe-4ee1-abd6-3cf0274c4f25",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/137016212687798",
+        "created":  "2024-10-29T17:57:31.773Z"
+    },
+    {
+        "id":  99046021900970,
+        "name":  "[EA7] Wiseguy Brown Polo",
+        "role":  "top",
+        "assetType":  11,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  6273951327348450,
+        "collectibleItemId":  "75b1df42-eab3-4131-9909-bcddece598f6",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/99046021900970",
+        "created":  "2025-01-07T15:13:54.31Z"
+    },
+    {
         "id":  17692965069,
         "name":  "[Emporio Armani] The Shelby Waistcoat, Upper",
         "role":  "top",
@@ -4676,20 +4732,6 @@
         "created":  "2025-01-07T15:17:14.04Z"
     },
     {
-        "id":  99046021900970,
-        "name":  "[EA7] Wiseguy Brown Polo",
-        "role":  "top",
-        "assetType":  11,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  6273951327348450,
-        "collectibleItemId":  "75b1df42-eab3-4131-9909-bcddece598f6",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/99046021900970",
-        "created":  "2025-01-07T15:13:54.31Z"
-    },
-    {
         "id":  116542353515869,
         "name":  "[B] Out of Ordinary Lifestyle, Lower",
         "role":  "bottom",
@@ -4702,48 +4744,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/116542353515869",
         "created":  "2025-06-14T22:29:46.27Z"
-    },
-    {
-        "id":  16962333553,
-        "name":  "[Emporio Armani] Barocco Black Overcoat, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  7275350187053862,
-        "collectibleItemId":  "57281c52-99a0-48f8-9b78-fdc7e3973f24",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16962333553",
-        "created":  "2024-03-31T23:00:30.723Z"
-    },
-    {
-        "id":  137016212687798,
-        "name":  "[Emporio Armani] Johnny Boy, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  7065301093972513,
-        "collectibleItemId":  "7e3173e9-ecbe-4ee1-abd6-3cf0274c4f25",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/137016212687798",
-        "created":  "2024-10-29T17:57:31.773Z"
-    },
-    {
-        "id":  16911070081,
-        "name":  "[EA7] Casual Black Slacks",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  5338624733505524,
-        "collectibleItemId":  "bf66e174-b6c4-4b31-a24e-b3291ec0da20",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16911070081",
-        "created":  "2024-03-28T20:22:57.027Z"
     },
     {
         "id":  17036442120,
@@ -4858,20 +4858,6 @@
         "created":  "2024-10-29T17:53:41.05Z"
     },
     {
-        "id":  17775521051,
-        "name":  "[Emporio Armani] The Political Party, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  1425427458868886,
-        "collectibleItemId":  "0a85bf4b-7226-43ad-a5ed-1dbeb8f3e940",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17775521051",
-        "created":  "2024-06-08T07:29:21.863Z"
-    },
-    {
         "id":  18727831791,
         "name":  "[Emporio Armani] Black Shawl Tux, Lower",
         "role":  "bottom",
@@ -4884,6 +4870,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/18727831791",
         "created":  "2024-07-30T20:54:09.317Z"
+    },
+    {
+        "id":  17775521051,
+        "name":  "[Emporio Armani] The Political Party, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  1425427458868886,
+        "collectibleItemId":  "0a85bf4b-7226-43ad-a5ed-1dbeb8f3e940",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17775521051",
+        "created":  "2024-06-08T07:29:21.863Z"
     },
     {
         "id":  17034697180,
@@ -4900,20 +4900,6 @@
         "created":  "2024-04-06T12:44:35.96Z"
     },
     {
-        "id":  93612242653605,
-        "name":  "[B] The Gerry, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  3792404693743090,
-        "collectibleItemId":  "1a2380e7-1075-419d-9430-e33f0692d0a4",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/93612242653605",
-        "created":  "2025-03-22T18:51:09.247Z"
-    },
-    {
         "id":  93413831238647,
         "name":  "[B] Barese\u0027s Hotshot Vest, Upper",
         "role":  "top",
@@ -4928,6 +4914,20 @@
         "created":  "2025-01-07T15:56:41.76Z"
     },
     {
+        "id":  93612242653605,
+        "name":  "[B] The Gerry, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  3792404693743090,
+        "collectibleItemId":  "1a2380e7-1075-419d-9430-e33f0692d0a4",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/93612242653605",
+        "created":  "2025-03-22T18:51:09.247Z"
+    },
+    {
         "id":  92549301269694,
         "name":  "[B] The Irish w/ bowtie, Lower",
         "role":  "bottom",
@@ -4940,20 +4940,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/92549301269694",
         "created":  "2025-03-22T18:47:33.423Z"
-    },
-    {
-        "id":  17775439681,
-        "name":  "[Emporio Armani] The Prophet, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  8013457331704106,
-        "collectibleItemId":  "a738749e-2f5e-4758-a93e-348e8d86607e",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17775439681",
-        "created":  "2024-06-08T07:20:16.723Z"
     },
     {
         "id":  90013425350994,
@@ -4984,18 +4970,32 @@
         "created":  "2024-04-07T18:49:08.54Z"
     },
     {
-        "id":  131266817042160,
-        "name":  "[B] Made in Italy, Upper",
+        "id":  17775439681,
+        "name":  "[Emporio Armani] The Prophet, Upper",
         "role":  "top",
         "assetType":  11,
         "price":  10,
         "lowestPrice":  10,
-        "productId":  8539448908836962,
-        "collectibleItemId":  "ac67f7a1-fca9-4d09-9eaa-0852c95db35f",
+        "productId":  8013457331704106,
+        "collectibleItemId":  "a738749e-2f5e-4758-a93e-348e8d86607e",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/131266817042160",
-        "created":  "2025-05-23T21:01:07.697Z"
+        "url":  "https://www.roblox.com/catalog/17775439681",
+        "created":  "2024-06-08T07:20:16.723Z"
+    },
+    {
+        "id":  108776218102870,
+        "name":  "[Emporio Armani] The Cold Don, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2915109342547726,
+        "collectibleItemId":  "f71da7e2-e068-4cfc-bba7-483b966b46d6",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/108776218102870",
+        "created":  "2024-10-29T17:51:18.033Z"
     },
     {
         "id":  95339406980689,
@@ -5010,6 +5010,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/95339406980689",
         "created":  "2024-10-05T18:42:41.047Z"
+    },
+    {
+        "id":  131266817042160,
+        "name":  "[B] Made in Italy, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  8539448908836962,
+        "collectibleItemId":  "ac67f7a1-fca9-4d09-9eaa-0852c95db35f",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/131266817042160",
+        "created":  "2025-05-23T21:01:07.697Z"
     },
     {
         "id":  17034681871,
@@ -5038,20 +5052,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/140686434227911",
         "created":  "2025-02-23T13:00:24.72Z"
-    },
-    {
-        "id":  108776218102870,
-        "name":  "[Emporio Armani] The Cold Don, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2915109342547726,
-        "collectibleItemId":  "f71da7e2-e068-4cfc-bba7-483b966b46d6",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/108776218102870",
-        "created":  "2024-10-29T17:51:18.033Z"
     },
     {
         "id":  97334487620747,
@@ -5306,6 +5306,20 @@
         "created":  "2024-10-29T17:49:40.193Z"
     },
     {
+        "id":  17035573989,
+        "name":  "[Emporio Armani] Mr. Gianini, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2132283953592625,
+        "collectibleItemId":  "00d14a5c-6301-4b8e-b170-240ae05c8266",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17035573989",
+        "created":  "2024-04-06T13:49:06.82Z"
+    },
+    {
         "id":  18858756396,
         "name":  "Tip - 5",
         "role":  "tshirt",
@@ -5334,18 +5348,18 @@
         "created":  "2025-03-22T18:55:11.873Z"
     },
     {
-        "id":  17035573989,
-        "name":  "[Emporio Armani] Mr. Gianini, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2132283953592625,
-        "collectibleItemId":  "00d14a5c-6301-4b8e-b170-240ae05c8266",
+        "id":  18727864867,
+        "name":  "[Emporio Armani] Frank, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  2195461712610545,
+        "collectibleItemId":  "7074f83e-739f-4b2b-8875-8b021cf5ac3c",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17035573989",
-        "created":  "2024-04-06T13:49:06.82Z"
+        "url":  "https://www.roblox.com/catalog/18727864867",
+        "created":  "2024-07-30T20:56:54.24Z"
     },
     {
         "id":  18590093989,
@@ -5374,20 +5388,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/16837389244",
         "created":  "2024-03-23T10:07:55.81Z"
-    },
-    {
-        "id":  18727864867,
-        "name":  "[Emporio Armani] Frank, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  2195461712610545,
-        "collectibleItemId":  "7074f83e-739f-4b2b-8875-8b021cf5ac3c",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18727864867",
-        "created":  "2024-07-30T20:56:54.24Z"
     },
     {
         "id":  18727846870,
@@ -5446,20 +5446,6 @@
         "created":  "2025-01-07T15:47:54.933Z"
     },
     {
-        "id":  97593680569958,
-        "name":  "[Emporio Armani] The Wiseguy, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  755445808625524,
-        "collectibleItemId":  "1099cb7a-5d62-4c52-b566-4bbb8f20b80b",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/97593680569958",
-        "created":  "2024-10-29T17:29:22.537Z"
-    },
-    {
         "id":  17614257044,
         "name":  "[Emporio Armani] Dustyn, Lower",
         "role":  "bottom",
@@ -5472,6 +5458,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17614257044",
         "created":  "2024-05-25T21:05:48.39Z"
+    },
+    {
+        "id":  97593680569958,
+        "name":  "[Emporio Armani] The Wiseguy, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  755445808625524,
+        "collectibleItemId":  "1099cb7a-5d62-4c52-b566-4bbb8f20b80b",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/97593680569958",
+        "created":  "2024-10-29T17:29:22.537Z"
     },
     {
         "id":  17303493752,
@@ -5516,6 +5516,34 @@
         "created":  "2025-03-22T18:52:36.397Z"
     },
     {
+        "id":  17614306885,
+        "name":  "[Emporio Armani] Vegas Sam Open, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  1969418995627583,
+        "collectibleItemId":  "8dd8deb1-d622-437b-8dda-11a8c8051913",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17614306885",
+        "created":  "2024-05-25T21:11:06.237Z"
+    },
+    {
+        "id":  86787470510148,
+        "name":  "[B] Don Tomasino, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  7281220635569812,
+        "collectibleItemId":  "c34aeb4a-406c-4b2f-bb8a-72d03e79b785",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/86787470510148",
+        "created":  "2025-10-06T15:23:33.037Z"
+    },
+    {
         "id":  17052721771,
         "name":  "[Emporio Armani] The Pilot, Upper",
         "role":  "top",
@@ -5544,34 +5572,6 @@
         "created":  "2024-06-24T11:47:45.443Z"
     },
     {
-        "id":  86787470510148,
-        "name":  "[B] Don Tomasino, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  7281220635569812,
-        "collectibleItemId":  "c34aeb4a-406c-4b2f-bb8a-72d03e79b785",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/86787470510148",
-        "created":  "2025-10-06T15:23:33.037Z"
-    },
-    {
-        "id":  17614306885,
-        "name":  "[Emporio Armani] Vegas Sam Open, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  1969418995627583,
-        "collectibleItemId":  "8dd8deb1-d622-437b-8dda-11a8c8051913",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17614306885",
-        "created":  "2024-05-25T21:11:06.237Z"
-    },
-    {
         "id":  105482738678740,
         "name":  "[Emporio Armani] Alberto, Upper",
         "role":  "top",
@@ -5584,34 +5584,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/105482738678740",
         "created":  "2024-10-29T17:52:21.44Z"
-    },
-    {
-        "id":  105608495732356,
-        "name":  "[B] Green Trenchcoat, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  1665182607389939,
-        "collectibleItemId":  "e67ee9b6-434a-4435-81f5-ff2952aea8f4",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/105608495732356",
-        "created":  "2025-03-22T18:40:29.98Z"
-    },
-    {
-        "id":  10823005662,
-        "name":  "[Emporio Armani] Sorrano, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  4539089247974566,
-        "collectibleItemId":  "f46a33ca-b86a-4518-a29e-7666aee29536",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/10823005662",
-        "created":  "2022-09-04T21:11:57.223Z"
     },
     {
         "id":  137898561761250,
@@ -5628,6 +5600,34 @@
         "created":  "2024-08-21T21:40:04.293Z"
     },
     {
+        "id":  10823005662,
+        "name":  "[Emporio Armani] Sorrano, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  4539089247974566,
+        "collectibleItemId":  "f46a33ca-b86a-4518-a29e-7666aee29536",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/10823005662",
+        "created":  "2022-09-04T21:11:57.223Z"
+    },
+    {
+        "id":  105608495732356,
+        "name":  "[B] Green Trenchcoat, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  1665182607389939,
+        "collectibleItemId":  "e67ee9b6-434a-4435-81f5-ff2952aea8f4",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/105608495732356",
+        "created":  "2025-03-22T18:40:29.98Z"
+    },
+    {
         "id":  120748541369235,
         "name":  "[Emporio Armani] Charcoal Dress Pants",
         "role":  "bottom",
@@ -5640,34 +5640,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/120748541369235",
         "created":  "2024-10-05T17:41:05.423Z"
-    },
-    {
-        "id":  123735102121803,
-        "name":  "[Emporio Armani] Evening Suede Jacket, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  8378244564686508,
-        "collectibleItemId":  "12e511cc-a7cb-4f5c-9adb-6e98fd4276be",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/123735102121803",
-        "created":  "2024-09-15T11:47:34.647Z"
-    },
-    {
-        "id":  17103738384,
-        "name":  "[Emporio Armani] Vercetti, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  4408255701158387,
-        "collectibleItemId":  "dcae5025-5f38-48f2-b781-838440e286ad",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17103738384",
-        "created":  "2024-04-11T16:05:08.517Z"
     },
     {
         "id":  17052565228,
@@ -5684,6 +5656,20 @@
         "created":  "2024-04-07T13:34:55.743Z"
     },
     {
+        "id":  123735102121803,
+        "name":  "[Emporio Armani] Evening Suede Jacket, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  8378244564686508,
+        "collectibleItemId":  "12e511cc-a7cb-4f5c-9adb-6e98fd4276be",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/123735102121803",
+        "created":  "2024-09-15T11:47:34.647Z"
+    },
+    {
         "id":  13557973833,
         "name":  "[Emporio Armani] Bruno, Upper",
         "role":  "top",
@@ -5698,18 +5684,18 @@
         "created":  "2023-05-26T21:38:16.323Z"
     },
     {
-        "id":  131927018439310,
-        "name":  "[EA7] Grey Pants w Cream Horsebite Loafers",
+        "id":  17103738384,
+        "name":  "[Emporio Armani] Vercetti, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  2597870775074580,
-        "collectibleItemId":  "961e88e2-ffd1-4882-94b5-35019f8a77d2",
+        "productId":  4408255701158387,
+        "collectibleItemId":  "dcae5025-5f38-48f2-b781-838440e286ad",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/131927018439310",
-        "created":  "2024-09-15T11:57:54.71Z"
+        "url":  "https://www.roblox.com/catalog/17103738384",
+        "created":  "2024-04-11T16:05:08.517Z"
     },
     {
         "id":  128883994260299,
@@ -5726,6 +5712,20 @@
         "created":  "2024-09-15T11:41:36.783Z"
     },
     {
+        "id":  131927018439310,
+        "name":  "[EA7] Grey Pants w Cream Horsebite Loafers",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2597870775074580,
+        "collectibleItemId":  "961e88e2-ffd1-4882-94b5-35019f8a77d2",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/131927018439310",
+        "created":  "2024-09-15T11:57:54.71Z"
+    },
+    {
         "id":  17614144195,
         "name":  "[Emporio Armani] Poplin Silk Shirt",
         "role":  "top",
@@ -5738,20 +5738,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17614144195",
         "created":  "2024-05-25T20:54:16.667Z"
-    },
-    {
-        "id":  138451962918415,
-        "name":  "[B] L\u0027Ardizzone, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  4970839952327623,
-        "collectibleItemId":  "3b5ccc93-9e89-4696-80ab-17fefd82731a",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/138451962918415",
-        "created":  "2025-01-07T15:44:18.87Z"
     },
     {
         "id":  76759072250668,
@@ -5768,46 +5754,18 @@
         "created":  "2024-10-29T17:37:33.663Z"
     },
     {
-        "id":  109902314687980,
-        "name":  "[Emporio Armani] Spreza, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  695914682738168,
-        "collectibleItemId":  "9c9db38c-55f3-41d4-aff9-2214d8317d8d",
+        "id":  138451962918415,
+        "name":  "[B] L\u0027Ardizzone, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  4970839952327623,
+        "collectibleItemId":  "3b5ccc93-9e89-4696-80ab-17fefd82731a",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/109902314687980",
-        "created":  "2024-08-21T21:31:56.727Z"
-    },
-    {
-        "id":  99969812662666,
-        "name":  "[Emporio Armani] Checkered Gris Pants",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2128502620832479,
-        "collectibleItemId":  "c5d65e96-eb42-4c52-96e2-ae040e768d3c",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/99969812662666",
-        "created":  "2024-08-21T21:29:06.257Z"
-    },
-    {
-        "id":  121728125474059,
-        "name":  "[Emporio Armani] Massimo, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  3318475198317602,
-        "collectibleItemId":  "8bdc23d6-0daf-4653-b095-7bbcca7c7b4a",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/121728125474059",
-        "created":  "2024-09-15T12:00:04.707Z"
+        "url":  "https://www.roblox.com/catalog/138451962918415",
+        "created":  "2025-01-07T15:44:18.87Z"
     },
     {
         "id":  17303612940,
@@ -5824,32 +5782,32 @@
         "created":  "2024-04-27T13:47:34.233Z"
     },
     {
-        "id":  17614295393,
-        "name":  "[Emporio Armani] Vegas Sam Closed, Lower",
+        "id":  121728125474059,
+        "name":  "[Emporio Armani] Massimo, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  7430938584120029,
-        "collectibleItemId":  "18a4baee-df8e-4784-89be-3be6f4be3eba",
+        "productId":  3318475198317602,
+        "collectibleItemId":  "8bdc23d6-0daf-4653-b095-7bbcca7c7b4a",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17614295393",
-        "created":  "2024-05-25T21:09:50.553Z"
+        "url":  "https://www.roblox.com/catalog/121728125474059",
+        "created":  "2024-09-15T12:00:04.707Z"
     },
     {
-        "id":  117554186451417,
-        "name":  "[Emporio Armani] The Cold Don, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  8873767197777787,
-        "collectibleItemId":  "0f82047a-020f-4650-9c6f-28fdc9c01dad",
+        "id":  99969812662666,
+        "name":  "[Emporio Armani] Checkered Gris Pants",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2128502620832479,
+        "collectibleItemId":  "c5d65e96-eb42-4c52-96e2-ae040e768d3c",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/117554186451417",
-        "created":  "2024-10-29T17:50:44.673Z"
+        "url":  "https://www.roblox.com/catalog/99969812662666",
+        "created":  "2024-08-21T21:29:06.257Z"
     },
     {
         "id":  17510353883,
@@ -5866,6 +5824,20 @@
         "created":  "2024-05-16T13:18:17.877Z"
     },
     {
+        "id":  109902314687980,
+        "name":  "[Emporio Armani] Spreza, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  695914682738168,
+        "collectibleItemId":  "9c9db38c-55f3-41d4-aff9-2214d8317d8d",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/109902314687980",
+        "created":  "2024-08-21T21:31:56.727Z"
+    },
+    {
         "id":  126827031257924,
         "name":  "[B] Barese\u0027s Hotshot Vest, Lower",
         "role":  "bottom",
@@ -5880,18 +5852,32 @@
         "created":  "2025-01-07T15:58:08.293Z"
     },
     {
-        "id":  17014859885,
-        "name":  "[Emporio Armani] The Neapolitan, Lower",
+        "id":  117554186451417,
+        "name":  "[Emporio Armani] The Cold Don, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  8873767197777787,
+        "collectibleItemId":  "0f82047a-020f-4650-9c6f-28fdc9c01dad",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/117554186451417",
+        "created":  "2024-10-29T17:50:44.673Z"
+    },
+    {
+        "id":  17614295393,
+        "name":  "[Emporio Armani] Vegas Sam Closed, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  1928791951540233,
-        "collectibleItemId":  "d86a487e-19e4-4176-ba2c-bf5b535202f3",
+        "productId":  7430938584120029,
+        "collectibleItemId":  "18a4baee-df8e-4784-89be-3be6f4be3eba",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17014859885",
-        "created":  "2024-04-05T01:35:13.383Z"
+        "url":  "https://www.roblox.com/catalog/17614295393",
+        "created":  "2024-05-25T21:09:50.553Z"
     },
     {
         "id":  18727750607,
@@ -5906,6 +5892,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/18727750607",
         "created":  "2024-07-30T20:47:23.557Z"
+    },
+    {
+        "id":  17014859885,
+        "name":  "[Emporio Armani] The Neapolitan, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  1928791951540233,
+        "collectibleItemId":  "d86a487e-19e4-4176-ba2c-bf5b535202f3",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17014859885",
+        "created":  "2024-04-05T01:35:13.383Z"
     },
     {
         "id":  16911119441,
@@ -6118,102 +6118,18 @@
         "created":  "2024-04-06T14:52:29.803Z"
     },
     {
-        "id":  114084596880400,
-        "name":  "[B] Scarpelli, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  7020462011868075,
-        "collectibleItemId":  "8a296d09-324e-4441-8a51-8215f67cef11",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/114084596880400",
-        "created":  "2025-05-23T21:38:47.657Z"
-    },
-    {
-        "id":  17775575375,
-        "name":  "[Emporio Armani] The Man In The Yellow Hat, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2217478354097615,
-        "collectibleItemId":  "61babfe0-a5d5-4536-9d41-e1b481db3c57",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17775575375",
-        "created":  "2024-06-08T07:35:56.187Z"
-    },
-    {
-        "id":  16895066149,
-        "name":  "[EA7] Primodon, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  8501447999666072,
-        "collectibleItemId":  "977af1d5-2957-4d82-80d5-087014332ada",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16895066149",
-        "created":  "2024-03-27T17:21:06.173Z"
-    },
-    {
-        "id":  17614397848,
-        "name":  "[Emporio Armani] Daniel, Upper",
+        "id":  17368811750,
+        "name":  "[Emporio Armani] The Consigliere, Upper",
         "role":  "top",
         "assetType":  11,
         "price":  10,
         "lowestPrice":  10,
-        "productId":  8096437987054079,
-        "collectibleItemId":  "c55be8a7-62eb-45f4-92dd-b24554eaa837",
+        "productId":  6580739541968401,
+        "collectibleItemId":  "66ff1a08-541c-46d6-8ee1-48c939493402",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17614397848",
-        "created":  "2024-05-25T21:20:44.833Z"
-    },
-    {
-        "id":  13557982944,
-        "name":  " [Emporio Armani] Enzo, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  6602433498468293,
-        "collectibleItemId":  "89c32546-056f-4ad7-ae1c-f3aa197f391f",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/13557982944",
-        "created":  "2023-05-26T21:39:35.81Z"
-    },
-    {
-        "id":  94687395996147,
-        "name":  "[B] Living Life, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  259074042231453,
-        "collectibleItemId":  "f8cb9514-412f-4c75-bd22-ec8da7e13a9f",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/94687395996147",
-        "created":  "2025-06-14T22:07:01.643Z"
-    },
-    {
-        "id":  17035168925,
-        "name":  "[Emporio Armani] The Executive, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2590768347498222,
-        "collectibleItemId":  "066e66ae-db57-4c0a-b632-4d2741d86db2",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17035168925",
-        "created":  "2024-04-06T13:20:00.587Z"
+        "url":  "https://www.roblox.com/catalog/17368811750",
+        "created":  "2024-05-03T12:32:09.943Z"
     },
     {
         "id":  17614275437,
@@ -6230,32 +6146,18 @@
         "created":  "2024-05-25T21:07:43.363Z"
     },
     {
-        "id":  17368811750,
-        "name":  "[Emporio Armani] The Consigliere, Upper",
+        "id":  94687395996147,
+        "name":  "[B] Living Life, Upper",
         "role":  "top",
         "assetType":  11,
         "price":  10,
         "lowestPrice":  10,
-        "productId":  6580739541968401,
-        "collectibleItemId":  "66ff1a08-541c-46d6-8ee1-48c939493402",
+        "productId":  259074042231453,
+        "collectibleItemId":  "f8cb9514-412f-4c75-bd22-ec8da7e13a9f",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17368811750",
-        "created":  "2024-05-03T12:32:09.943Z"
-    },
-    {
-        "id":  17220388762,
-        "name":  "[Emporio Armani] Borat, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  5,
-        "lowestPrice":  5,
-        "productId":  6271601244447067,
-        "collectibleItemId":  "fb5e57b7-1e6b-4a41-8e7f-14acaa7b0305",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17220388762",
-        "created":  "2024-04-20T12:23:15.063Z"
+        "url":  "https://www.roblox.com/catalog/94687395996147",
+        "created":  "2025-06-14T22:07:01.643Z"
     },
     {
         "id":  16962491969,
@@ -6272,6 +6174,104 @@
         "created":  "2024-03-31T23:15:14.92Z"
     },
     {
+        "id":  16895066149,
+        "name":  "[EA7] Primodon, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  8501447999666072,
+        "collectibleItemId":  "977af1d5-2957-4d82-80d5-087014332ada",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16895066149",
+        "created":  "2024-03-27T17:21:06.173Z"
+    },
+    {
+        "id":  114084596880400,
+        "name":  "[B] Scarpelli, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  7020462011868075,
+        "collectibleItemId":  "8a296d09-324e-4441-8a51-8215f67cef11",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/114084596880400",
+        "created":  "2025-05-23T21:38:47.657Z"
+    },
+    {
+        "id":  13557982944,
+        "name":  " [Emporio Armani] Enzo, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  6602433498468293,
+        "collectibleItemId":  "89c32546-056f-4ad7-ae1c-f3aa197f391f",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/13557982944",
+        "created":  "2023-05-26T21:39:35.81Z"
+    },
+    {
+        "id":  17614397848,
+        "name":  "[Emporio Armani] Daniel, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  8096437987054079,
+        "collectibleItemId":  "c55be8a7-62eb-45f4-92dd-b24554eaa837",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17614397848",
+        "created":  "2024-05-25T21:20:44.833Z"
+    },
+    {
+        "id":  17775575375,
+        "name":  "[Emporio Armani] The Man In The Yellow Hat, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2217478354097615,
+        "collectibleItemId":  "61babfe0-a5d5-4536-9d41-e1b481db3c57",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17775575375",
+        "created":  "2024-06-08T07:35:56.187Z"
+    },
+    {
+        "id":  17220388762,
+        "name":  "[Emporio Armani] Borat, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6271601244447067,
+        "collectibleItemId":  "fb5e57b7-1e6b-4a41-8e7f-14acaa7b0305",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17220388762",
+        "created":  "2024-04-20T12:23:15.063Z"
+    },
+    {
+        "id":  17035168925,
+        "name":  "[Emporio Armani] The Executive, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2590768347498222,
+        "collectibleItemId":  "066e66ae-db57-4c0a-b632-4d2741d86db2",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17035168925",
+        "created":  "2024-04-06T13:20:00.587Z"
+    },
+    {
         "id":  100579902394297,
         "name":  "[B] Carlevaro, Upper",
         "role":  "top",
@@ -6284,34 +6284,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/100579902394297",
         "created":  "2025-05-23T21:39:29.28Z"
-    },
-    {
-        "id":  17220454915,
-        "name":  "[Emporio Armani] El Diablo, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  8840447311857774,
-        "collectibleItemId":  "ac096081-e32b-4845-a96d-11087039f863",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17220454915",
-        "created":  "2024-04-20T12:27:24.747Z"
-    },
-    {
-        "id":  17135225670,
-        "name":  "[EA7] Casino Hitman, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  3853993065359826,
-        "collectibleItemId":  "5c6f519a-499d-4a71-b5e1-80e76083e771",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17135225670",
-        "created":  "2024-04-13T21:18:00.267Z"
     },
     {
         "id":  112331666532226,
@@ -6340,6 +6312,34 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/10822733894",
         "created":  "2022-09-04T20:39:52.587Z"
+    },
+    {
+        "id":  17135225670,
+        "name":  "[EA7] Casino Hitman, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  3853993065359826,
+        "collectibleItemId":  "5c6f519a-499d-4a71-b5e1-80e76083e771",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17135225670",
+        "created":  "2024-04-13T21:18:00.267Z"
+    },
+    {
+        "id":  17220454915,
+        "name":  "[Emporio Armani] El Diablo, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  8840447311857774,
+        "collectibleItemId":  "ac096081-e32b-4845-a96d-11087039f863",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17220454915",
+        "created":  "2024-04-20T12:27:24.747Z"
     },
     {
         "id":  121905310069106,
@@ -6384,18 +6384,18 @@
         "created":  "2024-07-30T20:45:46.687Z"
     },
     {
-        "id":  13557748496,
-        "name":  "[Emporio Armani] Cicero, Lower",
+        "id":  82128667134168,
+        "name":  "[Emporio Armani] Svenn Overcoat, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  7028952700407235,
-        "collectibleItemId":  "77126076-b1df-41db-a0a5-c07495feba9c",
+        "productId":  4259524046171321,
+        "collectibleItemId":  "60a492d5-d84a-4200-9d91-339d09ad0557",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/13557748496",
-        "created":  "2023-05-26T21:07:21.3Z"
+        "url":  "https://www.roblox.com/catalog/82128667134168",
+        "created":  "2024-08-21T21:33:11.097Z"
     },
     {
         "id":  17693157832,
@@ -6412,32 +6412,18 @@
         "created":  "2024-06-01T12:05:48.843Z"
     },
     {
-        "id":  82128667134168,
-        "name":  "[Emporio Armani] Svenn Overcoat, Lower",
+        "id":  13557748496,
+        "name":  "[Emporio Armani] Cicero, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  4259524046171321,
-        "collectibleItemId":  "60a492d5-d84a-4200-9d91-339d09ad0557",
+        "productId":  7028952700407235,
+        "collectibleItemId":  "77126076-b1df-41db-a0a5-c07495feba9c",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/82128667134168",
-        "created":  "2024-08-21T21:33:11.097Z"
-    },
-    {
-        "id":  18590268693,
-        "name":  "[Emporio Armani] Vinny Polo, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  5323160891955795,
-        "collectibleItemId":  "e9959e97-8a58-4e6c-9c36-81eded2a1108",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18590268693",
-        "created":  "2024-07-21T12:35:44.667Z"
+        "url":  "https://www.roblox.com/catalog/13557748496",
+        "created":  "2023-05-26T21:07:21.3Z"
     },
     {
         "id":  112811666328873,
@@ -6452,6 +6438,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/112811666328873",
         "created":  "2024-09-15T11:50:22.72Z"
+    },
+    {
+        "id":  18590268693,
+        "name":  "[Emporio Armani] Vinny Polo, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  5323160891955795,
+        "collectibleItemId":  "e9959e97-8a58-4e6c-9c36-81eded2a1108",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/18590268693",
+        "created":  "2024-07-21T12:35:44.667Z"
     },
     {
         "id":  17036230583,
@@ -6874,20 +6874,6 @@
         "created":  "2024-04-06T13:59:19Z"
     },
     {
-        "id":  81050344875160,
-        "name":  "[Emporio Armani] The Shark, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  924323130766100,
-        "collectibleItemId":  "e219fb99-539d-4140-a70b-270d8e0b4054",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/81050344875160",
-        "created":  "2024-08-21T21:39:07.173Z"
-    },
-    {
         "id":  121482988817871,
         "name":  "[B] Bronze DB, Lower",
         "role":  "bottom",
@@ -6900,20 +6886,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/121482988817871",
         "created":  "2025-02-23T12:57:24.853Z"
-    },
-    {
-        "id":  17014856010,
-        "name":  "[Emporio Armani] The Neapolitan, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  6220759441106196,
-        "collectibleItemId":  "40a4da9d-e083-4259-a838-f4dc9f754c06",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17014856010",
-        "created":  "2024-04-05T01:34:45.483Z"
     },
     {
         "id":  17614366974,
@@ -6930,60 +6902,32 @@
         "created":  "2024-05-25T21:17:28.96Z"
     },
     {
-        "id":  136188212164181,
-        "name":  "[B] Green Wiseguy Polo",
+        "id":  17014856010,
+        "name":  "[Emporio Armani] The Neapolitan, Upper",
         "role":  "top",
         "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  6220759441106196,
+        "collectibleItemId":  "40a4da9d-e083-4259-a838-f4dc9f754c06",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17014856010",
+        "created":  "2024-04-05T01:34:45.483Z"
+    },
+    {
+        "id":  81050344875160,
+        "name":  "[Emporio Armani] The Shark, Lower",
+        "role":  "bottom",
+        "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  4524692242688224,
-        "collectibleItemId":  "675f8f8e-9f16-4022-a953-60b38116c79f",
+        "productId":  924323130766100,
+        "collectibleItemId":  "e219fb99-539d-4140-a70b-270d8e0b4054",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/136188212164181",
-        "created":  "2025-01-07T15:36:01.943Z"
-    },
-    {
-        "id":  16837299796,
-        "name":  "[Emporio Armani] il Contadino, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  1056387735865108,
-        "collectibleItemId":  "807af9d7-b6e7-46cb-8472-6045756450d6",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/16837299796",
-        "created":  "2024-03-23T09:58:33.847Z"
-    },
-    {
-        "id":  101027340529526,
-        "name":  "[B] The Overcoat, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  3174050991612792,
-        "collectibleItemId":  "48049fd6-c835-4500-ab83-0a1147a2a2a9",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/101027340529526",
-        "created":  "2025-04-11T16:45:50.413Z"
-    },
-    {
-        "id":  85442002651034,
-        "name":  "[Emporio Armani] Canary, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  8332571879779556,
-        "collectibleItemId":  "1fb2dc2f-89a7-48a3-a56d-6077ba4dfccc",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/85442002651034",
-        "created":  "2024-09-15T11:42:58.493Z"
+        "url":  "https://www.roblox.com/catalog/81050344875160",
+        "created":  "2024-08-21T21:39:07.173Z"
     },
     {
         "id":  95201474525853,
@@ -7014,6 +6958,20 @@
         "created":  "2024-06-01T11:55:01.877Z"
     },
     {
+        "id":  16837299796,
+        "name":  "[Emporio Armani] il Contadino, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  1056387735865108,
+        "collectibleItemId":  "807af9d7-b6e7-46cb-8472-6045756450d6",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/16837299796",
+        "created":  "2024-03-23T09:58:33.847Z"
+    },
+    {
         "id":  18490478564,
         "name":  "[EA7] The Saint, Upper",
         "role":  "top",
@@ -7026,6 +6984,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/18490478564",
         "created":  "2024-07-14T18:12:17.567Z"
+    },
+    {
+        "id":  85442002651034,
+        "name":  "[Emporio Armani] Canary, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  8332571879779556,
+        "collectibleItemId":  "1fb2dc2f-89a7-48a3-a56d-6077ba4dfccc",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/85442002651034",
+        "created":  "2024-09-15T11:42:58.493Z"
     },
     {
         "id":  140258321912872,
@@ -7056,6 +7028,48 @@
         "created":  "2024-10-05T18:42:06.83Z"
     },
     {
+        "id":  136188212164181,
+        "name":  "[B] Green Wiseguy Polo",
+        "role":  "top",
+        "assetType":  11,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  4524692242688224,
+        "collectibleItemId":  "675f8f8e-9f16-4022-a953-60b38116c79f",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/136188212164181",
+        "created":  "2025-01-07T15:36:01.943Z"
+    },
+    {
+        "id":  101027340529526,
+        "name":  "[B] The Overcoat, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  3174050991612792,
+        "collectibleItemId":  "48049fd6-c835-4500-ab83-0a1147a2a2a9",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/101027340529526",
+        "created":  "2025-04-11T16:45:50.413Z"
+    },
+    {
+        "id":  18490194675,
+        "name":  "[Emporio Armani] The Serb Mobster Overcoat, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  8071728553815720,
+        "collectibleItemId":  "5ec0bf42-9657-432d-8938-e0833916702b",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/18490194675",
+        "created":  "2024-07-14T17:49:19.44Z"
+    },
+    {
         "id":  17368650272,
         "name":  "[Emporio Armani] Maison, Lower",
         "role":  "bottom",
@@ -7084,20 +7098,6 @@
         "created":  "2022-09-04T21:10:58.82Z"
     },
     {
-        "id":  18490194675,
-        "name":  "[Emporio Armani] The Serb Mobster Overcoat, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  8071728553815720,
-        "collectibleItemId":  "5ec0bf42-9657-432d-8938-e0833916702b",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18490194675",
-        "created":  "2024-07-14T17:49:19.44Z"
-    },
-    {
         "id":  117197643450877,
         "name":  "[B] The Natural, Lower",
         "role":  "bottom",
@@ -7110,20 +7110,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/117197643450877",
         "created":  "2025-02-23T13:08:23.193Z"
-    },
-    {
-        "id":  17035447997,
-        "name":  "[Emporio Armani] Montana, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  4064487952969564,
-        "collectibleItemId":  "fbe2f687-8a35-49c3-967f-45dca763ea8a",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17035447997",
-        "created":  "2024-04-06T13:40:12.8Z"
     },
     {
         "id":  74790165025502,
@@ -7154,18 +7140,18 @@
         "created":  "2024-07-14T17:50:48.957Z"
     },
     {
-        "id":  17368762994,
-        "name":  "[Emporio Armani] Monte Carlo, Upper",
+        "id":  17035447997,
+        "name":  "[Emporio Armani] Montana, Upper",
         "role":  "top",
         "assetType":  11,
         "price":  10,
         "lowestPrice":  10,
-        "productId":  6798097385872389,
-        "collectibleItemId":  "dad95304-7234-469a-8c46-01f60876b8ea",
+        "productId":  4064487952969564,
+        "collectibleItemId":  "fbe2f687-8a35-49c3-967f-45dca763ea8a",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17368762994",
-        "created":  "2024-05-03T12:26:27.787Z"
+        "url":  "https://www.roblox.com/catalog/17035447997",
+        "created":  "2024-04-06T13:40:12.8Z"
     },
     {
         "id":  125446196967939,
@@ -7196,46 +7182,18 @@
         "created":  "2024-07-14T18:01:26.833Z"
     },
     {
-        "id":  10822898421,
-        "name":  "[Emporio Armani] The Exclusive, Upper",
+        "id":  17368762994,
+        "name":  "[Emporio Armani] Monte Carlo, Upper",
         "role":  "top",
         "assetType":  11,
         "price":  10,
         "lowestPrice":  10,
-        "productId":  2682608403691477,
-        "collectibleItemId":  "8de13ee7-089c-4b1d-a67d-e5a7a47d5633",
+        "productId":  6798097385872389,
+        "collectibleItemId":  "dad95304-7234-469a-8c46-01f60876b8ea",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/10822898421",
-        "created":  "2022-09-04T20:58:39.59Z"
-    },
-    {
-        "id":  92937002057155,
-        "name":  "[B] Scarpelli, Upper",
-        "role":  "top",
-        "assetType":  11,
-        "price":  10,
-        "lowestPrice":  10,
-        "productId":  8297949706311339,
-        "collectibleItemId":  "b8c92cf6-fd89-4d2e-98f6-dabf4db8c693",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/92937002057155",
-        "created":  "2025-05-23T21:37:25.063Z"
-    },
-    {
-        "id":  17614355684,
-        "name":  "[Emporio Armani] il Maestro, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2455064075653373,
-        "collectibleItemId":  "f588bc8c-6154-4719-b5fe-a69ebc4f07e7",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17614355684",
-        "created":  "2024-05-25T21:16:14.687Z"
+        "url":  "https://www.roblox.com/catalog/17368762994",
+        "created":  "2024-05-03T12:26:27.787Z"
     },
     {
         "id":  121517269127358,
@@ -7252,6 +7210,20 @@
         "created":  "2025-02-23T12:40:59.613Z"
     },
     {
+        "id":  10822898421,
+        "name":  "[Emporio Armani] The Exclusive, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  2682608403691477,
+        "collectibleItemId":  "8de13ee7-089c-4b1d-a67d-e5a7a47d5633",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/10822898421",
+        "created":  "2022-09-04T20:58:39.59Z"
+    },
+    {
         "id":  17034919058,
         "name":  "[EA7] Barocco, Upper",
         "role":  "top",
@@ -7264,6 +7236,34 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17034919058",
         "created":  "2024-04-06T13:01:39.733Z"
+    },
+    {
+        "id":  17614355684,
+        "name":  "[Emporio Armani] il Maestro, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2455064075653373,
+        "collectibleItemId":  "f588bc8c-6154-4719-b5fe-a69ebc4f07e7",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17614355684",
+        "created":  "2024-05-25T21:16:14.687Z"
+    },
+    {
+        "id":  92937002057155,
+        "name":  "[B] Scarpelli, Upper",
+        "role":  "top",
+        "assetType":  11,
+        "price":  10,
+        "lowestPrice":  10,
+        "productId":  8297949706311339,
+        "collectibleItemId":  "b8c92cf6-fd89-4d2e-98f6-dabf4db8c693",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/92937002057155",
+        "created":  "2025-05-23T21:37:25.063Z"
     },
     {
         "id":  17036475712,
@@ -7294,20 +7294,6 @@
         "created":  "2024-07-21T12:29:34.827Z"
     },
     {
-        "id":  17303533959,
-        "name":  "[Emporio Armani] Floro, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  3337226343496149,
-        "collectibleItemId":  "a579a584-7965-40a4-88ae-6ffb0b7c94d5",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17303533959",
-        "created":  "2024-04-27T13:40:32.84Z"
-    },
-    {
         "id":  18590099773,
         "name":  "[EA7] Blue Denim Jeans",
         "role":  "bottom",
@@ -7334,6 +7320,20 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/102501457000311",
         "created":  "2025-02-23T12:44:36.367Z"
+    },
+    {
+        "id":  17303533959,
+        "name":  "[Emporio Armani] Floro, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  3337226343496149,
+        "collectibleItemId":  "a579a584-7965-40a4-88ae-6ffb0b7c94d5",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17303533959",
+        "created":  "2024-04-27T13:40:32.84Z"
     },
     {
         "id":  72239334042528,
@@ -7434,32 +7434,18 @@
         "created":  "2024-03-01T12:10:56.28Z"
     },
     {
-        "id":  10822739408,
-        "name":  "[Emporio Armani] Gray Opened, Lower",
+        "id":  100691382105556,
+        "name":  "[B] Capritani, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  7012633699728365,
-        "collectibleItemId":  "7c64ef0b-494c-42fb-89b8-9980c8eef79d",
+        "productId":  8922506517269486,
+        "collectibleItemId":  "b5583680-7d3d-4179-a081-5b3705a41ca1",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/10822739408",
-        "created":  "2022-09-04T20:40:23.653Z"
-    },
-    {
-        "id":  17035454601,
-        "name":  "[Emporio Armani] Montana, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  2440824827283885,
-        "collectibleItemId":  "eaaec456-9a20-4a7f-a217-7e8259827aa0",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/17035454601",
-        "created":  "2024-04-06T13:40:39.823Z"
+        "url":  "https://www.roblox.com/catalog/100691382105556",
+        "created":  "2025-01-07T15:49:24.477Z"
     },
     {
         "id":  16911059887,
@@ -7476,6 +7462,48 @@
         "created":  "2024-03-28T20:21:57.513Z"
     },
     {
+        "id":  17035454601,
+        "name":  "[Emporio Armani] Montana, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  2440824827283885,
+        "collectibleItemId":  "eaaec456-9a20-4a7f-a217-7e8259827aa0",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/17035454601",
+        "created":  "2024-04-06T13:40:39.823Z"
+    },
+    {
+        "id":  10822739408,
+        "name":  "[Emporio Armani] Gray Opened, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  7012633699728365,
+        "collectibleItemId":  "7c64ef0b-494c-42fb-89b8-9980c8eef79d",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/10822739408",
+        "created":  "2022-09-04T20:40:23.653Z"
+    },
+    {
+        "id":  107897468284328,
+        "name":  "[B] The Chinese, Lower",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  7,
+        "lowestPrice":  7,
+        "productId":  888322739919570,
+        "collectibleItemId":  "ae23fd5a-e4eb-45ab-8a8a-918fb00f6838",
+        "groupId":  15843731,
+        "groupName":  "Beneventi\u0027s",
+        "url":  "https://www.roblox.com/catalog/107897468284328",
+        "created":  "2025-04-11T16:57:36.103Z"
+    },
+    {
         "id":  17103689467,
         "name":  "[Emporio Armani] The Skipper, Upper",
         "role":  "top",
@@ -7488,20 +7516,6 @@
         "groupName":  "Beneventi\u0027s",
         "url":  "https://www.roblox.com/catalog/17103689467",
         "created":  "2024-04-11T16:00:10.87Z"
-    },
-    {
-        "id":  18189472179,
-        "name":  "[EA7] The High Stocks Man Overcoat, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  746044017098850,
-        "collectibleItemId":  "37afc2db-2fe1-4ab6-a592-4edac3ce34f8",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/18189472179",
-        "created":  "2024-06-24T11:48:29.993Z"
     },
     {
         "id":  17693163030,
@@ -7518,32 +7532,18 @@
         "created":  "2024-06-01T12:06:17.91Z"
     },
     {
-        "id":  100691382105556,
-        "name":  "[B] Capritani, Lower",
+        "id":  18189472179,
+        "name":  "[EA7] The High Stocks Man Overcoat, Lower",
         "role":  "bottom",
         "assetType":  12,
         "price":  7,
         "lowestPrice":  7,
-        "productId":  8922506517269486,
-        "collectibleItemId":  "b5583680-7d3d-4179-a081-5b3705a41ca1",
+        "productId":  746044017098850,
+        "collectibleItemId":  "37afc2db-2fe1-4ab6-a592-4edac3ce34f8",
         "groupId":  15843731,
         "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/100691382105556",
-        "created":  "2025-01-07T15:49:24.477Z"
-    },
-    {
-        "id":  107897468284328,
-        "name":  "[B] The Chinese, Lower",
-        "role":  "bottom",
-        "assetType":  12,
-        "price":  7,
-        "lowestPrice":  7,
-        "productId":  888322739919570,
-        "collectibleItemId":  "ae23fd5a-e4eb-45ab-8a8a-918fb00f6838",
-        "groupId":  15843731,
-        "groupName":  "Beneventi\u0027s",
-        "url":  "https://www.roblox.com/catalog/107897468284328",
-        "created":  "2025-04-11T16:57:36.103Z"
+        "url":  "https://www.roblox.com/catalog/18189472179",
+        "created":  "2024-06-24T11:48:29.993Z"
     },
     {
         "id":  124219283755913,
