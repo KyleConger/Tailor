@@ -1,0 +1,13 @@
+[
+  { "id": 15843731,  "name": "Beneventi's",                     "slug": "beneventis" },
+  { "id": 15446013,  "name": "Parkson & Co. Tailors",           "slug": "parkson-co-tailors" },
+  { "id": 211813163, "name": "Gravelle",                        "slug": "gravelle" },
+  { "id": 3211189,   "name": "Style Abby",                      "slug": "style-abby" },
+  { "id": 8638017,   "name": "Avrenzi",                         "slug": "avrenzi" },
+  { "id": 14086029,  "name": "Formalitat | Formal Attire & UGC","slug": "formalitat" },
+  { "id": 851558,    "name": "Kestrel",                         "slug": "kestrel" },
+  { "id": 515698,    "name": "Blox Channel",                    "slug": "blox-channel" },
+  { "id": 3100013,   "name": "Obleceni",                        "slug": "obleceni" },
+  { "id": 5049429,   "name": "Henri Bendel",                    "slug": "henri-bendel" },
+  { "id": 2617916,   "name": "Casablanca",                      "slug": "casablanca" }
+]
