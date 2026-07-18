@@ -1,5 +1,5 @@
 ﻿{
-    "generatedUtc":  "2026-07-18T23:28:47.4224600Z",
+    "generatedUtc":  "2026-07-18T23:50:42.9447937Z",
     "groups":  [
                    {
                        "group":  "Beneventi\u0027s",
@@ -9,13 +9,103 @@
                        "bottoms":  289,
                        "tshirts":  6,
                        "total":  631
+                   },
+                   {
+                       "group":  "Parkson \u0026 Co. Tailors",
+                       "slug":  "parkson-co-tailors",
+                       "groupId":  15446013,
+                       "tops":  31,
+                       "bottoms":  31,
+                       "tshirts":  3,
+                       "total":  65
+                   },
+                   {
+                       "group":  "Gravelle",
+                       "slug":  "gravelle",
+                       "groupId":  211813163,
+                       "tops":  9,
+                       "bottoms":  9,
+                       "tshirts":  0,
+                       "total":  18
+                   },
+                   {
+                       "group":  "Style Abby",
+                       "slug":  "style-abby",
+                       "groupId":  3211189,
+                       "tops":  457,
+                       "bottoms":  478,
+                       "tshirts":  65,
+                       "total":  1000
+                   },
+                   {
+                       "group":  "Avrenzi",
+                       "slug":  "avrenzi",
+                       "groupId":  8638017,
+                       "tops":  175,
+                       "bottoms":  165,
+                       "tshirts":  0,
+                       "total":  340
+                   },
+                   {
+                       "group":  "Formalitat | Formal Attire \u0026 UGC",
+                       "slug":  "formalitat",
+                       "groupId":  14086029,
+                       "tops":  503,
+                       "bottoms":  486,
+                       "tshirts":  3,
+                       "total":  992
+                   },
+                   {
+                       "group":  "Kestrel",
+                       "slug":  "kestrel",
+                       "groupId":  851558,
+                       "tops":  555,
+                       "bottoms":  420,
+                       "tshirts":  5,
+                       "total":  980
+                   },
+                   {
+                       "group":  "Blox Channel",
+                       "slug":  "blox-channel",
+                       "groupId":  515698,
+                       "tops":  319,
+                       "bottoms":  165,
+                       "tshirts":  2,
+                       "total":  486
+                   },
+                   {
+                       "group":  "Obleceni",
+                       "slug":  "obleceni",
+                       "groupId":  3100013,
+                       "tops":  530,
+                       "bottoms":  465,
+                       "tshirts":  5,
+                       "total":  1000
+                   },
+                   {
+                       "group":  "Henri Bendel",
+                       "slug":  "henri-bendel",
+                       "groupId":  5049429,
+                       "tops":  33,
+                       "bottoms":  29,
+                       "tshirts":  1,
+                       "total":  63
+                   },
+                   {
+                       "group":  "Casablanca",
+                       "slug":  "casablanca",
+                       "groupId":  2617916,
+                       "tops":  299,
+                       "bottoms":  280,
+                       "tshirts":  4,
+                       "total":  583
                    }
                ],
     "totals":  {
-                   "items":  631,
-                   "matchedOutfits":  279,
-                   "unmatchedTops":  63,
-                   "unmatchedBottoms":  19,
-                   "tshirts":  6
+                   "items":  6158,
+                   "matchedOutfits":  2458,
+                   "unmatchedTops":  1335,
+                   "unmatchedBottoms":  927,
+                   "tshirts":  94
                }
 }
