@@ -16,7 +16,14 @@ $script:RoleTokens = @(
     'shirt', 'shirts', 'tshirt', 'tshirts', 'tee', 'tees',
     'pant', 'pants', 'trouser', 'trousers',
     'jean', 'jeans', 'short', 'shorts', 'skirt', 'skirts',
-    'overshirt', 'undershirt'
+    'overshirt', 'undershirt',
+    # Bottom synonyms
+    'slacks', 'chino', 'chinos', 'jogger', 'joggers',
+    'sweatpants', 'leggings', 'cargo', 'cargos',
+    # Top garment types (stripping keeps the outfit base name consistent)
+    'polo', 'polos', 'waistcoat', 'waistcoats', 'blazer', 'blazers',
+    'jacket', 'jackets', 'hoodie', 'hoodies', 'sweater', 'sweaters',
+    'vest', 'vests', 'coat', 'coats'
 )
 
 function Get-OutfitKey {
