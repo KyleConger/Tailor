@@ -25,7 +25,7 @@ local GENDER_NAMES = {
 local GROUP_PRIORITY = {
 	{ match = "parkson", weight = 0.08 },
 	{ match = "formalitat", weight = 0.07 },
-	{ match = "luckytux", weight = 0.07 },
+	{ match = "luckytux", weight = 0.30 },
 	{ match = "beneventi", weight = 0.03 },
 	{ match = "avrenzi", weight = 0.03 },
 	{ match = "obleceni", weight = 0.03 },

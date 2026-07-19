@@ -23,6 +23,7 @@ local THEME = {
 local SUIT_PRESETS = {
 	{ name = "Navy", primary = "#0A2342", secondary = "#1B365D", exclude = "#F28C28" },
 	{ name = "Charcoal Gray", primary = "#36454F", secondary = "#2F3A3F", exclude = "#C9BAB0" },
+	{ name = "Taupe", primary = "#8E8880", secondary = "#6A6B66", exclude = "#0A2342" },
 	{ name = "Medium Gray", primary = "#666666", secondary = "#808080", exclude = "#999999" },
 	{ name = "Light Gray", primary = "#B8B8B8", secondary = "#D3D3D3", exclude = "#474747" },
 	{ name = "Royal Blue", primary = "#1E3A8A", secondary = "#2563EB", exclude = "#E3A01A" },
