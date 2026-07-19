@@ -20,6 +20,31 @@ local GENDER_NAMES = {
 	[2] = "feminine",
 }
 
+-- Lower rank distance sorts first. Priority multiplies distance down; deprioritize multiplies up.
+local DISPLAY_BIAS = {
+	styleAbby = 1.1,
+	formalitat = 0.9,
+	emporioArmani = 0.9,
+}
+
+local function getDisplayBias(groupName, topName)
+	local bias = 1
+	local group = string.lower(groupName or "")
+	local top = string.lower(topName or "")
+
+	if string.find(group, "style abby", 1, true) then
+		bias *= DISPLAY_BIAS.styleAbby
+	end
+	if string.find(group, "formalitat", 1, true) then
+		bias *= DISPLAY_BIAS.formalitat
+	end
+	if string.find(top, "emporio armani", 1, true) then
+		bias *= DISPLAY_BIAS.emporioArmani
+	end
+
+	return bias
+end
+
 local function srgbToLinear(value)
 	if value <= 0.04045 then
 		return value / 12.92
@@ -226,20 +251,24 @@ function OutfitSearchService:Search(request)
 		local paletteIndex = rawOutfit[1]
 		local score = paletteScores[paletteIndex]
 		if score and (normalized.gender == nil or rawOutfit[5] == normalized.gender) then
+			local palette = self._palettes[paletteIndex]
+			local bias = getDisplayBias(rawOutfit[7], palette.topName)
 			table.insert(matches, {
 				paletteIndex = paletteIndex,
 				raw = rawOutfit,
 				score = score,
+				rankWorstDistance = score.worstDistance * bias,
+				rankAverageDistance = score.averageDistance * bias,
 			})
 		end
 	end
 
 	table.sort(matches, function(left, right)
-		if left.score.worstDistance ~= right.score.worstDistance then
-			return left.score.worstDistance < right.score.worstDistance
+		if left.rankWorstDistance ~= right.rankWorstDistance then
+			return left.rankWorstDistance < right.rankWorstDistance
 		end
-		if left.score.averageDistance ~= right.score.averageDistance then
-			return left.score.averageDistance < right.score.averageDistance
+		if left.rankAverageDistance ~= right.rankAverageDistance then
+			return left.rankAverageDistance < right.rankAverageDistance
 		end
 		if left.score.representedCoverage ~= right.score.representedCoverage then
 			return left.score.representedCoverage > right.score.representedCoverage
