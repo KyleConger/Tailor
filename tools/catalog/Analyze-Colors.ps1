@@ -173,8 +173,9 @@ foreach ($id in $toAnalyze) {
 
     if (($done % 25) -eq 0 -or $done -eq $toAnalyze.Count) {
         $rate = if ($sw.Elapsed.TotalSeconds -gt 0) { [Math]::Round($done / $sw.Elapsed.TotalSeconds, 2) } else { 0 }
-        Write-Host ("  [{0}/{1}] fail={2} {3}/s  last={4} {5}" -f `
-            $done, $toAnalyze.Count, $failed, $rate, $id, ($fields.colors | ForEach-Object { $_.hex }) -join ',')
+            Write-Host ("  [{0}/{1}] fail={2} {3}/s  last={4} {5}" -f `
+                $done, $toAnalyze.Count, $failed, $rate, $id, `
+                ((@($fields.colors) | ForEach-Object { $_.hex }) -join ','))
     }
 
     # Checkpoint every 100 so a long run can resume.

@@ -134,7 +134,13 @@ function Get-DominantColorsFromBytes {
                     $a = [int]$raw[$i + 3]
 
                     if ($a -lt 200) { continue }
+                    # Pure white field
                     if ($r -ge 248 -and $gCh -ge 248 -and $b -ge 248) { continue }
+                    # Roblox catalog backdrop is a light near-neutral gray (~#A8A8A4).
+                    $mx = [Math]::Max([Math]::Max($r, $gCh), $b)
+                    $mn = [Math]::Min([Math]::Min($r, $gCh), $b)
+                    $avg = ($r + $gCh + $b) / 3.0
+                    if (($mx - $mn) -le 16 -and $avg -ge 145 -and $avg -le 220) { continue }
 
                     $qr = $r -shr $shift
                     $qg = $gCh -shr $shift

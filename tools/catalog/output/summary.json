@@ -137,5 +137,12 @@
                    "feminine":  382,
                    "unclassified":  1804,
                    "matchedOutfits":  2454
+               },
+    "colors":  {
+                   "analyzed":  4177,
+                   "failed":  1,
+                   "pairedBottomsSkipped":  1887,
+                   "source":  "roblox-cdn-thumbnail (in-memory; CDN URL stored)",
+                   "generatedUtc":  "2026-07-19T00:39:19.5670834Z"
                }
 }
