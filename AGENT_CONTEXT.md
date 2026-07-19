@@ -13,7 +13,7 @@ rojo serve
 
 - Build place file: `rojo build -o "Limit Testing.rbxlx"`
 - Regenerate sourcemap: `rojo sourcemap default.project.json -o sourcemap.json`
-- Tooling: `aftman.toml` (wally, rojo), `selene.toml` (roblox std)
+- Tooling: `aftman.toml` (wally, rojo 7.7.0), `selene.toml` (roblox std)
 
 # Rojo Layout
 
