@@ -46,7 +46,31 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 | `unclassified/` | Same, for items with no gender signal (and no group default). |
 | `summary.json` | Per-group counts + gender totals. |
 
+## Color analysis
+
+```powershell
+./Analyze-Colors.ps1              # all tops + unmatched bottoms
+./Analyze-Colors.ps1 -Limit 25    # smoke test
+./Analyze-Colors.ps1 -Resume      # continue after interruption
+```
+
+For each analyzed item, Roblox CDN thumbnail bytes are fetched **in memory**,
+quantized to the 3 most common hex colors, then discarded. The durable result
+is the CDN `thumbnailUrl` plus `color1`/`color2`/`color3` written into
+`colors.json`, `catalog.*`, and `matches.*`.
+
+**Pairs:** only the top is analyzed; the bottom is omitted. Match rows carry
+the top's colors (`colorFrom = top`). Paired bottoms are marked
+`colorSource = pair-top`.
+
+| File | Contents |
+|------|----------|
+| `colors.json` / `colors.csv` | Per-asset CDN URL + top 3 hex colors + coverage |
+| `catalog.*` | Same fields merged onto each item |
+| `matches.*` | Outfit colors taken from the top |
+
 ## Gender classification
+
 
 Roblox's public catalog details API does not expose gender for Classic Shirts /
 Pants, so we infer it in this order:
