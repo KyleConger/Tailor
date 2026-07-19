@@ -20,6 +20,19 @@ local THEME = {
 	danger = Color3.fromRGB(229, 78, 96),
 }
 
+local SUIT_PRESETS = {
+	{ name = "Navy", primary = "#0A2342", secondary = "#1B365D", exclude = "#F28C28" },
+	{ name = "Charcoal Gray", primary = "#36454F", secondary = "#2F3A3F", exclude = "#C9BAB0" },
+	{ name = "Medium Gray", primary = "#666666", secondary = "#808080", exclude = "#999999" },
+	{ name = "Light Gray", primary = "#B8B8B8", secondary = "#D3D3D3", exclude = "#474747" },
+	{ name = "Royal Blue", primary = "#1E3A8A", secondary = "#2563EB", exclude = "#E3A01A" },
+	{ name = "Brown", primary = "#5C4033", secondary = "#7B4F35", exclude = "#33A0B3" },
+	{ name = "Tan", primary = "#C2A36B", secondary = "#D2B48C", exclude = "#3F5C94" },
+	{ name = "Olive Green", primary = "#556B2F", secondary = "#6B8E23", exclude = "#7A2F6B" },
+	{ name = "Burgundy", primary = "#800020", secondary = "#6D071A", exclude = "#008060" },
+	{ name = "Cream", primary = "#D8C3A5", secondary = "#F5F5DC", exclude = "#273C5A" },
+}
+
 local OutfitSearchController = Knit.CreateController({
 	Name = "OutfitSearchController",
 })
@@ -118,6 +131,46 @@ function OutfitSearchController:_updateColorSlot(key)
 	local color = self._colors[key]
 	button.Swatch.BackgroundColor3 = color
 	button.Hex.Text = colorToHex(color)
+end
+
+function OutfitSearchController:_applyPreset(preset)
+	if self._picker then
+		self._picker:Destroy()
+		self._picker = nil
+		self._activeSlot = nil
+	end
+
+	self._colors.include1 = Color3.fromHex(preset.primary)
+	self._colors.include2 = Color3.fromHex(preset.secondary)
+	self._colors.exclude = Color3.fromHex(preset.exclude)
+
+	self:_updateColorSlot("include1")
+	self:_updateColorSlot("include2")
+	self:_updateColorSlot("exclude")
+	self._status.Text = preset.name .. " preset applied. Select Find outfits to search."
+end
+
+function OutfitSearchController:_makePresetButton(parent, preset, order)
+	local button = makeButton(parent, "", UDim2.new(1, -6, 0, 36), nil, THEME.card)
+	button.Name = preset.name
+	button.LayoutOrder = order
+
+	local label = makeLabel(button, preset.name, UDim2.new(1, -104, 1, 0), UDim2.fromOffset(10, 0), 12, THEME.text)
+	label.Font = Enum.Font.GothamMedium
+
+	for index, hex in { preset.primary, preset.secondary, preset.exclude } do
+		local swatch = create("Frame", "Swatch" .. index, button, {
+			AnchorPoint = Vector2.new(1, 0.5),
+			BackgroundColor3 = Color3.fromHex(hex),
+			Position = UDim2.new(1, -10 - ((3 - index) * 26), 0.5, 0),
+			Size = UDim2.fromOffset(20, 20),
+		})
+		addCorner(swatch, 5)
+	end
+
+	button.Activated:Connect(function()
+		self:_applyPreset(preset)
+	end)
 end
 
 function OutfitSearchController:_openPicker(key)
@@ -387,6 +440,24 @@ function OutfitSearchController:_buildInterface()
 	self._searchButton.Activated:Connect(function()
 		self:_search()
 	end)
+
+	makeLabel(sidebar, "Suit presets", UDim2.new(1, 0, 0, 20), UDim2.fromOffset(0, 440), 12, THEME.muted)
+	local presets = create("ScrollingFrame", "Presets", sidebar, {
+		AutomaticCanvasSize = Enum.AutomaticSize.Y,
+		BackgroundTransparency = 1,
+		CanvasSize = UDim2.new(),
+		Position = UDim2.fromOffset(0, 466),
+		ScrollBarImageColor3 = THEME.muted,
+		ScrollBarThickness = 4,
+		Size = UDim2.new(1, 0, 1, -466),
+	})
+	create("UIListLayout", "UIListLayout", presets, {
+		Padding = UDim.new(0, 6),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+	for index, preset in SUIT_PRESETS do
+		self:_makePresetButton(presets, preset, index)
+	end
 
 	local content = create("Frame", "RightPanel", self._screenGui, {
 		AnchorPoint = Vector2.new(1, 0.5),
