@@ -5,11 +5,14 @@
 
 .DESCRIPTION
     Deduplicates top palettes and emits only fields required by the in-game
-    color search. Run this after Build-Catalog.ps1 and Analyze-Colors.ps1.
+    color search. By default merges curated rows from manual-outfits.json
+    ahead of analyzed matches.json. Run after Build-Catalog.ps1 and
+    Analyze-Colors.ps1.
 #>
 [CmdletBinding()]
 param(
     [string] $InputPath,
+    [string] $ManualPath,
     [string] $OutputPath
 )
 
@@ -17,6 +20,9 @@ $ErrorActionPreference = 'Stop'
 
 if (-not $InputPath) {
     $InputPath = Join-Path $PSScriptRoot 'output\matches.json'
+}
+if (-not $ManualPath) {
+    $ManualPath = Join-Path $PSScriptRoot 'manual-outfits.json'
 }
 if (-not $OutputPath) {
     $OutputPath = Join-Path $PSScriptRoot '..\..\src\server\Data\OutfitCatalog'
@@ -45,8 +51,28 @@ if (-not (Test-Path $InputPath)) {
     throw "Catalog input not found: $InputPath"
 }
 
-$parsed = Get-Content -Path $InputPath -Raw | ConvertFrom-Json
-$rows = if ($parsed -is [System.Array]) { $parsed } else { @($parsed) }
+function Read-OutfitRows {
+    param([Parameter(Mandatory)] [string] $Path)
+
+    $parsed = Get-Content -Path $Path -Raw | ConvertFrom-Json
+    if ($null -eq $parsed) { return @() }
+    if ($parsed -is [System.Array]) { return @($parsed) }
+    return @($parsed)
+}
+
+# Manual curated outfits are merged first so they win palette metadata on topId conflicts.
+$rows = New-Object System.Collections.Generic.List[object]
+$manualCount = 0
+if (Test-Path $ManualPath) {
+    foreach ($row in (Read-OutfitRows -Path $ManualPath)) {
+        $rows.Add($row)
+        $manualCount += 1
+    }
+}
+foreach ($row in (Read-OutfitRows -Path $InputPath)) {
+    $rows.Add($row)
+}
+
 $paletteByTop = @{}
 $palettes = New-Object System.Collections.Generic.List[object]
 $outfits = New-Object System.Collections.Generic.List[object]
@@ -193,6 +219,6 @@ try {
 }
 
 Write-Host (
-    "Exported {0} palettes ({1} parts) and {2} outfits ({3} parts) to {4}" -f
-        $palettes.Count, $palettePartNames.Count, $outfits.Count, $outfitPartNames.Count, $OutputPath
+    "Exported {0} palettes ({1} parts) and {2} outfits ({3} parts) to {4} (merged {5} manual outfits from {6})" -f
+        $palettes.Count, $palettePartNames.Count, $outfits.Count, $outfitPartNames.Count, $OutputPath, $manualCount, $ManualPath
 )

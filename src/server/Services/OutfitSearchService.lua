@@ -20,24 +20,32 @@ local GENDER_NAMES = {
 	[2] = "feminine",
 }
 
--- Higher displayPriority sorts first. Formalitat / Emporio Armani rise;
--- Style Abby falls among color-matching results.
-local function getDisplayPriority(groupName, topName)
-	local priority = 0
+-- Higher displayPriority sorts first (primary key before color distance).
+-- Distances shown to clients stay exact; these values only affect sort order.
+local GROUP_PRIORITY = {
+	{ match = "parkson", weight = 0.08 },
+	{ match = "formalitat", weight = 0.07 },
+	{ match = "luckytux", weight = 0.07 },
+	{ match = "beneventi", weight = 0.03 },
+	{ match = "avrenzi", weight = 0.03 },
+	{ match = "obleceni", weight = 0.03 },
+	{ match = "henri bendel", weight = 0.03 },
+	{ match = "casablanca", weight = 0.03 },
+	{ match = "kestrel", weight = 0.02 },
+	{ match = "blox channel", weight = 0.02 },
+	{ match = "gravelle", weight = 0.01 },
+	{ match = "style abby", weight = 0.01 },
+}
+
+local function getDisplayPriority(groupName)
 	local group = string.lower(groupName or "")
-	local top = string.lower(topName or "")
-
-	if string.find(group, "style abby", 1, true) then
-		priority -= 1
-	end
-	if string.find(group, "formalitat", 1, true) then
-		priority += 1
-	end
-	if string.find(top, "emporio armani", 1, true) then
-		priority += 1
+	for _, entry in GROUP_PRIORITY do
+		if string.find(group, entry.match, 1, true) then
+			return entry.weight
+		end
 	end
 
-	return priority
+	return 0
 end
 
 local function srgbToLinear(value)
@@ -251,7 +259,7 @@ function OutfitSearchService:Search(request)
 				paletteIndex = paletteIndex,
 				raw = rawOutfit,
 				score = score,
-				displayPriority = getDisplayPriority(rawOutfit[7], palette.topName),
+				displayPriority = getDisplayPriority(rawOutfit[7]),
 			})
 		end
 	end

@@ -1,0 +1,35 @@
+[
+  {
+    "groupName": "LuckyTux",
+    "outfitKey": "the elliott",
+    "topId": "2172933847",
+    "topName": "The Elliott Suit Jacket",
+    "topPrice": 10,
+    "bottomId": "2174954358",
+    "bottomName": "The Elliott Suit Pants",
+    "bottomPrice": 550,
+    "priceTotal": 560,
+    "topUrl": "https://www.roblox.com/catalog/2172933847/The-Elliott-Suit-Jacket",
+    "bottomUrl": "https://www.roblox.com/catalog/2174954358/The-Elliott-Suit-Pants",
+    "gender": "masculine",
+    "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ee3a505947119c896d8134c6f077ea6b/420/420/Shirt/Png/noFilter",
+    "color1": "#8E8880",
+    "color2": "#6A6B66",
+    "color3": "#C0B6AA",
+    "colors": [
+      {
+        "hex": "#8E8880",
+        "coverage": 0.8553
+      },
+      {
+        "hex": "#6A6B66",
+        "coverage": 0.0687
+      },
+      {
+        "hex": "#C0B6AA",
+        "coverage": 0.0542
+      }
+    ],
+    "colorFrom": "top"
+  }
+]
