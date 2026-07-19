@@ -12,6 +12,7 @@ local MAX_RESULTS = 40
 local MIN_INCLUDE_COVERAGE = 0.02
 local MIN_EXCLUDE_COVERAGE = 0.05
 local REQUEST_COOLDOWN = 0.15
+local TRY_ON_COOLDOWN = 1
 
 local GENDER_NAMES = {
 	[0] = "unclassified",
@@ -91,6 +92,7 @@ local OutfitSearchService = Knit.CreateService({
 
 function OutfitSearchService:KnitInit()
 	self._lastRequest = setmetatable({}, { __mode = "k" })
+	self._lastTryOn = setmetatable({}, { __mode = "k" })
 	self._palettes = table.create(#Catalog.palettes)
 
 	for index, rawPalette in Catalog.palettes do
@@ -110,6 +112,14 @@ function OutfitSearchService:KnitInit()
 			thumbnailUrl = rawPalette[4],
 			swatches = swatches,
 		}
+	end
+
+	self._allowedOutfits = {}
+	for _, rawOutfit in Catalog.outfits do
+		local palette = self._palettes[rawOutfit[1]]
+		if palette then
+			self._allowedOutfits[string.format("%d:%d", palette.topId, rawOutfit[2])] = true
+		end
 	end
 end
 
@@ -284,6 +294,70 @@ function OutfitSearchService.Client:Search(player, request)
 	end
 	OutfitSearchService._lastRequest[player] = now
 	return OutfitSearchService:Search(request)
+end
+
+function OutfitSearchService.Client:TryOn(player, topId, bottomId)
+	topId = tonumber(topId)
+	bottomId = tonumber(bottomId)
+	if
+		not topId
+		or not bottomId
+		or topId <= 0
+		or bottomId <= 0
+		or topId ~= math.floor(topId)
+		or bottomId ~= math.floor(bottomId)
+	then
+		return {
+			ok = false,
+			error = "Invalid outfit",
+		}
+	end
+
+	local outfitKey = string.format("%d:%d", topId, bottomId)
+	if not OutfitSearchService._allowedOutfits[outfitKey] then
+		return {
+			ok = false,
+			error = "That outfit is not in the catalog",
+		}
+	end
+
+	local now = os.clock()
+	local previous = OutfitSearchService._lastTryOn[player] or 0
+	if now - previous < TRY_ON_COOLDOWN then
+		return {
+			ok = false,
+			error = "Please wait before trying another outfit",
+		}
+	end
+	OutfitSearchService._lastTryOn[player] = now
+
+	local character = player.Character
+	local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+	if not humanoid then
+		return {
+			ok = false,
+			error = "Your character is not ready",
+		}
+	end
+
+	local success, errorMessage = pcall(function()
+		local description = humanoid:GetAppliedDescription()
+		description.Shirt = topId
+		description.Pants = bottomId
+		humanoid:ApplyDescription(description)
+		description:Destroy()
+	end)
+
+	if not success then
+		return {
+			ok = false,
+			error = "Could not apply outfit: " .. tostring(errorMessage),
+		}
+	end
+
+	return {
+		ok = true,
+	}
 end
 
 return OutfitSearchService

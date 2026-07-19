@@ -129,8 +129,8 @@ function OutfitSearchController:_openPicker(key)
 	self._activeSlot = key
 	self._picker = ColorPicker.new({
 		Parent = self._screenGui,
-		Position = UDim2.fromScale(0.66, 0.5),
-		Size = UDim2.fromOffset(560, 420),
+		Position = UDim2.fromScale(0.2, 0.54),
+		Size = UDim2.fromOffset(440, 330),
 		Resizable = false,
 		PickerMode = ColorPicker.PICKER_MODE.SQUARE,
 		ColorSpace = ColorPicker.COLOR_SPACE.RGB,
@@ -175,6 +175,31 @@ function OutfitSearchController:_promptAsset(assetId)
 	if not success then
 		self._status.Text = "Could not open asset: " .. tostring(errorMessage)
 	end
+end
+
+function OutfitSearchController:_tryOn(result, button)
+	if not button.Active then
+		return
+	end
+
+	button.Active = false
+	button.Text = "Applying..."
+	self._service
+		:TryOn(result.topId, result.bottomId)
+		:andThen(function(response)
+			button.Active = true
+			button.Text = "Try on"
+			if response and response.ok then
+				self._status.Text = "Outfit applied to your avatar."
+			else
+				self._status.Text = if response then response.error else "Could not apply outfit"
+			end
+		end)
+		:catch(function(errorMessage)
+			button.Active = true
+			button.Text = "Try on"
+			self._status.Text = "Could not apply outfit: " .. tostring(errorMessage)
+		end)
 end
 
 function OutfitSearchController:_renderResult(result, order)
@@ -223,14 +248,20 @@ function OutfitSearchController:_renderResult(result, order)
 	local match = makeLabel(card, matchText, UDim2.new(1, -135, 0, 20), UDim2.fromOffset(128, 73), 11, THEME.muted)
 	match.Font = Enum.Font.Code
 
-	local topButton = makeButton(card, "Top", UDim2.fromOffset(72, 25), UDim2.fromOffset(128, 96), THEME.accent)
+	local topButton = makeButton(card, "Buy top", UDim2.fromOffset(82, 25), UDim2.fromOffset(128, 96), THEME.accent)
 	topButton.Activated:Connect(function()
 		self:_promptAsset(result.topId)
 	end)
 
-	local bottomButton = makeButton(card, "Bottom", UDim2.fromOffset(72, 25), UDim2.fromOffset(208, 96), THEME.panel)
+	local bottomButton =
+		makeButton(card, "Buy bottom", UDim2.fromOffset(90, 25), UDim2.fromOffset(218, 96), THEME.panel)
 	bottomButton.Activated:Connect(function()
 		self:_promptAsset(result.bottomId)
+	end)
+
+	local tryOnButton = makeButton(card, "Try on", UDim2.fromOffset(78, 25), UDim2.fromOffset(316, 96), THEME.panel)
+	tryOnButton.Activated:Connect(function()
+		self:_tryOn(result, tryOnButton)
 	end)
 end
 
@@ -304,21 +335,11 @@ function OutfitSearchController:_buildInterface()
 		ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 	})
 
-	local window = create("Frame", "Window", self._screenGui, {
-		AnchorPoint = Vector2.new(0.5, 0.5),
-		BackgroundColor3 = THEME.background,
-		Position = UDim2.fromScale(0.5, 0.5),
-		Size = UDim2.fromScale(0.88, 0.84),
-	})
-	addCorner(window, 14)
-	create("UISizeConstraint", "UISizeConstraint", window, {
-		MaxSize = Vector2.new(1120, 760),
-		MinSize = Vector2.new(720, 480),
-	})
-
-	local sidebar = create("Frame", "Sidebar", window, {
+	local sidebar = create("Frame", "LeftPanel", self._screenGui, {
+		AnchorPoint = Vector2.new(0, 0.5),
 		BackgroundColor3 = THEME.panel,
-		Size = UDim2.new(0, 280, 1, 0),
+		Position = UDim2.new(0, 16, 0.5, 0),
+		Size = UDim2.new(0, 300, 1, -32),
 	})
 	addCorner(sidebar, 14)
 	addPadding(sidebar, 18)
@@ -367,11 +388,13 @@ function OutfitSearchController:_buildInterface()
 		self:_search()
 	end)
 
-	local content = create("Frame", "Content", window, {
-		BackgroundTransparency = 1,
-		Position = UDim2.new(0, 280, 0, 0),
-		Size = UDim2.new(1, -280, 1, 0),
+	local content = create("Frame", "RightPanel", self._screenGui, {
+		AnchorPoint = Vector2.new(1, 0.5),
+		BackgroundColor3 = THEME.background,
+		Position = UDim2.new(1, -16, 0.5, 0),
+		Size = UDim2.new(0, 460, 1, -32),
 	})
+	addCorner(content, 14)
 	addPadding(content, 18)
 
 	self._status =
