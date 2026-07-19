@@ -49,6 +49,7 @@ function Slider:Create()
 	local sample = samplesFolder:WaitForChild("SliderSample"):Clone()
 	sample.Parent = self.ColorPicker.Instance:WaitForChild("Sliders")
 	sample.Name = tostring(self.LayoutOrder)
+	sample:WaitForChild("Title").Text = self.Title
 
 	return sample
 end

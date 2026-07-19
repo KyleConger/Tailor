@@ -38,8 +38,10 @@ local MouseMovement = require(script:WaitForChild("MouseMovement"))
 local Styling = require(script:WaitForChild("Styling"))
 local Slider = require(script:WaitForChild("Slider"))
 local Types = require(script:WaitForChild("Types"))
+local SamplesFactory = require(script:WaitForChild("SamplesFactory"))
 
 local samplesFolder = script:WaitForChild("Samples")
+SamplesFactory.ensure(samplesFolder)
 
 local PICKER_MODE = {
 	CIRCLE = "Circle",
@@ -169,8 +171,18 @@ function ColorPicker:SetPickerMode(pickerMode: PickerMode)
 	local pickerModeFrame = settingsFrame:WaitForChild("PickerMode")
 
 	for _, v in pickerModeFrame:GetChildren() do
+		local icon = v:FindFirstChild("Icon")
+		if not icon then
+			continue
+		end
+
 		local selected = v.Name == pickerMode
-		v.Icon.ImageTransparency = if selected then 0 else 0.5
+		local transparency = if selected then 0 else 0.5
+		if icon:IsA("ImageLabel") or icon:IsA("ImageButton") then
+			icon.ImageTransparency = transparency
+		elseif icon:IsA("TextLabel") or icon:IsA("TextButton") then
+			icon.TextTransparency = transparency
+		end
 	end
 
 	self.PickerMode = pickerMode

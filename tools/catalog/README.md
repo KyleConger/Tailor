@@ -69,6 +69,22 @@ the top's colors (`colorFrom = top`). Paired bottoms are marked
 | `catalog.*` | Same fields merged onto each item |
 | `matches.*` | Outfit colors taken from the top |
 
+### Runtime color-search export
+
+After color analysis, regenerate the server-only in-game catalog:
+
+```powershell
+./Export-RuntimeCatalog.ps1
+```
+
+This writes chunked modules under `src/server/Data/OutfitCatalog/`, deduplicating
+top palettes so the raw multi-megabyte JSON files are not replicated to clients. The in-game
+search uses OKLab perceptual distance, requires the two included colors to
+match distinct palette swatches, and rejects palettes near the excluded color.
+
+The current source data describes the **top garment only**. Analyze paired
+bottoms as well before treating exclusion as a whole-outfit guarantee.
+
 ## Gender classification
 
 

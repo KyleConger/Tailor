@@ -33,6 +33,9 @@ src/
     ServerSentryLoader.server.lua
     Services/
       BootstrapService.lua
+      OutfitSearchService.lua    # server-side OKLab proximity search
+    Data/
+      OutfitCatalog/             # generated compact outfit/color data chunks
     Components/
       ExampleComponent.lua       # tag: "Example"
   client/
@@ -40,8 +43,9 @@ src/
     ClientSentryLoader.client.lua
     Controllers/
       BootstrapController.lua
+      OutfitSearchController.lua # 2 include + 1 exclude perceptual color UI
     Components/
-      init.meta.json             # placeholder for client component extensions
+      ColorPicker/               # self-contained hex/RGB/HSV picker
   shared/
     LoggerConfig.lua
     LoggerSetup.lua
@@ -84,6 +88,14 @@ src/
 ## Controllers
 
 - **BootstrapController** — logs when client Knit finishes starting
+- **OutfitSearchController** — renders color selection and ranked outfit results
+
+## Outfit color search
+
+- Generate runtime data with `tools/catalog/Export-RuntimeCatalog.ps1`.
+- Search requires two included colors to match distinct top-palette swatches.
+- A matching excluded swatch rejects the outfit.
+- Distance is measured in OKLab; the current catalog only analyzes top garments.
 
 ## Components
 

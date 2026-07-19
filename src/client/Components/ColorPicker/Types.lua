@@ -6,7 +6,7 @@ export type Color = {
 }
 
 export type Params = {
-	Parent: SurfaceGui?,
+	Parent: LayerCollector?,
 	Position: UDim2?,
 	Size: (number | UDim2)?,
 	TopbarEnabled: boolean?,
@@ -38,7 +38,7 @@ export type ColorPicker = {
 	SetHSV: (self: ColorPicker, number, number, number) -> nil,
 	GetHSV: (self: ColorPicker) -> (number, number, number),
 	SetColor: (self: ColorPicker, Color3) -> nil,
-	GetColor: (self: ColorPicker) -> (Color3, number?),
+	GetColor: (self: ColorPicker) -> Color3,
 	SetTransparency: (self: ColorPicker, number) -> nil,
 	GetTransparency: (self: ColorPicker) -> number?,
 
