@@ -158,7 +158,8 @@ function OutfitSearchService:_validateRequest(request)
 	if typeof(request.include1) ~= "Color3" or typeof(request.include2) ~= "Color3" then
 		return nil, "Two included colors are required"
 	end
-	if request.exclude ~= nil and typeof(request.exclude) ~= "Color3" then
+	local useExclude = request.useExclude == true
+	if useExclude and request.exclude ~= nil and typeof(request.exclude) ~= "Color3" then
 		return nil, "Excluded color must be a Color3"
 	end
 
@@ -170,7 +171,7 @@ function OutfitSearchService:_validateRequest(request)
 	return {
 		include1 = color3ToOklab(request.include1),
 		include2 = color3ToOklab(request.include2),
-		exclude = if request.exclude then color3ToOklab(request.exclude) else nil,
+		exclude = if useExclude and request.exclude then color3ToOklab(request.exclude) else nil,
 		radius = math.clamp(tonumber(request.radius) or DEFAULT_RADIUS, MIN_RADIUS, MAX_RADIUS),
 		limit = math.clamp(math.floor(tonumber(request.limit) or 24), 1, MAX_RESULTS),
 		gender = gender,
@@ -178,15 +179,10 @@ function OutfitSearchService:_validateRequest(request)
 end
 
 function OutfitSearchService:_scorePalette(palette, request)
-	if request.exclude then
-		for _, swatch in palette.swatches do
-			if swatch.coverage >= MIN_EXCLUDE_COVERAGE and distance(request.exclude, swatch.lab) <= request.radius then
-				return nil
-			end
-		end
-	end
-
 	local best
+	local bestFirstIndex
+	local bestSecondIndex
+
 	for firstIndex, first in palette.swatches do
 		local firstDistance = distance(request.include1, first.lab)
 		if first.coverage >= MIN_INCLUDE_COVERAGE and firstDistance <= request.radius then
@@ -221,8 +217,25 @@ function OutfitSearchService:_scorePalette(palette, request)
 								firstDistance = firstDistance,
 								secondDistance = secondDistance,
 							}
+							bestFirstIndex = firstIndex
+							bestSecondIndex = secondIndex
 						end
 					end
+				end
+			end
+		end
+	end
+
+	if not best then
+		return nil
+	end
+
+	-- Only reject accent swatches not used for the include match.
+	if request.exclude then
+		for index, swatch in palette.swatches do
+			if index ~= bestFirstIndex and index ~= bestSecondIndex then
+				if swatch.coverage >= MIN_EXCLUDE_COVERAGE and distance(request.exclude, swatch.lab) <= request.radius then
+					return nil
 				end
 			end
 		end

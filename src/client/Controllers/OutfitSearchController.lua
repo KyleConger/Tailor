@@ -134,6 +134,31 @@ function OutfitSearchController:_updateColorSlot(key)
 	button.Hex.Text = colorToHex(color)
 end
 
+function OutfitSearchController:_updateExcludeToggle()
+	local enabled = self._excludeEnabled
+	self._excludeToggle.Text = if enabled then "Omit color: On" else "Omit color: Off"
+	self._excludeToggle.BackgroundColor3 = if enabled then THEME.accent else THEME.card
+
+	local excludeButton = self._slotButtons.exclude
+	if enabled then
+		excludeButton.BackgroundColor3 = THEME.card
+		excludeButton.Swatch.BackgroundTransparency = 0
+		for _, label in excludeButton:GetChildren() do
+			if label:IsA("TextLabel") then
+				label.TextTransparency = 0
+			end
+		end
+	else
+		excludeButton.BackgroundColor3 = THEME.panel
+		excludeButton.Swatch.BackgroundTransparency = 0.45
+		for _, label in excludeButton:GetChildren() do
+			if label:IsA("TextLabel") then
+				label.TextTransparency = 0.35
+			end
+		end
+	end
+end
+
 function OutfitSearchController:_applyPreset(preset)
 	if self._picker then
 		self._picker:Destroy()
@@ -144,11 +169,13 @@ function OutfitSearchController:_applyPreset(preset)
 	self._colors.include1 = Color3.fromHex(preset.primary)
 	self._colors.include2 = Color3.fromHex(preset.secondary)
 	self._colors.exclude = Color3.fromHex(preset.exclude)
+	self._excludeEnabled = true
 
 	self:_updateColorSlot("include1")
 	self:_updateColorSlot("include2")
 	self:_updateColorSlot("exclude")
-	self._status.Text = preset.name .. " preset applied. Select Find outfits to search."
+	self:_updateExcludeToggle()
+	self._status.Text = preset.name .. " preset applied with omit enabled."
 end
 
 function OutfitSearchController:_makePresetButton(parent, preset, order)
@@ -338,7 +365,7 @@ function OutfitSearchController:_renderResponse(response)
 	if #response.results == 0 then
 		local empty = makeLabel(
 			self._results,
-			"No outfits matched all three color rules. Increase the radius or choose broader colors.",
+			"No outfits matched your color rules. Increase the radius, turn omit off, or choose broader colors.",
 			UDim2.new(1, -8, 0, 80),
 			nil,
 			14,
@@ -366,7 +393,8 @@ function OutfitSearchController:_search()
 		:Search({
 			include1 = self._colors.include1,
 			include2 = self._colors.include2,
-			exclude = self._colors.exclude,
+			useExclude = self._excludeEnabled,
+			exclude = if self._excludeEnabled then self._colors.exclude else nil,
 			radius = self:_getRadius(),
 			limit = 30,
 		})
@@ -402,7 +430,7 @@ function OutfitSearchController:_buildInterface()
 	title.Font = Enum.Font.GothamBold
 	makeLabel(
 		sidebar,
-		"Choose two colors that must appear and one color to reject.",
+		"Choose two include colors. Optionally reject an accent with omit.",
 		UDim2.new(1, 0, 0, 44),
 		UDim2.fromOffset(0, 34),
 		12,
@@ -412,7 +440,7 @@ function OutfitSearchController:_buildInterface()
 	local slots = create("Frame", "Slots", sidebar, {
 		BackgroundTransparency = 1,
 		Position = UDim2.fromOffset(0, 92),
-		Size = UDim2.new(1, 0, 0, 190),
+		Size = UDim2.new(1, 0, 0, 232),
 	})
 	create("UIListLayout", "UIListLayout", slots, {
 		Padding = UDim.new(0, 8),
@@ -421,13 +449,20 @@ function OutfitSearchController:_buildInterface()
 
 	self:_makeColorSlot(slots, "include1", "Include color 1", self._colors.include1, 1)
 	self:_makeColorSlot(slots, "include2", "Include color 2", self._colors.include2, 2)
-	self:_makeColorSlot(slots, "exclude", "Exclude color", self._colors.exclude, 3)
+	self:_makeColorSlot(slots, "exclude", "Omit color", self._colors.exclude, 3)
 
-	makeLabel(sidebar, "Match radius (2.5–35%)", UDim2.new(1, 0, 0, 20), UDim2.fromOffset(0, 300), 12, THEME.muted)
+	self._excludeToggle = makeButton(slots, "Omit color: Off", UDim2.new(1, 0, 0, 36), nil, THEME.card)
+	self._excludeToggle.LayoutOrder = 4
+	self._excludeToggle.Activated:Connect(function()
+		self._excludeEnabled = not self._excludeEnabled
+		self:_updateExcludeToggle()
+	end)
+
+	makeLabel(sidebar, "Match radius (2.5–35%)", UDim2.new(1, 0, 0, 20), UDim2.fromOffset(0, 342), 12, THEME.muted)
 	self._radiusInput = create("TextBox", "Radius", sidebar, {
 		BackgroundColor3 = THEME.card,
 		ClearTextOnFocus = false,
-		Position = UDim2.fromOffset(0, 326),
+		Position = UDim2.fromOffset(0, 368),
 		Size = UDim2.new(1, 0, 0, 40),
 		Text = string.format("%.1f", DEFAULT_RADIUS * 100),
 		TextColor3 = THEME.text,
@@ -437,20 +472,20 @@ function OutfitSearchController:_buildInterface()
 	addCorner(self._radiusInput, 9)
 
 	self._searchButton =
-		makeButton(sidebar, "Find outfits", UDim2.new(1, 0, 0, 44), UDim2.fromOffset(0, 380), THEME.accent)
+		makeButton(sidebar, "Find outfits", UDim2.new(1, 0, 0, 44), UDim2.fromOffset(0, 422), THEME.accent)
 	self._searchButton.Activated:Connect(function()
 		self:_search()
 	end)
 
-	makeLabel(sidebar, "Suit presets", UDim2.new(1, 0, 0, 20), UDim2.fromOffset(0, 440), 12, THEME.muted)
+	makeLabel(sidebar, "Suit presets", UDim2.new(1, 0, 0, 20), UDim2.fromOffset(0, 482), 12, THEME.muted)
 	local presets = create("ScrollingFrame", "Presets", sidebar, {
 		AutomaticCanvasSize = Enum.AutomaticSize.Y,
 		BackgroundTransparency = 1,
 		CanvasSize = UDim2.new(),
-		Position = UDim2.fromOffset(0, 466),
+		Position = UDim2.fromOffset(0, 508),
 		ScrollBarImageColor3 = THEME.muted,
 		ScrollBarThickness = 4,
-		Size = UDim2.new(1, 0, 1, -466),
+		Size = UDim2.new(1, 0, 1, -508),
 	})
 	create("UIListLayout", "UIListLayout", presets, {
 		Padding = UDim.new(0, 6),
@@ -494,7 +529,9 @@ function OutfitSearchController:KnitStart()
 		exclude = Color3.fromHex("#D02030"),
 	}
 	self._slotButtons = {}
+	self._excludeEnabled = false
 	self:_buildInterface()
+	self:_updateExcludeToggle()
 end
 
 return OutfitSearchController
