@@ -1,5 +1,6 @@
 local MarketplaceService = game:GetService("MarketplaceService")
 local Players = game:GetService("Players")
+local RecommendationService = game:GetService("RecommendationService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Packages = ReplicatedStorage:WaitForChild("Packages")
@@ -9,6 +10,7 @@ local ColorPicker = require(script.Parent.Parent.Components.ColorPicker)
 
 local PLAYER = Players.LocalPlayer
 local DEFAULT_RADIUS = 0.12
+local RECOMMENDATION_PAGE_SIZE = 10
 
 local THEME = {
 	background = Color3.fromRGB(17, 19, 24),
@@ -249,13 +251,54 @@ function OutfitSearchController:_clearResults()
 	end
 end
 
-function OutfitSearchController:_promptAsset(assetId)
+function OutfitSearchController:_promptAsset(assetId, recommendation)
+	if recommendation and recommendation.itemId and recommendation.tracingId then
+		self._pendingPurchases[tonumber(assetId)] = {
+			itemId = recommendation.itemId,
+			tracingId = recommendation.tracingId,
+		}
+	end
+
 	local success, errorMessage = pcall(function()
 		MarketplaceService:PromptPurchase(PLAYER, assetId)
 	end)
 	if not success then
+		self._pendingPurchases[tonumber(assetId)] = nil
 		self._status.Text = "Could not open asset: " .. tostring(errorMessage)
 	end
+end
+
+function OutfitSearchController:_logImpression(result, position)
+	if not result.itemId or not result.tracingId then
+		return
+	end
+	if self._impressedItems[result.itemId] then
+		return
+	end
+	self._impressedItems[result.itemId] = true
+
+	pcall(function()
+		RecommendationService:LogImpressionEvent(
+			Enum.RecommendationImpressionType.View,
+			result.itemId,
+			result.tracingId,
+			{
+				Duration = 1,
+				ItemPosition = position,
+				DepartureIntent = Enum.RecommendationDepartureIntent.Neutral,
+			}
+		)
+	end)
+end
+
+function OutfitSearchController:_logRecommendationAction(actionType, result, details)
+	if not result or not result.itemId or not result.tracingId then
+		return
+	end
+
+	pcall(function()
+		RecommendationService:LogActionEvent(actionType, result.itemId, result.tracingId, details)
+	end)
 end
 
 function OutfitSearchController:_tryOn(result, button)
@@ -272,6 +315,10 @@ function OutfitSearchController:_tryOn(result, button)
 			button.Text = "Try on"
 			if response and response.ok then
 				self._status.Text = "Outfit applied to your avatar."
+				self:_logRecommendationAction(Enum.RecommendationActionType.AddReaction, result, {
+					ReactionType = "TryOn",
+					Weight = 1,
+				})
 			else
 				self._status.Text = if response then response.error else "Could not apply outfit"
 			end
@@ -283,11 +330,12 @@ function OutfitSearchController:_tryOn(result, button)
 		end)
 end
 
-function OutfitSearchController:_renderResult(result, order)
-	local card = create("Frame", "Result", self._results, {
+function OutfitSearchController:_renderResult(result, order, parent, options)
+	options = options or {}
+	local card = create("Frame", "Result", parent or self._results, {
 		BackgroundColor3 = THEME.card,
 		LayoutOrder = order,
-		Size = UDim2.new(1, -8, 0, 126),
+		Size = options.size or UDim2.new(1, -8, 0, 126),
 	})
 	addCorner(card, 10)
 
@@ -318,32 +366,104 @@ function OutfitSearchController:_renderResult(result, order)
 		THEME.muted
 	)
 
-	local matchText = string.format(
-		"%s %.1f%%  •  %s %.1f%%  •  R$%d",
-		result.firstHex,
-		result.firstDistance * 100,
-		result.secondHex,
-		result.secondDistance * 100,
-		result.priceTotal
-	)
+	local matchText
+	if result.firstHex and result.secondHex then
+		matchText = string.format(
+			"%s %.1f%%  •  %s %.1f%%  •  R$%d",
+			result.firstHex,
+			result.firstDistance * 100,
+			result.secondHex,
+			result.secondDistance * 100,
+			result.priceTotal
+		)
+	else
+		matchText = string.format("%s  •  R$%d", result.groupName or "Recommended", result.priceTotal or 0)
+	end
 	local match = makeLabel(card, matchText, UDim2.new(1, -135, 0, 20), UDim2.fromOffset(128, 73), 11, THEME.muted)
 	match.Font = Enum.Font.Code
 
 	local topButton = makeButton(card, "Buy top", UDim2.fromOffset(82, 25), UDim2.fromOffset(128, 96), THEME.accent)
 	topButton.Activated:Connect(function()
-		self:_promptAsset(result.topId)
+		self:_promptAsset(result.topId, result)
 	end)
 
 	local bottomButton =
 		makeButton(card, "Buy bottom", UDim2.fromOffset(90, 25), UDim2.fromOffset(218, 96), THEME.panel)
 	bottomButton.Activated:Connect(function()
-		self:_promptAsset(result.bottomId)
+		self:_promptAsset(result.bottomId, result)
 	end)
 
 	local tryOnButton = makeButton(card, "Try on", UDim2.fromOffset(78, 25), UDim2.fromOffset(316, 96), THEME.panel)
 	tryOnButton.Activated:Connect(function()
 		self:_tryOn(result, tryOnButton)
 	end)
+
+	if options.logImpression then
+		self:_logImpression(result, order)
+	end
+end
+
+function OutfitSearchController:_clearRecommended()
+	for _, child in self._recommended:GetChildren() do
+		if not child:IsA("UIListLayout") and not child:IsA("UIPadding") then
+			child:Destroy()
+		end
+	end
+end
+
+function OutfitSearchController:_renderRecommendations(response)
+	self:_clearRecommended()
+
+	if not response or not response.ok then
+		local empty = makeLabel(
+			self._recommended,
+			if response and response.error
+				then "Recommendations unavailable right now."
+				else "No recommendations yet. Publish and register outfits in a live session.",
+			UDim2.new(1, -8, 1, -8),
+			UDim2.fromOffset(4, 4),
+			12,
+			THEME.muted
+		)
+		empty.TextXAlignment = Enum.TextXAlignment.Center
+		empty.TextYAlignment = Enum.TextYAlignment.Center
+		return
+	end
+
+	if #response.results == 0 then
+		local empty = makeLabel(
+			self._recommended,
+			"No personalized outfits yet. Catalog registration may still be running.",
+			UDim2.new(1, -8, 1, -8),
+			UDim2.fromOffset(4, 4),
+			12,
+			THEME.muted
+		)
+		empty.TextXAlignment = Enum.TextXAlignment.Center
+		empty.TextYAlignment = Enum.TextYAlignment.Center
+		return
+	end
+
+	for index, result in response.results do
+		self:_renderResult(result, index, self._recommended, {
+			size = UDim2.fromOffset(404, 126),
+			logImpression = true,
+		})
+	end
+end
+
+function OutfitSearchController:_loadRecommendations()
+	self._recommendations
+		:GetRecommendations(RECOMMENDATION_PAGE_SIZE)
+		:andThen(function(response)
+			self:_renderRecommendations(response)
+		end)
+		:catch(function(errorMessage)
+			self:_renderRecommendations({
+				ok = false,
+				error = tostring(errorMessage),
+			})
+		end)
 end
 
 function OutfitSearchController:_renderResponse(response)
@@ -506,14 +626,38 @@ function OutfitSearchController:_buildInterface()
 
 	self._status =
 		makeLabel(content, "Choose your colors, then search.", UDim2.new(1, 0, 0, 28), nil, 13, THEME.muted)
+
+	local recommendedHeader = makeLabel(content, "Recommended for you", UDim2.new(1, -90, 0, 20), UDim2.fromOffset(0, 34), 12, THEME.muted)
+	recommendedHeader.Font = Enum.Font.GothamMedium
+	self._refreshRecommendations = makeButton(content, "Refresh", UDim2.fromOffset(78, 24), UDim2.new(1, -78, 0, 32), THEME.panel)
+	self._refreshRecommendations.Activated:Connect(function()
+		self:_loadRecommendations()
+	end)
+
+	self._recommended = create("ScrollingFrame", "Recommended", content, {
+		AutomaticCanvasSize = Enum.AutomaticSize.X,
+		BackgroundTransparency = 1,
+		CanvasSize = UDim2.new(),
+		Position = UDim2.fromOffset(0, 58),
+		ScrollBarImageColor3 = THEME.muted,
+		ScrollBarThickness = 4,
+		ScrollingDirection = Enum.ScrollingDirection.X,
+		Size = UDim2.new(1, 0, 0, 140),
+	})
+	create("UIListLayout", "UIListLayout", self._recommended, {
+		FillDirection = Enum.FillDirection.Horizontal,
+		Padding = UDim.new(0, 10),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+
 	self._results = create("ScrollingFrame", "Results", content, {
 		AutomaticCanvasSize = Enum.AutomaticSize.Y,
 		BackgroundTransparency = 1,
 		CanvasSize = UDim2.new(),
-		Position = UDim2.fromOffset(0, 38),
+		Position = UDim2.fromOffset(0, 208),
 		ScrollBarImageColor3 = THEME.muted,
 		ScrollBarThickness = 5,
-		Size = UDim2.new(1, 0, 1, -38),
+		Size = UDim2.new(1, 0, 1, -208),
 	})
 	create("UIListLayout", "UIListLayout", self._results, {
 		Padding = UDim.new(0, 10),
@@ -523,6 +667,7 @@ end
 
 function OutfitSearchController:KnitStart()
 	self._service = Knit.GetService("OutfitSearchService")
+	self._recommendations = Knit.GetService("OutfitRecommendationService")
 	self._colors = {
 		include1 = Color3.fromHex("#202020"),
 		include2 = Color3.fromHex("#81807E"),
@@ -530,8 +675,29 @@ function OutfitSearchController:KnitStart()
 	}
 	self._slotButtons = {}
 	self._excludeEnabled = false
+	self._impressedItems = {}
+	self._pendingPurchases = {}
 	self:_buildInterface()
 	self:_updateExcludeToggle()
+
+	MarketplaceService.PromptPurchaseFinished:Connect(function(player, assetId, isPurchased)
+		if player ~= PLAYER then
+			return
+		end
+
+		local pending = self._pendingPurchases[tonumber(assetId)]
+		self._pendingPurchases[tonumber(assetId)] = nil
+		if not isPurchased or not pending then
+			return
+		end
+
+		self:_logRecommendationAction(Enum.RecommendationActionType.Purchase, pending, {
+			Weight = 1,
+		})
+		self._status.Text = "Purchase recorded for recommendations."
+	end)
+
+	self:_loadRecommendations()
 end
 
 return OutfitSearchController
