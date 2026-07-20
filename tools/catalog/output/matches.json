@@ -34342,6 +34342,40 @@
     {
         "groupId":  "3100013",
         "groupName":  "Obleceni",
+        "outfitKey":  "john got ti dapper overcoat",
+        "topId":  "8907559398",
+        "topName":  "[Obleceni®] John Got ti Dapper Overcoat Variant",
+        "topPrice":  "10",
+        "bottomId":  "8887804866",
+        "bottomName":  "[Obleceni®] John Got ti Dapper Overcoat Lower",
+        "bottomPrice":  "10",
+        "priceTotal":  "20",
+        "topUrl":  "https://www.roblox.com/catalog/8907559398",
+        "bottomUrl":  "https://www.roblox.com/catalog/8887804866",
+        "gender":  "masculine",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-c125f7a65a98432adb769b9ef37969b6/420/420/Shirt/Png/noFilter",
+        "color1":  "#72727A",
+        "color2":  "#525255",
+        "color3":  "#91908D",
+        "colors":  [
+                       {
+                           "hex":  "#72727A",
+                           "coverage":  0.9503
+                       },
+                       {
+                           "hex":  "#525255",
+                           "coverage":  0.0166
+                       },
+                       {
+                           "hex":  "#91908D",
+                           "coverage":  0.0132
+                       }
+                   ],
+        "colorFrom":  "top"
+    },
+    {
+        "groupId":  "3100013",
+        "groupName":  "Obleceni",
         "outfitKey":  "moltisanti s closed grey sb suit",
         "topId":  "10805671762",
         "topName":  "[Obleceni®] Moltisanti\u0027s Closed Grey SB Suit Upper",
@@ -83431,6 +83465,244 @@
                        {
                            "hex":  "#53525A",
                            "coverage":  0.1407
+                       }
+                   ],
+        "colorFrom":  "top"
+    },
+    {
+        "groupId":  "7800647",
+        "groupName":  "Studio 20 Clothing Co.",
+        "outfitKey":  "black suit",
+        "topId":  "5817607431",
+        "topName":  "+ Black Suit Jacket Top",
+        "topPrice":  "5",
+        "bottomId":  "6226105350",
+        "bottomName":  "- Black Suit Pants",
+        "bottomPrice":  "5",
+        "priceTotal":  "10",
+        "topUrl":  "https://www.roblox.com/catalog/5817607431",
+        "bottomUrl":  "https://www.roblox.com/catalog/6226105350",
+        "gender":  "unclassified",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-cd252f8d16cf1f9e9ee6f0c46461ce60/420/420/Shirt/Png/noFilter",
+        "color1":  "#191919",
+        "color2":  "#82827F",
+        "color3":  "#444443",
+        "colors":  [
+                       {
+                           "hex":  "#191919",
+                           "coverage":  0.7934
+                       },
+                       {
+                           "hex":  "#82827F",
+                           "coverage":  0.1221
+                       },
+                       {
+                           "hex":  "#444443",
+                           "coverage":  0.0563
+                       }
+                   ],
+        "colorFrom":  "top"
+    },
+    {
+        "groupId":  "7800647",
+        "groupName":  "Studio 20 Clothing Co.",
+        "outfitKey":  "black suit",
+        "topId":  "5817607431",
+        "topName":  "+ Black Suit Jacket Top",
+        "topPrice":  "5",
+        "bottomId":  "5817608537",
+        "bottomName":  "- Black Suit Pants (Dropdown)",
+        "bottomPrice":  "5",
+        "priceTotal":  "10",
+        "topUrl":  "https://www.roblox.com/catalog/5817607431",
+        "bottomUrl":  "https://www.roblox.com/catalog/5817608537",
+        "gender":  "unclassified",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-cd252f8d16cf1f9e9ee6f0c46461ce60/420/420/Shirt/Png/noFilter",
+        "color1":  "#191919",
+        "color2":  "#82827F",
+        "color3":  "#444443",
+        "colors":  [
+                       {
+                           "hex":  "#191919",
+                           "coverage":  0.7934
+                       },
+                       {
+                           "hex":  "#82827F",
+                           "coverage":  0.1221
+                       },
+                       {
+                           "hex":  "#444443",
+                           "coverage":  0.0563
+                       }
+                   ],
+        "colorFrom":  "top"
+    },
+    {
+        "groupId":  "7800647",
+        "groupName":  "Studio 20 Clothing Co.",
+        "outfitKey":  "casual doctor outfit 2",
+        "topId":  "7118286254",
+        "topName":  "+ Casual Doctor Outfit Variant #2",
+        "topPrice":  "5",
+        "bottomId":  "7118360533",
+        "bottomName":  "- Casual Doctor Outfit Dropdown #2",
+        "bottomPrice":  "5",
+        "priceTotal":  "10",
+        "topUrl":  "https://www.roblox.com/catalog/7118286254",
+        "bottomUrl":  "https://www.roblox.com/catalog/7118360533",
+        "gender":  "unclassified",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-d6831c88defc878367bd708b6402b98f/420/420/Shirt/Png/noFilter",
+        "color1":  "#7B7D7D",
+        "color2":  "#EEEDED",
+        "color3":  "#22252A",
+        "colors":  [
+                       {
+                           "hex":  "#7B7D7D",
+                           "coverage":  0.5967
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1602
+                       },
+                       {
+                           "hex":  "#22252A",
+                           "coverage":  0.1547
+                       }
+                   ],
+        "colorFrom":  "top"
+    },
+    {
+        "groupId":  "7800647",
+        "groupName":  "Studio 20 Clothing Co.",
+        "outfitKey":  "casual doctor outfit 3",
+        "topId":  "7118286899",
+        "topName":  "+ Casual Doctor Outfit Variant #3",
+        "topPrice":  "5",
+        "bottomId":  "7118361095",
+        "bottomName":  "- Casual Doctor Outfit Dropdown #3",
+        "bottomPrice":  "5",
+        "priceTotal":  "10",
+        "topUrl":  "https://www.roblox.com/catalog/7118286899",
+        "bottomUrl":  "https://www.roblox.com/catalog/7118361095",
+        "gender":  "unclassified",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-36f5bb3a0a433a79bcb002aea7439b32/420/420/Shirt/Png/noFilter",
+        "color1":  "#7E8283",
+        "color2":  "#485B79",
+        "color3":  "#EEEDED",
+        "colors":  [
+                       {
+                           "hex":  "#7E8283",
+                           "coverage":  0.5611
+                       },
+                       {
+                           "hex":  "#485B79",
+                           "coverage":  0.2
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1611
+                       }
+                   ],
+        "colorFrom":  "top"
+    },
+    {
+        "groupId":  "7800647",
+        "groupName":  "Studio 20 Clothing Co.",
+        "outfitKey":  "open suit",
+        "topId":  "6226107703",
+        "topName":  "+ Open Suit",
+        "topPrice":  "5",
+        "bottomId":  "6226107189",
+        "bottomName":  "- Open Suit",
+        "bottomPrice":  "5",
+        "priceTotal":  "10",
+        "topUrl":  "https://www.roblox.com/catalog/6226107703",
+        "bottomUrl":  "https://www.roblox.com/catalog/6226107189",
+        "gender":  "unclassified",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-e173e01c51b319959a74b6265d8e51d2/420/420/Shirt/Png/noFilter",
+        "color1":  "#1E1E1E",
+        "color2":  "#838380",
+        "color3":  "#4E4E4D",
+        "colors":  [
+                       {
+                           "hex":  "#1E1E1E",
+                           "coverage":  0.8003
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.1326
+                       },
+                       {
+                           "hex":  "#4E4E4D",
+                           "coverage":  0.0386
+                       }
+                   ],
+        "colorFrom":  "top"
+    },
+    {
+        "groupId":  "7800647",
+        "groupName":  "Studio 20 Clothing Co.",
+        "outfitKey":  "let s make america great again golf outfit v1",
+        "topId":  "6070841240",
+        "topName":  "+ \"Let\u0027s Make America Great Again\" Golf Outfit V1",
+        "topPrice":  "5",
+        "bottomId":  "6070842254",
+        "bottomName":  "- \"Let\u0027s Make America Great Again\" Golf Outfit V1",
+        "bottomPrice":  "5",
+        "priceTotal":  "10",
+        "topUrl":  "https://www.roblox.com/catalog/6070841240",
+        "bottomUrl":  "https://www.roblox.com/catalog/6070842254",
+        "gender":  "unclassified",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-28b370bbe6bbeb0e78c23f82b98ec77f/420/420/Shirt/Png/noFilter",
+        "color1":  "#878682",
+        "color2":  "#E0E4E5",
+        "color3":  "#8B7757",
+        "colors":  [
+                       {
+                           "hex":  "#878682",
+                           "coverage":  0.7426
+                       },
+                       {
+                           "hex":  "#E0E4E5",
+                           "coverage":  0.1618
+                       },
+                       {
+                           "hex":  "#8B7757",
+                           "coverage":  0.0588
+                       }
+                   ],
+        "colorFrom":  "top"
+    },
+    {
+        "groupId":  "7800647",
+        "groupName":  "Studio 20 Clothing Co.",
+        "outfitKey":  "casual doctor outfit 1",
+        "topId":  "7118284871",
+        "topName":  "+ Casual Doctor Outfit Variant #1",
+        "topPrice":  "5",
+        "bottomId":  "7118295929",
+        "bottomName":  "- Casual Doctor Outfit Dropdown #1",
+        "bottomPrice":  "5",
+        "priceTotal":  "10",
+        "topUrl":  "https://www.roblox.com/catalog/7118284871",
+        "bottomUrl":  "https://www.roblox.com/catalog/7118295929",
+        "gender":  "unclassified",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-12435bd935e9f6cef072304feb5587f4/420/420/Shirt/Png/noFilter",
+        "color1":  "#808181",
+        "color2":  "#EEEEEC",
+        "color3":  "#22252A",
+        "colors":  [
+                       {
+                           "hex":  "#808181",
+                           "coverage":  0.5181
+                       },
+                       {
+                           "hex":  "#EEEEEC",
+                           "coverage":  0.1928
+                       },
+                       {
+                           "hex":  "#22252A",
+                           "coverage":  0.1687
                        }
                    ],
         "colorFrom":  "top"

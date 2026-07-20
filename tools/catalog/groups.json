@@ -9,5 +9,6 @@
   { "id": 515698,    "name": "Blox Channel",                     "slug": "blox-channel",        "defaultGender": "masculine" },
   { "id": 3100013,   "name": "Obleceni",                         "slug": "obleceni",            "defaultGender": "masculine" },
   { "id": 5049429,   "name": "Henri Bendel",                     "slug": "henri-bendel",        "defaultGender": "masculine" },
-  { "id": 2617916,   "name": "Casablanca",                       "slug": "casablanca",          "defaultGender": "masculine" }
+  { "id": 2617916,   "name": "Casablanca",                       "slug": "casablanca",          "defaultGender": "masculine" },
+  { "id": 7800647,   "name": "Studio 20 Clothing Co.",           "slug": "studio-20-clothing-co","defaultGender": "unclassified" }
 ]

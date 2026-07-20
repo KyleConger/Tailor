@@ -51885,6 +51885,188 @@
         "source":  "roblox-cdn-thumbnail"
     },
     {
+        "id":  5817607431,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-cd252f8d16cf1f9e9ee6f0c46461ce60/420/420/Shirt/Png/noFilter",
+        "color1":  "#191919",
+        "color1Cov":  0.7934,
+        "color2":  "#82827F",
+        "color2Cov":  0.1221,
+        "color3":  "#444443",
+        "color3Cov":  0.0563,
+        "colors":  [
+                       {
+                           "hex":  "#191919",
+                           "coverage":  0.7934
+                       },
+                       {
+                           "hex":  "#82827F",
+                           "coverage":  0.1221
+                       },
+                       {
+                           "hex":  "#444443",
+                           "coverage":  0.0563
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  5817607443,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-8521495257ab23f94af388708d524c1e/420/420/Shirt/Png/noFilter",
+        "color1":  "#848481",
+        "color1Cov":  0.5324,
+        "color2":  "#EAEAE9",
+        "color2Cov":  0.2374,
+        "color3":  "#2A2A2A",
+        "color3Cov":  0.1367,
+        "colors":  [
+                       {
+                           "hex":  "#848481",
+                           "coverage":  0.5324
+                       },
+                       {
+                           "hex":  "#EAEAE9",
+                           "coverage":  0.2374
+                       },
+                       {
+                           "hex":  "#2A2A2A",
+                           "coverage":  0.1367
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  5817607447,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-a6c9fd08f465df1f84b685155da00e49/420/420/Shirt/Png/noFilter",
+        "color1":  "#848481",
+        "color1Cov":  0.6373,
+        "color2":  "#EAEAE9",
+        "color2Cov":  0.3235,
+        "color3":  "#5C5C5A",
+        "color3Cov":  0.0392,
+        "colors":  [
+                       {
+                           "hex":  "#848481",
+                           "coverage":  0.6373
+                       },
+                       {
+                           "hex":  "#EAEAE9",
+                           "coverage":  0.3235
+                       },
+                       {
+                           "hex":  "#5C5C5A",
+                           "coverage":  0.0392
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  5817607452,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-21e231aecbdb67de80d0a776edf104cd/420/420/Shirt/Png/noFilter",
+        "color1":  "#848481",
+        "color1Cov":  0.5324,
+        "color2":  "#EAEAE9",
+        "color2Cov":  0.2374,
+        "color3":  "#2A2A2A",
+        "color3Cov":  0.1367,
+        "colors":  [
+                       {
+                           "hex":  "#848481",
+                           "coverage":  0.5324
+                       },
+                       {
+                           "hex":  "#EAEAE9",
+                           "coverage":  0.2374
+                       },
+                       {
+                           "hex":  "#2A2A2A",
+                           "coverage":  0.1367
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  5817607457,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-f6b8271708e25c4067284b9157f80fbf/420/420/Shirt/Png/noFilter",
+        "color1":  "#848481",
+        "color1Cov":  0.6373,
+        "color2":  "#EAEAE9",
+        "color2Cov":  0.3235,
+        "color3":  "#5C5C5A",
+        "color3Cov":  0.0392,
+        "colors":  [
+                       {
+                           "hex":  "#848481",
+                           "coverage":  0.6373
+                       },
+                       {
+                           "hex":  "#EAEAE9",
+                           "coverage":  0.3235
+                       },
+                       {
+                           "hex":  "#5C5C5A",
+                           "coverage":  0.0392
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  5817608533,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-2b772f0dcee39ddcd0560f5a3a7b7244/420/420/Pants/Png/noFilter",
+        "color1":  "#181818",
+        "color1Cov":  0.6196,
+        "color2":  "#838380",
+        "color2Cov":  0.227,
+        "color3":  "#E8E7E2",
+        "color3Cov":  0.1043,
+        "colors":  [
+                       {
+                           "hex":  "#181818",
+                           "coverage":  0.6196
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.227
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  5817608534,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-96ef24a9042c738a34e361f3f02137e1/420/420/Pants/Png/noFilter",
+        "color1":  "#171717",
+        "color1Cov":  0.6166,
+        "color2":  "#838380",
+        "color2Cov":  0.2239,
+        "color3":  "#E8E7E2",
+        "color3Cov":  0.1043,
+        "colors":  [
+                       {
+                           "hex":  "#171717",
+                           "coverage":  0.6166
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.2239
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
         "id":  5818528564,
         "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-497b9fa405e36be045d80a5c690978ee/420/420/Shirt/Png/noFilter",
         "color1":  "#7C808E",
@@ -51983,6 +52165,474 @@
                        {
                            "hex":  "#E8E7E2",
                            "coverage":  0.0892
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6070840838,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-3500528109156ae26d841526d5c047d1/420/420/Shirt/Png/noFilter",
+        "color1":  "#888682",
+        "color1Cov":  0.7426,
+        "color2":  "#E0E4E5",
+        "color2Cov":  0.1618,
+        "color3":  "#8B7757",
+        "color3Cov":  0.0588,
+        "colors":  [
+                       {
+                           "hex":  "#888682",
+                           "coverage":  0.7426
+                       },
+                       {
+                           "hex":  "#E0E4E5",
+                           "coverage":  0.1618
+                       },
+                       {
+                           "hex":  "#8B7757",
+                           "coverage":  0.0588
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6070841240,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-28b370bbe6bbeb0e78c23f82b98ec77f/420/420/Shirt/Png/noFilter",
+        "color1":  "#878682",
+        "color1Cov":  0.7426,
+        "color2":  "#E0E4E5",
+        "color2Cov":  0.1618,
+        "color3":  "#8B7757",
+        "color3Cov":  0.0588,
+        "colors":  [
+                       {
+                           "hex":  "#878682",
+                           "coverage":  0.7426
+                       },
+                       {
+                           "hex":  "#E0E4E5",
+                           "coverage":  0.1618
+                       },
+                       {
+                           "hex":  "#8B7757",
+                           "coverage":  0.0588
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6070857969,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-a8a1ba7826ef06e5d87e01e3df03825b/420/420/Shirt/Png/noFilter",
+        "color1":  "#868581",
+        "color1Cov":  0.6932,
+        "color2":  "#5A5855",
+        "color2Cov":  0.1761,
+        "color3":  "#E9E8E3",
+        "color3Cov":  0.0398,
+        "colors":  [
+                       {
+                           "hex":  "#868581",
+                           "coverage":  0.6932
+                       },
+                       {
+                           "hex":  "#5A5855",
+                           "coverage":  0.1761
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.0398
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6070857976,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-22c5d8974e6252a20110b56cf993350f/420/420/Shirt/Png/noFilter",
+        "color1":  "#878681",
+        "color1Cov":  0.6893,
+        "color2":  "#5A5955",
+        "color2Cov":  0.1808,
+        "color3":  "#E9E8E3",
+        "color3Cov":  0.0395,
+        "colors":  [
+                       {
+                           "hex":  "#878681",
+                           "coverage":  0.6893
+                       },
+                       {
+                           "hex":  "#5A5955",
+                           "coverage":  0.1808
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.0395
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071092099,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-d73faf9a75d41fc9ccbcf677dc56af80/420/420/Shirt/Png/noFilter",
+        "color1":  "#49586B",
+        "color1Cov":  0.7605,
+        "color2":  "#797F86",
+        "color2Cov":  0.2262,
+        "color3":  "#E9E8E3",
+        "color3Cov":  0.0133,
+        "colors":  [
+                       {
+                           "hex":  "#49586B",
+                           "coverage":  0.7605
+                       },
+                       {
+                           "hex":  "#797F86",
+                           "coverage":  0.2262
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.0133
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071092100,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-51ee99674dec62d679f6e74a9a47a66e/420/420/Shirt/Png/noFilter",
+        "color1":  "#222121",
+        "color1Cov":  0.7709,
+        "color2":  "#838280",
+        "color2Cov":  0.1546,
+        "color3":  "#4F4E4D",
+        "color3Cov":  0.0428,
+        "colors":  [
+                       {
+                           "hex":  "#222121",
+                           "coverage":  0.7709
+                       },
+                       {
+                           "hex":  "#838280",
+                           "coverage":  0.1546
+                       },
+                       {
+                           "hex":  "#4F4E4D",
+                           "coverage":  0.0428
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071092105,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-cf87a496908609e58f4db52c6003e197/420/420/Shirt/Png/noFilter",
+        "color1":  "#7C8482",
+        "color1Cov":  0.9809,
+        "color2":  "#EAE8E4",
+        "color2Cov":  0.0149,
+        "color3":  "#525250",
+        "color3Cov":  0.0042,
+        "colors":  [
+                       {
+                           "hex":  "#7C8482",
+                           "coverage":  0.9809
+                       },
+                       {
+                           "hex":  "#EAE8E4",
+                           "coverage":  0.0149
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0042
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071094668,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-94ea6bf9a1845e6092e4bfbaf106e2cc/420/420/Pants/Png/noFilter",
+        "color1":  "#1F2A34",
+        "color1Cov":  0.6288,
+        "color2":  "#838381",
+        "color2Cov":  0.2301,
+        "color3":  "#E8E7E2",
+        "color3Cov":  0.1043,
+        "colors":  [
+                       {
+                           "hex":  "#1F2A34",
+                           "coverage":  0.6288
+                       },
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.2301
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071094669,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-f2ab053640aa38bf7e4f643ad8fb6603/420/420/Pants/Png/noFilter",
+        "color1":  "#1F2A34",
+        "color1Cov":  0.6258,
+        "color2":  "#838381",
+        "color2Cov":  0.2301,
+        "color3":  "#E8E7E2",
+        "color3Cov":  0.1043,
+        "colors":  [
+                       {
+                           "hex":  "#1F2A34",
+                           "coverage":  0.6258
+                       },
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.2301
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071094672,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-203d2b03a698411a5d902b5b4af7b749/420/420/Pants/Png/noFilter",
+        "color1":  "#212B38",
+        "color1Cov":  0.5613,
+        "color2":  "#838380",
+        "color2Cov":  0.2607,
+        "color3":  "#E8E7E2",
+        "color3Cov":  0.1043,
+        "colors":  [
+                       {
+                           "hex":  "#212B38",
+                           "coverage":  0.5613
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.2607
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071094676,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-6d30b984038ef8d5a2e40942d1ce7a3f/420/420/Pants/Png/noFilter",
+        "color1":  "#212D3A",
+        "color1Cov":  0.5521,
+        "color2":  "#838381",
+        "color2Cov":  0.2638,
+        "color3":  "#E8E7E2",
+        "color3Cov":  0.1043,
+        "colors":  [
+                       {
+                           "hex":  "#212D3A",
+                           "coverage":  0.5521
+                       },
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.2638
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071108317,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-52c67871969c54d0235c278d8d1ede28/420/420/Shirt/Png/noFilter",
+        "color1":  "#7B8381",
+        "color1Cov":  0.9798,
+        "color2":  "#E9E8E4",
+        "color2Cov":  0.0157,
+        "color3":  "#525250",
+        "color3Cov":  0.0045,
+        "colors":  [
+                       {
+                           "hex":  "#7B8381",
+                           "coverage":  0.9798
+                       },
+                       {
+                           "hex":  "#E9E8E4",
+                           "coverage":  0.0157
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0045
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071108324,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-4943f594425bbb3c185edb3a432c1adb/420/420/Shirt/Png/noFilter",
+        "color1":  "#222122",
+        "color1Cov":  0.7588,
+        "color2":  "#838380",
+        "color2Cov":  0.1654,
+        "color3":  "#4E4D4C",
+        "color3Cov":  0.0409,
+        "colors":  [
+                       {
+                           "hex":  "#222122",
+                           "coverage":  0.7588
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.1654
+                       },
+                       {
+                           "hex":  "#4E4D4C",
+                           "coverage":  0.0409
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071108347,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-f374eae5d73895c6f1f25f6d25cb2099/420/420/Shirt/Png/noFilter",
+        "color1":  "#4A586B",
+        "color1Cov":  0.749,
+        "color2":  "#7A7F86",
+        "color2Cov":  0.2371,
+        "color3":  "#E8E8E3",
+        "color3Cov":  0.0139,
+        "colors":  [
+                       {
+                           "hex":  "#4A586B",
+                           "coverage":  0.749
+                       },
+                       {
+                           "hex":  "#7A7F86",
+                           "coverage":  0.2371
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0139
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071109812,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-22bdeab31b963b70ed539a7feb5a9817/420/420/Shirt/Png/noFilter",
+        "color1":  "#878681",
+        "color1Cov":  0.6857,
+        "color2":  "#5A5955",
+        "color2Cov":  0.1829,
+        "color3":  "#E9E8E3",
+        "color3Cov":  0.04,
+        "colors":  [
+                       {
+                           "hex":  "#878681",
+                           "coverage":  0.6857
+                       },
+                       {
+                           "hex":  "#5A5955",
+                           "coverage":  0.1829
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.04
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071109814,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-e71bbc9af6d6caf15bcfa1c3a78dd479/420/420/Shirt/Png/noFilter",
+        "color1":  "#868581",
+        "color1Cov":  0.6897,
+        "color2":  "#5A5855",
+        "color2Cov":  0.1782,
+        "color3":  "#E9E8E3",
+        "color3Cov":  0.0402,
+        "colors":  [
+                       {
+                           "hex":  "#868581",
+                           "coverage":  0.6897
+                       },
+                       {
+                           "hex":  "#5A5855",
+                           "coverage":  0.1782
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.0402
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071220450,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-bf2fee5806fb034ec4938eed2d8163b2/420/420/Shirt/Png/noFilter",
+        "color1":  "#603338",
+        "color1Cov":  0.742,
+        "color2":  "#85807D",
+        "color2Cov":  0.1733,
+        "color3":  "#7D4D51",
+        "color3Cov":  0.0716,
+        "colors":  [
+                       {
+                           "hex":  "#603338",
+                           "coverage":  0.742
+                       },
+                       {
+                           "hex":  "#85807D",
+                           "coverage":  0.1733
+                       },
+                       {
+                           "hex":  "#7D4D51",
+                           "coverage":  0.0716
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6071220451,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-09d6b5a1b9d4d63d08efba09c492b7e3/420/420/Shirt/Png/noFilter",
+        "color1":  "#603338",
+        "color1Cov":  0.7318,
+        "color2":  "#867F7D",
+        "color2Cov":  0.1834,
+        "color3":  "#7F4A50",
+        "color3Cov":  0.0651,
+        "colors":  [
+                       {
+                           "hex":  "#603338",
+                           "coverage":  0.7318
+                       },
+                       {
+                           "hex":  "#867F7D",
+                           "coverage":  0.1834
+                       },
+                       {
+                           "hex":  "#7F4A50",
+                           "coverage":  0.0651
                        }
                    ],
         "error":  null,
@@ -52165,6 +52815,500 @@
                        {
                            "hex":  "#853939",
                            "coverage":  0.0643
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226107703,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-e173e01c51b319959a74b6265d8e51d2/420/420/Shirt/Png/noFilter",
+        "color1":  "#1E1E1E",
+        "color1Cov":  0.8003,
+        "color2":  "#838380",
+        "color2Cov":  0.1326,
+        "color3":  "#4E4E4D",
+        "color3Cov":  0.0386,
+        "colors":  [
+                       {
+                           "hex":  "#1E1E1E",
+                           "coverage":  0.8003
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.1326
+                       },
+                       {
+                           "hex":  "#4E4E4D",
+                           "coverage":  0.0386
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226108306,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-25cd601fe0d7e1b6580b76de8e88a1af/420/420/Shirt/Png/noFilter",
+        "color1":  "#1E1E1E",
+        "color1Cov":  0.7836,
+        "color2":  "#838280",
+        "color2Cov":  0.1295,
+        "color3":  "#4F4F4E",
+        "color3Cov":  0.0537,
+        "colors":  [
+                       {
+                           "hex":  "#1E1E1E",
+                           "coverage":  0.7836
+                       },
+                       {
+                           "hex":  "#838280",
+                           "coverage":  0.1295
+                       },
+                       {
+                           "hex":  "#4F4F4E",
+                           "coverage":  0.0537
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226114964,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-bbcbf9fbbd38628151b24854ab2a8f12/420/420/Shirt/Png/noFilter",
+        "color1":  "#1E1E1E",
+        "color1Cov":  0.8065,
+        "color2":  "#838280",
+        "color2Cov":  0.1192,
+        "color3":  "#4F4F4F",
+        "color3Cov":  0.0433,
+        "colors":  [
+                       {
+                           "hex":  "#1E1E1E",
+                           "coverage":  0.8065
+                       },
+                       {
+                           "hex":  "#838280",
+                           "coverage":  0.1192
+                       },
+                       {
+                           "hex":  "#4F4F4F",
+                           "coverage":  0.0433
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226160114,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-6ad9eb9ced5af72b9907adc095a6a8bc/420/420/Shirt/Png/noFilter",
+        "color1":  "#551622",
+        "color1Cov":  0.8264,
+        "color2":  "#85807E",
+        "color2Cov":  0.1225,
+        "color3":  "#725155",
+        "color3Cov":  0.0372,
+        "colors":  [
+                       {
+                           "hex":  "#551622",
+                           "coverage":  0.8264
+                       },
+                       {
+                           "hex":  "#85807E",
+                           "coverage":  0.1225
+                       },
+                       {
+                           "hex":  "#725155",
+                           "coverage":  0.0372
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226160961,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-909507df455fdc0b6c2f11f9836cbb34/420/420/Shirt/Png/noFilter",
+        "color1":  "#561723",
+        "color1Cov":  0.7778,
+        "color2":  "#86807E",
+        "color2Cov":  0.1548,
+        "color3":  "#724F55",
+        "color3Cov":  0.051,
+        "colors":  [
+                       {
+                           "hex":  "#561723",
+                           "coverage":  0.7778
+                       },
+                       {
+                           "hex":  "#86807E",
+                           "coverage":  0.1548
+                       },
+                       {
+                           "hex":  "#724F55",
+                           "coverage":  0.051
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226161366,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-37bb8ca4f02529e8eaaae43afc2b6868/420/420/Shirt/Png/noFilter",
+        "color1":  "#561823",
+        "color1Cov":  0.7517,
+        "color2":  "#858180",
+        "color2Cov":  0.1591,
+        "color3":  "#705356",
+        "color3Cov":  0.0524,
+        "colors":  [
+                       {
+                           "hex":  "#561823",
+                           "coverage":  0.7517
+                       },
+                       {
+                           "hex":  "#858180",
+                           "coverage":  0.1591
+                       },
+                       {
+                           "hex":  "#705356",
+                           "coverage":  0.0524
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226161870,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-d9aaf42925a6f890e900730c196850ff/420/420/Shirt/Png/noFilter",
+        "color1":  "#283057",
+        "color1Cov":  0.8255,
+        "color2":  "#818181",
+        "color2Cov":  0.1293,
+        "color3":  "#53586E",
+        "color3Cov":  0.0343,
+        "colors":  [
+                       {
+                           "hex":  "#283057",
+                           "coverage":  0.8255
+                       },
+                       {
+                           "hex":  "#818181",
+                           "coverage":  0.1293
+                       },
+                       {
+                           "hex":  "#53586E",
+                           "coverage":  0.0343
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226162794,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-ea610d1ddf081d02fb0d669555f94e62/420/420/Shirt/Png/noFilter",
+        "color1":  "#283157",
+        "color1Cov":  0.7839,
+        "color2":  "#818281",
+        "color2Cov":  0.1648,
+        "color3":  "#565A6E",
+        "color3Cov":  0.0385,
+        "colors":  [
+                       {
+                           "hex":  "#283157",
+                           "coverage":  0.7839
+                       },
+                       {
+                           "hex":  "#818281",
+                           "coverage":  0.1648
+                       },
+                       {
+                           "hex":  "#565A6E",
+                           "coverage":  0.0385
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226163317,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-a0bc3bf0e9216efdafaa061be869aa34/420/420/Shirt/Png/noFilter",
+        "color1":  "#283157",
+        "color1Cov":  0.761,
+        "color2":  "#828282",
+        "color2Cov":  0.167,
+        "color3":  "#595C6D",
+        "color3Cov":  0.0439,
+        "colors":  [
+                       {
+                           "hex":  "#283157",
+                           "coverage":  0.761
+                       },
+                       {
+                           "hex":  "#828282",
+                           "coverage":  0.167
+                       },
+                       {
+                           "hex":  "#595C6D",
+                           "coverage":  0.0439
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226321486,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-be3983c656c25d74c6187f04e07af506/420/420/Shirt/Png/noFilter",
+        "color1":  "#838381",
+        "color1Cov":  0.4358,
+        "color2":  "#373534",
+        "color2Cov":  0.2661,
+        "color3":  "#5F5E5E",
+        "color3Cov":  0.1468,
+        "colors":  [
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.4358
+                       },
+                       {
+                           "hex":  "#373534",
+                           "coverage":  0.2661
+                       },
+                       {
+                           "hex":  "#5F5E5E",
+                           "coverage":  0.1468
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6226322034,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-4a9161eccea48b4718a05a5570c08ebe/420/420/Shirt/Png/noFilter",
+        "color1":  "#838381",
+        "color1Cov":  0.4332,
+        "color2":  "#373534",
+        "color2Cov":  0.2673,
+        "color3":  "#5F5E5E",
+        "color3Cov":  0.1475,
+        "colors":  [
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.4332
+                       },
+                       {
+                           "hex":  "#373534",
+                           "coverage":  0.2673
+                       },
+                       {
+                           "hex":  "#5F5E5E",
+                           "coverage":  0.1475
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6227408261,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-2dfb5a786d944fd80fb82c779b451013/420/420/Shirt/Png/noFilter",
+        "color1":  "#283057",
+        "color1Cov":  0.8255,
+        "color2":  "#818181",
+        "color2Cov":  0.1293,
+        "color3":  "#53586E",
+        "color3Cov":  0.0343,
+        "colors":  [
+                       {
+                           "hex":  "#283057",
+                           "coverage":  0.8255
+                       },
+                       {
+                           "hex":  "#818181",
+                           "coverage":  0.1293
+                       },
+                       {
+                           "hex":  "#53586E",
+                           "coverage":  0.0343
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6227408264,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-91bc46e584150159a4cd9174ab45f0b1/420/420/Shirt/Png/noFilter",
+        "color1":  "#283157",
+        "color1Cov":  0.7557,
+        "color2":  "#828181",
+        "color2Cov":  0.1722,
+        "color3":  "#585D70",
+        "color3Cov":  0.0369,
+        "colors":  [
+                       {
+                           "hex":  "#283157",
+                           "coverage":  0.7557
+                       },
+                       {
+                           "hex":  "#828181",
+                           "coverage":  0.1722
+                       },
+                       {
+                           "hex":  "#585D70",
+                           "coverage":  0.0369
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6227408266,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-91fde5ff3836ed4026f705f8091c170f/420/420/Shirt/Png/noFilter",
+        "color1":  "#283157",
+        "color1Cov":  0.7839,
+        "color2":  "#818281",
+        "color2Cov":  0.1648,
+        "color3":  "#565A6E",
+        "color3Cov":  0.0385,
+        "colors":  [
+                       {
+                           "hex":  "#283157",
+                           "coverage":  0.7839
+                       },
+                       {
+                           "hex":  "#818281",
+                           "coverage":  0.1648
+                       },
+                       {
+                           "hex":  "#565A6E",
+                           "coverage":  0.0385
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6227408939,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-bdd45879e5ea37ee3e394ec41c95c3e2/420/420/Shirt/Png/noFilter",
+        "color1":  "#551621",
+        "color1Cov":  0.8264,
+        "color2":  "#85807F",
+        "color2Cov":  0.1225,
+        "color3":  "#715156",
+        "color3Cov":  0.0372,
+        "colors":  [
+                       {
+                           "hex":  "#551621",
+                           "coverage":  0.8264
+                       },
+                       {
+                           "hex":  "#85807F",
+                           "coverage":  0.1225
+                       },
+                       {
+                           "hex":  "#715156",
+                           "coverage":  0.0372
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6227408942,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-e0388d4bcd4b60d2076cfea2cfa6cc94/420/420/Shirt/Png/noFilter",
+        "color1":  "#561723",
+        "color1Cov":  0.7778,
+        "color2":  "#86807E",
+        "color2Cov":  0.1548,
+        "color3":  "#725055",
+        "color3Cov":  0.051,
+        "colors":  [
+                       {
+                           "hex":  "#561723",
+                           "coverage":  0.7778
+                       },
+                       {
+                           "hex":  "#86807E",
+                           "coverage":  0.1548
+                       },
+                       {
+                           "hex":  "#725055",
+                           "coverage":  0.051
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6227408948,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-c07f7eb1f4ab7573e83e8e1b0cd6ce1c/420/420/Shirt/Png/noFilter",
+        "color1":  "#561823",
+        "color1Cov":  0.7522,
+        "color2":  "#877F7D",
+        "color2Cov":  0.181,
+        "color3":  "#725154",
+        "color3Cov":  0.051,
+        "colors":  [
+                       {
+                           "hex":  "#561823",
+                           "coverage":  0.7522
+                       },
+                       {
+                           "hex":  "#877F7D",
+                           "coverage":  0.181
+                       },
+                       {
+                           "hex":  "#725154",
+                           "coverage":  0.051
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6228290458,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-0d024f5b2d309a42aa28287cc5e37a1c/420/420/Shirt/Png/noFilter",
+        "color1":  "#1E1E1E",
+        "color1Cov":  0.7783,
+        "color2":  "#83807F",
+        "color2Cov":  0.1256,
+        "color3":  "#715B5C",
+        "color3Cov":  0.0295,
+        "colors":  [
+                       {
+                           "hex":  "#1E1E1E",
+                           "coverage":  0.7783
+                       },
+                       {
+                           "hex":  "#83807F",
+                           "coverage":  0.1256
+                       },
+                       {
+                           "hex":  "#715B5C",
+                           "coverage":  0.0295
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6228295015,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-c8c50fef372495b5ac734ba395354854/420/420/Pants/Png/noFilter",
+        "color1":  "#1C1C1C",
+        "color1Cov":  0.6414,
+        "color2":  "#848280",
+        "color2Cov":  0.1676,
+        "color3":  "#444443",
+        "color3Cov":  0.0739,
+        "colors":  [
+                       {
+                           "hex":  "#1C1C1C",
+                           "coverage":  0.6414
+                       },
+                       {
+                           "hex":  "#848280",
+                           "coverage":  0.1676
+                       },
+                       {
+                           "hex":  "#444443",
+                           "coverage":  0.0739
                        }
                    ],
         "error":  null,
@@ -52399,6 +53543,266 @@
                        {
                            "hex":  "#4F505C",
                            "coverage":  0.0455
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383650296,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-61cf8e38ba867f08aa855b808b937e23/420/420/Shirt/Png/noFilter",
+        "color1":  "#818181",
+        "color1Cov":  0.9845,
+        "color2":  "#E8E8E3",
+        "color2Cov":  0.0121,
+        "color3":  "#525250",
+        "color3Cov":  0.0035,
+        "colors":  [
+                       {
+                           "hex":  "#818181",
+                           "coverage":  0.9845
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0121
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0035
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383650365,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-5d04b1e710ed01cfa658331870311f3f/420/420/Shirt/Png/noFilter",
+        "color1":  "#828281",
+        "color1Cov":  0.9811,
+        "color2":  "#E8E8E3",
+        "color2Cov":  0.0147,
+        "color3":  "#525250",
+        "color3Cov":  0.0042,
+        "colors":  [
+                       {
+                           "hex":  "#828281",
+                           "coverage":  0.9811
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0147
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0042
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383650368,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-878242feba7fc3d55438e3b9637485eb/420/420/Shirt/Png/noFilter",
+        "color1":  "#828281",
+        "color1Cov":  0.954,
+        "color2":  "#504440",
+        "color2Cov":  0.028,
+        "color3":  "#E9E8E4",
+        "color3Cov":  0.014,
+        "colors":  [
+                       {
+                           "hex":  "#828281",
+                           "coverage":  0.954
+                       },
+                       {
+                           "hex":  "#504440",
+                           "coverage":  0.028
+                       },
+                       {
+                           "hex":  "#E9E8E4",
+                           "coverage":  0.014
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383650391,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-4051f76b39c0692cbbce2cc3a065d110/420/420/Shirt/Png/noFilter",
+        "color1":  "#818181",
+        "color1Cov":  0.9845,
+        "color2":  "#E8E8E3",
+        "color2Cov":  0.0121,
+        "color3":  "#525250",
+        "color3Cov":  0.0035,
+        "colors":  [
+                       {
+                           "hex":  "#818181",
+                           "coverage":  0.9845
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0121
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0035
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383650392,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-e437ac79d99bafed04dc0964614c83bd/420/420/Shirt/Png/noFilter",
+        "color1":  "#828281",
+        "color1Cov":  0.9811,
+        "color2":  "#E8E8E3",
+        "color2Cov":  0.0147,
+        "color3":  "#525250",
+        "color3Cov":  0.0042,
+        "colors":  [
+                       {
+                           "hex":  "#828281",
+                           "coverage":  0.9811
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0147
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0042
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383650405,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-55891568019836904fb1da06bf412d0d/420/420/Shirt/Png/noFilter",
+        "color1":  "#828281",
+        "color1Cov":  0.954,
+        "color2":  "#504440",
+        "color2Cov":  0.028,
+        "color3":  "#E9E8E4",
+        "color3Cov":  0.014,
+        "colors":  [
+                       {
+                           "hex":  "#828281",
+                           "coverage":  0.954
+                       },
+                       {
+                           "hex":  "#504440",
+                           "coverage":  0.028
+                       },
+                       {
+                           "hex":  "#E9E8E4",
+                           "coverage":  0.014
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383652498,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-ac03c682c9ff6366f39c85fc93f25f97/420/420/Shirt/Png/noFilter",
+        "color1":  "#848280",
+        "color1Cov":  0.4408,
+        "color2":  "#393636",
+        "color2Cov":  0.2776,
+        "color3":  "#605F5E",
+        "color3Cov":  0.1469,
+        "colors":  [
+                       {
+                           "hex":  "#848280",
+                           "coverage":  0.4408
+                       },
+                       {
+                           "hex":  "#393636",
+                           "coverage":  0.2776
+                       },
+                       {
+                           "hex":  "#605F5E",
+                           "coverage":  0.1469
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383652502,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-b6f2437cd5a8b037c3843dd7dbdbfc3a/420/420/Shirt/Png/noFilter",
+        "color1":  "#838381",
+        "color1Cov":  0.4459,
+        "color2":  "#373534",
+        "color2Cov":  0.2613,
+        "color3":  "#5F5E5E",
+        "color3Cov":  0.1441,
+        "colors":  [
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.4459
+                       },
+                       {
+                           "hex":  "#373534",
+                           "coverage":  0.2613
+                       },
+                       {
+                           "hex":  "#5F5E5E",
+                           "coverage":  0.1441
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383652506,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-30b0d0b66c1bf33e44f9990f8767f402/420/420/Shirt/Png/noFilter",
+        "color1":  "#848280",
+        "color1Cov":  0.4431,
+        "color2":  "#393636",
+        "color2Cov":  0.2764,
+        "color3":  "#605F5E",
+        "color3Cov":  0.1463,
+        "colors":  [
+                       {
+                           "hex":  "#848280",
+                           "coverage":  0.4431
+                       },
+                       {
+                           "hex":  "#393636",
+                           "coverage":  0.2764
+                       },
+                       {
+                           "hex":  "#605F5E",
+                           "coverage":  0.1463
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  6383652527,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-f2e758146a672d7b3d5297676bd5c55a/420/420/Shirt/Png/noFilter",
+        "color1":  "#838381",
+        "color1Cov":  0.4434,
+        "color2":  "#373534",
+        "color2Cov":  0.2624,
+        "color3":  "#5F5E5E",
+        "color3Cov":  0.1448,
+        "colors":  [
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.4434
+                       },
+                       {
+                           "hex":  "#373534",
+                           "coverage":  0.2624
+                       },
+                       {
+                           "hex":  "#5F5E5E",
+                           "coverage":  0.1448
                        }
                    ],
         "error":  null,
@@ -54609,6 +56013,344 @@
                        {
                            "hex":  "#6C5B49",
                            "coverage":  0.0657
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7117771902,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-5ace69a44cd7214b026a0b5346d1d3b3/420/420/Shirt/Png/noFilter",
+        "color1":  "#42587A",
+        "color1Cov":  0.7183,
+        "color2":  "#828382",
+        "color2Cov":  0.1223,
+        "color3":  "#1E2125",
+        "color3Cov":  0.0681,
+        "colors":  [
+                       {
+                           "hex":  "#42587A",
+                           "coverage":  0.7183
+                       },
+                       {
+                           "hex":  "#828382",
+                           "coverage":  0.1223
+                       },
+                       {
+                           "hex":  "#1E2125",
+                           "coverage":  0.0681
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7117772593,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-c7d769a4fdcfb461f8f37328e9be2e0c/420/420/Shirt/Png/noFilter",
+        "color1":  "#42587A",
+        "color1Cov":  0.7589,
+        "color2":  "#838482",
+        "color2Cov":  0.1042,
+        "color3":  "#64799F",
+        "color3Cov":  0.0731,
+        "colors":  [
+                       {
+                           "hex":  "#42587A",
+                           "coverage":  0.7589
+                       },
+                       {
+                           "hex":  "#838482",
+                           "coverage":  0.1042
+                       },
+                       {
+                           "hex":  "#64799F",
+                           "coverage":  0.0731
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7117773263,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-bcc4132a8adeda864d32bd4fe653df21/420/420/Shirt/Png/noFilter",
+        "color1":  "#42587B",
+        "color1Cov":  0.8037,
+        "color2":  "#838482",
+        "color2Cov":  0.1028,
+        "color3":  "#6479A0",
+        "color3Cov":  0.0732,
+        "colors":  [
+                       {
+                           "hex":  "#42587B",
+                           "coverage":  0.8037
+                       },
+                       {
+                           "hex":  "#838482",
+                           "coverage":  0.1028
+                       },
+                       {
+                           "hex":  "#6479A0",
+                           "coverage":  0.0732
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118284871,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-12435bd935e9f6cef072304feb5587f4/420/420/Shirt/Png/noFilter",
+        "color1":  "#808181",
+        "color1Cov":  0.5181,
+        "color2":  "#EEEEEC",
+        "color2Cov":  0.1928,
+        "color3":  "#22252A",
+        "color3Cov":  0.1687,
+        "colors":  [
+                       {
+                           "hex":  "#808181",
+                           "coverage":  0.5181
+                       },
+                       {
+                           "hex":  "#EEEEEC",
+                           "coverage":  0.1928
+                       },
+                       {
+                           "hex":  "#22252A",
+                           "coverage":  0.1687
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118286254,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-d6831c88defc878367bd708b6402b98f/420/420/Shirt/Png/noFilter",
+        "color1":  "#7B7D7D",
+        "color1Cov":  0.5967,
+        "color2":  "#EEEDED",
+        "color2Cov":  0.1602,
+        "color3":  "#22252A",
+        "color3Cov":  0.1547,
+        "colors":  [
+                       {
+                           "hex":  "#7B7D7D",
+                           "coverage":  0.5967
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1602
+                       },
+                       {
+                           "hex":  "#22252A",
+                           "coverage":  0.1547
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118286899,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-36f5bb3a0a433a79bcb002aea7439b32/420/420/Shirt/Png/noFilter",
+        "color1":  "#7E8283",
+        "color1Cov":  0.5611,
+        "color2":  "#485B79",
+        "color2Cov":  0.2,
+        "color3":  "#EEEDED",
+        "color3Cov":  0.1611,
+        "colors":  [
+                       {
+                           "hex":  "#7E8283",
+                           "coverage":  0.5611
+                       },
+                       {
+                           "hex":  "#485B79",
+                           "coverage":  0.2
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1611
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118288034,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-b2bdb383f6b15dbf9183193039fcd2bc/420/420/Shirt/Png/noFilter",
+        "color1":  "#818184",
+        "color1Cov":  0.5273,
+        "color2":  "#4B5D78",
+        "color2Cov":  0.2424,
+        "color3":  "#EEEEEC",
+        "color3Cov":  0.1939,
+        "colors":  [
+                       {
+                           "hex":  "#818184",
+                           "coverage":  0.5273
+                       },
+                       {
+                           "hex":  "#4B5D78",
+                           "coverage":  0.2424
+                       },
+                       {
+                           "hex":  "#EEEEEC",
+                           "coverage":  0.1939
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118290553,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-ed17c9d13369b35c28d92fcab2feb26a/420/420/Pants/Png/noFilter",
+        "color1":  "#1A1A1C",
+        "color1Cov":  0.3993,
+        "color2":  "#43597D",
+        "color2Cov":  0.3433,
+        "color3":  "#838383",
+        "color3Cov":  0.1594,
+        "colors":  [
+                       {
+                           "hex":  "#1A1A1C",
+                           "coverage":  0.3993
+                       },
+                       {
+                           "hex":  "#43597D",
+                           "coverage":  0.3433
+                       },
+                       {
+                           "hex":  "#838383",
+                           "coverage":  0.1594
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118295929,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-8247c7a6158275693c4355f0a0f536b7/420/420/Pants/Png/noFilter",
+        "color1":  "#1C1C1E",
+        "color1Cov":  0.4776,
+        "color2":  "#818182",
+        "color2Cov":  0.3077,
+        "color3":  "#EAEAE6",
+        "color3Cov":  0.1058,
+        "colors":  [
+                       {
+                           "hex":  "#1C1C1E",
+                           "coverage":  0.4776
+                       },
+                       {
+                           "hex":  "#818182",
+                           "coverage":  0.3077
+                       },
+                       {
+                           "hex":  "#EAEAE6",
+                           "coverage":  0.1058
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118360533,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-25e6ca05f767e6ccc5afc88af487efb5/420/420/Pants/Png/noFilter",
+        "color1":  "#1B1A1A",
+        "color1Cov":  0.3834,
+        "color2":  "#7F8283",
+        "color2Cov":  0.3405,
+        "color3":  "#485B78",
+        "color3Cov":  0.1135,
+        "colors":  [
+                       {
+                           "hex":  "#1B1A1A",
+                           "coverage":  0.3834
+                       },
+                       {
+                           "hex":  "#7F8283",
+                           "coverage":  0.3405
+                       },
+                       {
+                           "hex":  "#485B78",
+                           "coverage":  0.1135
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118361095,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-72dd6787dfe1c4bb1aeb245848a279fc/420/420/Pants/Png/noFilter",
+        "color1":  "#1B1A1A",
+        "color1Cov":  0.4019,
+        "color2":  "#828285",
+        "color2Cov":  0.3119,
+        "color3":  "#4A5B78",
+        "color3Cov":  0.1254,
+        "colors":  [
+                       {
+                           "hex":  "#1B1A1A",
+                           "coverage":  0.4019
+                       },
+                       {
+                           "hex":  "#828285",
+                           "coverage":  0.3119
+                       },
+                       {
+                           "hex":  "#4A5B78",
+                           "coverage":  0.1254
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118406709,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-0b6bccf7a7424796cd60d3b63f1fe2d5/420/420/Shirt/Png/noFilter",
+        "color1":  "#7B7E80",
+        "color1Cov":  0.5802,
+        "color2":  "#EEEDED",
+        "color2Cov":  0.1368,
+        "color3":  "#22252A",
+        "color3Cov":  0.1321,
+        "colors":  [
+                       {
+                           "hex":  "#7B7E80",
+                           "coverage":  0.5802
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1368
+                       },
+                       {
+                           "hex":  "#22252A",
+                           "coverage":  0.1321
+                       }
+                   ],
+        "error":  null,
+        "source":  "roblox-cdn-thumbnail"
+    },
+    {
+        "id":  7118407360,
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-d7b304b44c1941c05c6934f652a02d72/420/420/Shirt/Png/noFilter",
+        "color1":  "#7F8486",
+        "color1Cov":  0.4929,
+        "color2":  "#52647F",
+        "color2Cov":  0.3412,
+        "color3":  "#EEEDED",
+        "color3Cov":  0.1374,
+        "colors":  [
+                       {
+                           "hex":  "#7F8486",
+                           "coverage":  0.4929
+                       },
+                       {
+                           "hex":  "#52647F",
+                           "coverage":  0.3412
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1374
                        }
                    ],
         "error":  null,

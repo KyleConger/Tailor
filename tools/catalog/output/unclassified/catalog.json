@@ -58570,5 +58570,2345 @@
                        }
                    ],
         "colorSource":  "self"
+    },
+    {
+        "id":  7118284871,
+        "name":  "+ Casual Doctor Outfit Variant #1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6132281461238402,
+        "collectibleItemId":  "67c58bc1-aa94-47f4-8a61-f7b366db456e",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118284871",
+        "created":  "2021-07-19T02:39:35.827Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "casual doctor outfit 1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-12435bd935e9f6cef072304feb5587f4/420/420/Shirt/Png/noFilter",
+        "color1":  "#808181",
+        "color2":  "#EEEEEC",
+        "color3":  "#22252A",
+        "colors":  [
+                       {
+                           "hex":  "#808181",
+                           "coverage":  0.5181
+                       },
+                       {
+                           "hex":  "#EEEEEC",
+                           "coverage":  0.1928
+                       },
+                       {
+                           "hex":  "#22252A",
+                           "coverage":  0.1687
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7118295929,
+        "name":  "- Casual Doctor Outfit Dropdown #1",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  895642131431577,
+        "collectibleItemId":  "abc0d56b-f6d7-4129-8e65-27df607c8835",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118295929",
+        "created":  "2021-07-19T02:42:49.21Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "casual doctor outfit 1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-8247c7a6158275693c4355f0a0f536b7/420/420/Pants/Png/noFilter",
+        "color1":  "#1C1C1E",
+        "color2":  "#818182",
+        "color3":  "#EAEAE6",
+        "colors":  [
+                       {
+                           "hex":  "#1C1C1E",
+                           "coverage":  0.4776
+                       },
+                       {
+                           "hex":  "#818182",
+                           "coverage":  0.3077
+                       },
+                       {
+                           "hex":  "#EAEAE6",
+                           "coverage":  0.1058
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7118360533,
+        "name":  "- Casual Doctor Outfit Dropdown #2",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6046896751926930,
+        "collectibleItemId":  "2c1443b5-a8b0-40ad-9bfb-ee00a4c4747d",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118360533",
+        "created":  "2021-07-19T03:02:17.943Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "casual doctor outfit 2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-25e6ca05f767e6ccc5afc88af487efb5/420/420/Pants/Png/noFilter",
+        "color1":  "#1B1A1A",
+        "color2":  "#7F8283",
+        "color3":  "#485B78",
+        "colors":  [
+                       {
+                           "hex":  "#1B1A1A",
+                           "coverage":  0.3834
+                       },
+                       {
+                           "hex":  "#7F8283",
+                           "coverage":  0.3405
+                       },
+                       {
+                           "hex":  "#485B78",
+                           "coverage":  0.1135
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7118286254,
+        "name":  "+ Casual Doctor Outfit Variant #2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  5522605533296456,
+        "collectibleItemId":  "57b8c558-a8d7-4ab9-ba92-69aad6fc1479",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118286254",
+        "created":  "2021-07-19T02:39:59.45Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "casual doctor outfit 2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-d6831c88defc878367bd708b6402b98f/420/420/Shirt/Png/noFilter",
+        "color1":  "#7B7D7D",
+        "color2":  "#EEEDED",
+        "color3":  "#22252A",
+        "colors":  [
+                       {
+                           "hex":  "#7B7D7D",
+                           "coverage":  0.5967
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1602
+                       },
+                       {
+                           "hex":  "#22252A",
+                           "coverage":  0.1547
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7118286899,
+        "name":  "+ Casual Doctor Outfit Variant #3",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6504473091384276,
+        "collectibleItemId":  "e86bbc0a-dfff-4a0f-a308-025f52653242",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118286899",
+        "created":  "2021-07-19T02:40:09.95Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "casual doctor outfit 3",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-36f5bb3a0a433a79bcb002aea7439b32/420/420/Shirt/Png/noFilter",
+        "color1":  "#7E8283",
+        "color2":  "#485B79",
+        "color3":  "#EEEDED",
+        "colors":  [
+                       {
+                           "hex":  "#7E8283",
+                           "coverage":  0.5611
+                       },
+                       {
+                           "hex":  "#485B79",
+                           "coverage":  0.2
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1611
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7118288034,
+        "name":  "+ Casual Doctor Outfit Variant #4",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6496544560044645,
+        "collectibleItemId":  "1775bc97-8d80-49a1-b972-86d7ffd11c18",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118288034",
+        "created":  "2021-07-19T02:40:29.377Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "casual doctor outfit 4",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-b2bdb383f6b15dbf9183193039fcd2bc/420/420/Shirt/Png/noFilter",
+        "color1":  "#818184",
+        "color2":  "#4B5D78",
+        "color3":  "#EEEEEC",
+        "colors":  [
+                       {
+                           "hex":  "#818184",
+                           "coverage":  0.5273
+                       },
+                       {
+                           "hex":  "#4B5D78",
+                           "coverage":  0.2424
+                       },
+                       {
+                           "hex":  "#EEEEEC",
+                           "coverage":  0.1939
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7118361095,
+        "name":  "- Casual Doctor Outfit Dropdown #3",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  844544573808635,
+        "collectibleItemId":  "d7910bf8-d04b-433c-86b2-a2c3d1e0a220",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118361095",
+        "created":  "2021-07-19T03:02:25.923Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "casual doctor outfit 3",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-72dd6787dfe1c4bb1aeb245848a279fc/420/420/Pants/Png/noFilter",
+        "color1":  "#1B1A1A",
+        "color2":  "#828285",
+        "color3":  "#4A5B78",
+        "colors":  [
+                       {
+                           "hex":  "#1B1A1A",
+                           "coverage":  0.4019
+                       },
+                       {
+                           "hex":  "#828285",
+                           "coverage":  0.3119
+                       },
+                       {
+                           "hex":  "#4A5B78",
+                           "coverage":  0.1254
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226105350,
+        "name":  "- Black Suit Pants",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  5339339252747634,
+        "collectibleItemId":  "e60022f1-bf35-41e4-8228-0c6dbb483e33",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226105350",
+        "created":  "2021-01-11T08:12:23.947Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "black suit",
+        "colorSource":  "pair-top"
+    },
+    {
+        "id":  6226107703,
+        "name":  "+ Open Suit",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8331586003722323,
+        "collectibleItemId":  "69f03030-5b04-4eeb-a617-9d9e92ba98e9",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226107703",
+        "created":  "2021-01-11T08:13:00.563Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "open suit",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-e173e01c51b319959a74b6265d8e51d2/420/420/Shirt/Png/noFilter",
+        "color1":  "#1E1E1E",
+        "color2":  "#838380",
+        "color3":  "#4E4E4D",
+        "colors":  [
+                       {
+                           "hex":  "#1E1E1E",
+                           "coverage":  0.8003
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.1326
+                       },
+                       {
+                           "hex":  "#4E4E4D",
+                           "coverage":  0.0386
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226108306,
+        "name":  "+ Open Suit V2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  2333469577458180,
+        "collectibleItemId":  "f01645a1-72f3-49e4-80b2-4a39dc8ddf06",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226108306",
+        "created":  "2021-01-11T08:13:10.813Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "open suit v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-25cd601fe0d7e1b6580b76de8e88a1af/420/420/Shirt/Png/noFilter",
+        "color1":  "#1E1E1E",
+        "color2":  "#838280",
+        "color3":  "#4F4F4E",
+        "colors":  [
+                       {
+                           "hex":  "#1E1E1E",
+                           "coverage":  0.7836
+                       },
+                       {
+                           "hex":  "#838280",
+                           "coverage":  0.1295
+                       },
+                       {
+                           "hex":  "#4F4F4E",
+                           "coverage":  0.0537
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7118407360,
+        "name":  "+ Casual Doctor Outfit Variant #6",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  4619341483339122,
+        "collectibleItemId":  "7933ff8a-5862-41c9-bd72-3a76d32f4397",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118407360",
+        "created":  "2021-07-19T03:16:50.673Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "casual doctor outfit 6",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-d7b304b44c1941c05c6934f652a02d72/420/420/Shirt/Png/noFilter",
+        "color1":  "#7F8486",
+        "color2":  "#52647F",
+        "color3":  "#EEEDED",
+        "colors":  [
+                       {
+                           "hex":  "#7F8486",
+                           "coverage":  0.4929
+                       },
+                       {
+                           "hex":  "#52647F",
+                           "coverage":  0.3412
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1374
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6070842254,
+        "name":  "- \"Let\u0027s Make America Great Again\" Golf Outfit V1",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6983009544936469,
+        "collectibleItemId":  "05a8d4fe-b249-45eb-95a5-be610465ebd9",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6070842254",
+        "created":  "2020-12-11T04:37:39.783Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "let s make america great again golf outfit v1",
+        "colorSource":  "pair-top"
+    },
+    {
+        "id":  5817607443,
+        "name":  "+ Button-Down Long Sleeve Shirt W/ Tie Tucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  79265840836730,
+        "collectibleItemId":  "0ae3f7e1-b347-40ea-9911-cc618737d112",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/5817607443",
+        "created":  "2020-10-11T19:57:35.71Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down long sleeve w tie tucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-8521495257ab23f94af388708d524c1e/420/420/Shirt/Png/noFilter",
+        "color1":  "#848481",
+        "color2":  "#EAEAE9",
+        "color3":  "#2A2A2A",
+        "colors":  [
+                       {
+                           "hex":  "#848481",
+                           "coverage":  0.5324
+                       },
+                       {
+                           "hex":  "#EAEAE9",
+                           "coverage":  0.2374
+                       },
+                       {
+                           "hex":  "#2A2A2A",
+                           "coverage":  0.1367
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226107189,
+        "name":  "- Open Suit",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  7200513147651267,
+        "collectibleItemId":  "443ffe3b-0ebf-465b-8673-fcdce0d8d741",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226107189",
+        "created":  "2021-01-11T08:12:53.347Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "open suit",
+        "colorSource":  "pair-top"
+    },
+    {
+        "id":  5817607447,
+        "name":  "+ Button-Down Long Sleeve Shirt Tucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  5360180945267373,
+        "collectibleItemId":  "4bb8d503-0d53-428b-8cb9-ebb5e2dff8f6",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/5817607447",
+        "created":  "2020-10-11T19:57:35.767Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down long sleeve tucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-a6c9fd08f465df1f84b685155da00e49/420/420/Shirt/Png/noFilter",
+        "color1":  "#848481",
+        "color2":  "#EAEAE9",
+        "color3":  "#5C5C5A",
+        "colors":  [
+                       {
+                           "hex":  "#848481",
+                           "coverage":  0.6373
+                       },
+                       {
+                           "hex":  "#EAEAE9",
+                           "coverage":  0.3235
+                       },
+                       {
+                           "hex":  "#5C5C5A",
+                           "coverage":  0.0392
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226114964,
+        "name":  "+ \u0027The Professional\u0027",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8694833274166839,
+        "collectibleItemId":  "c3c9e0ad-be50-4737-b917-82aa3f848146",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226114964",
+        "created":  "2021-01-11T08:14:44.753Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "the professional",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-bbcbf9fbbd38628151b24854ab2a8f12/420/420/Shirt/Png/noFilter",
+        "color1":  "#1E1E1E",
+        "color2":  "#838280",
+        "color3":  "#4F4F4F",
+        "colors":  [
+                       {
+                           "hex":  "#1E1E1E",
+                           "coverage":  0.8065
+                       },
+                       {
+                           "hex":  "#838280",
+                           "coverage":  0.1192
+                       },
+                       {
+                           "hex":  "#4F4F4F",
+                           "coverage":  0.0433
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6070841240,
+        "name":  "+ \"Let\u0027s Make America Great Again\" Golf Outfit V1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  2101021074848654,
+        "collectibleItemId":  "919bd15c-a561-4055-868a-7bf175b5a6c6",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6070841240",
+        "created":  "2020-12-11T04:37:13.903Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "let s make america great again golf outfit v1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-28b370bbe6bbeb0e78c23f82b98ec77f/420/420/Shirt/Png/noFilter",
+        "color1":  "#878682",
+        "color2":  "#E0E4E5",
+        "color3":  "#8B7757",
+        "colors":  [
+                       {
+                           "hex":  "#878682",
+                           "coverage":  0.7426
+                       },
+                       {
+                           "hex":  "#E0E4E5",
+                           "coverage":  0.1618
+                       },
+                       {
+                           "hex":  "#8B7757",
+                           "coverage":  0.0588
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  5817607457,
+        "name":  "+ Button-Down Long Sleeve Shirt Untucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  2308577231253425,
+        "collectibleItemId":  "25aa069b-7904-474b-9992-eec59650b241",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/5817607457",
+        "created":  "2020-10-11T19:57:35.97Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down long sleeve untucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-f6b8271708e25c4067284b9157f80fbf/420/420/Shirt/Png/noFilter",
+        "color1":  "#848481",
+        "color2":  "#EAEAE9",
+        "color3":  "#5C5C5A",
+        "colors":  [
+                       {
+                           "hex":  "#848481",
+                           "coverage":  0.6373
+                       },
+                       {
+                           "hex":  "#EAEAE9",
+                           "coverage":  0.3235
+                       },
+                       {
+                           "hex":  "#5C5C5A",
+                           "coverage":  0.0392
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6070840838,
+        "name":  "+ \"Let\u0027s Make America Great Again\" Golf Outfit V2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8398926039513675,
+        "collectibleItemId":  "041a3a4a-0c03-4a12-bfcf-d72920f7ec63",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6070840838",
+        "created":  "2020-12-11T04:37:05.68Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "let s make america great again golf outfit v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-3500528109156ae26d841526d5c047d1/420/420/Shirt/Png/noFilter",
+        "color1":  "#888682",
+        "color2":  "#E0E4E5",
+        "color3":  "#8B7757",
+        "colors":  [
+                       {
+                           "hex":  "#888682",
+                           "coverage":  0.7426
+                       },
+                       {
+                           "hex":  "#E0E4E5",
+                           "coverage":  0.1618
+                       },
+                       {
+                           "hex":  "#8B7757",
+                           "coverage":  0.0588
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7117771902,
+        "name":  "+ Blue Collared Shirt With Black Tie Variant #1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8446899419277556,
+        "collectibleItemId":  "b219532a-85ed-4b4b-8688-9750b60509e2",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7117771902",
+        "created":  "2021-07-19T00:20:34.407Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collared with black tie 1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-5ace69a44cd7214b026a0b5346d1d3b3/420/420/Shirt/Png/noFilter",
+        "color1":  "#42587A",
+        "color2":  "#828382",
+        "color3":  "#1E2125",
+        "colors":  [
+                       {
+                           "hex":  "#42587A",
+                           "coverage":  0.7183
+                       },
+                       {
+                           "hex":  "#828382",
+                           "coverage":  0.1223
+                       },
+                       {
+                           "hex":  "#1E2125",
+                           "coverage":  0.0681
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  5817608533,
+        "name":  "+ Black Suit Pants V2",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1449823851801503,
+        "collectibleItemId":  "642785fb-7549-452b-97ec-9fde20740098",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/5817608533",
+        "created":  "2020-10-11T19:58:11.013Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "black suit v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-2b772f0dcee39ddcd0560f5a3a7b7244/420/420/Pants/Png/noFilter",
+        "color1":  "#181818",
+        "color2":  "#838380",
+        "color3":  "#E8E7E2",
+        "colors":  [
+                       {
+                           "hex":  "#181818",
+                           "coverage":  0.6196
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.227
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6227408948,
+        "name":  "+ Red Collar Shirt V4",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6865115219609184,
+        "collectibleItemId":  "08ac4626-72e1-48a1-b305-3742ac452f12",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6227408948",
+        "created":  "2021-01-11T14:01:28.43Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "red collar v4",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-c07f7eb1f4ab7573e83e8e1b0cd6ce1c/420/420/Shirt/Png/noFilter",
+        "color1":  "#561823",
+        "color2":  "#877F7D",
+        "color3":  "#725154",
+        "colors":  [
+                       {
+                           "hex":  "#561823",
+                           "coverage":  0.7522
+                       },
+                       {
+                           "hex":  "#877F7D",
+                           "coverage":  0.181
+                       },
+                       {
+                           "hex":  "#725154",
+                           "coverage":  0.051
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6383650365,
+        "name":  "+ Light Grey Collar Shirt V2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1870948196718976,
+        "collectibleItemId":  "a47437f7-cc66-4cd8-9447-18ec7fda1a9a",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383650365",
+        "created":  "2021-02-12T16:54:34.2Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "light grey collar v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-5d04b1e710ed01cfa658331870311f3f/420/420/Shirt/Png/noFilter",
+        "color1":  "#828281",
+        "color2":  "#E8E8E3",
+        "color3":  "#525250",
+        "colors":  [
+                       {
+                           "hex":  "#828281",
+                           "coverage":  0.9811
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0147
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0042
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226160961,
+        "name":  "+ Red Collar Shirt V2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  5606396665905797,
+        "collectibleItemId":  "3000087b-ab02-45f1-8134-befef0b39e38",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226160961",
+        "created":  "2021-01-11T08:25:12.053Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "red collar v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-909507df455fdc0b6c2f11f9836cbb34/420/420/Shirt/Png/noFilter",
+        "color1":  "#561723",
+        "color2":  "#86807E",
+        "color3":  "#724F55",
+        "colors":  [
+                       {
+                           "hex":  "#561723",
+                           "coverage":  0.7778
+                       },
+                       {
+                           "hex":  "#86807E",
+                           "coverage":  0.1548
+                       },
+                       {
+                           "hex":  "#724F55",
+                           "coverage":  0.051
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071092099,
+        "name":  "+ Button-Down Blue Shirt Untucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  7745817896496475,
+        "collectibleItemId":  "c9e4c606-f11e-4bb6-894a-96b03c24685e",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071092099",
+        "created":  "2020-12-11T06:25:11.397Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down blue untucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-d73faf9a75d41fc9ccbcf677dc56af80/420/420/Shirt/Png/noFilter",
+        "color1":  "#49586B",
+        "color2":  "#797F86",
+        "color3":  "#E9E8E3",
+        "colors":  [
+                       {
+                           "hex":  "#49586B",
+                           "coverage":  0.7605
+                       },
+                       {
+                           "hex":  "#797F86",
+                           "coverage":  0.2262
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.0133
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7118406709,
+        "name":  "+ Casual Doctor Outfit Variant #5",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8479260544426996,
+        "collectibleItemId":  "96a26bbc-ba97-4f0a-af9b-81be249710fe",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118406709",
+        "created":  "2021-07-19T03:16:37.607Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "casual doctor outfit 5",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-0b6bccf7a7424796cd60d3b63f1fe2d5/420/420/Shirt/Png/noFilter",
+        "color1":  "#7B7E80",
+        "color2":  "#EEEDED",
+        "color3":  "#22252A",
+        "colors":  [
+                       {
+                           "hex":  "#7B7E80",
+                           "coverage":  0.5802
+                       },
+                       {
+                           "hex":  "#EEEDED",
+                           "coverage":  0.1368
+                       },
+                       {
+                           "hex":  "#22252A",
+                           "coverage":  0.1321
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071220451,
+        "name":  "+ Button-Down Red Shirt Tucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1181038803495089,
+        "collectibleItemId":  "2a60c76a-ad07-4ccd-be8c-1c7c41f3c413",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071220451",
+        "created":  "2020-12-11T07:23:39.487Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down red tucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-09d6b5a1b9d4d63d08efba09c492b7e3/420/420/Shirt/Png/noFilter",
+        "color1":  "#603338",
+        "color2":  "#867F7D",
+        "color3":  "#7F4A50",
+        "colors":  [
+                       {
+                           "hex":  "#603338",
+                           "coverage":  0.7318
+                       },
+                       {
+                           "hex":  "#867F7D",
+                           "coverage":  0.1834
+                       },
+                       {
+                           "hex":  "#7F4A50",
+                           "coverage":  0.0651
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  5817608537,
+        "name":  "- Black Suit Pants (Dropdown)",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  3927721703590856,
+        "collectibleItemId":  "b3dde085-f953-4ec1-897b-c3cc94c09ba5",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/5817608537",
+        "created":  "2020-10-11T19:58:11.19Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "black suit",
+        "colorSource":  "pair-top"
+    },
+    {
+        "id":  6383652527,
+        "name":  "+ White Tie Shirt with M1911 Holster V4",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6459276781761390,
+        "collectibleItemId":  "cc241c43-8570-44ac-801c-799ef2afeaf9",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383652527",
+        "created":  "2021-02-12T16:55:01.003Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "white tie with m1911 holster v4",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-f2e758146a672d7b3d5297676bd5c55a/420/420/Shirt/Png/noFilter",
+        "color1":  "#838381",
+        "color2":  "#373534",
+        "color3":  "#5F5E5E",
+        "colors":  [
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.4434
+                       },
+                       {
+                           "hex":  "#373534",
+                           "coverage":  0.2624
+                       },
+                       {
+                           "hex":  "#5F5E5E",
+                           "coverage":  0.1448
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6070857976,
+        "name":  "+ I LOVE SYRIA T-Shirt V1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1249320518109405,
+        "collectibleItemId":  "6b340efa-3d3d-484a-9509-71f901e189cd",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6070857976",
+        "created":  "2020-12-11T04:44:08.173Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "i love syria t v1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-22c5d8974e6252a20110b56cf993350f/420/420/Shirt/Png/noFilter",
+        "color1":  "#878681",
+        "color2":  "#5A5955",
+        "color3":  "#E9E8E3",
+        "colors":  [
+                       {
+                           "hex":  "#878681",
+                           "coverage":  0.6893
+                       },
+                       {
+                           "hex":  "#5A5955",
+                           "coverage":  0.1808
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.0395
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071220450,
+        "name":  "+ Button-Down Red Shirt Untucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  5676921216810710,
+        "collectibleItemId":  "12f4ef5f-1a91-404f-bd0d-7ae50a688517",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071220450",
+        "created":  "2020-12-11T07:23:39.473Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down red untucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-bf2fee5806fb034ec4938eed2d8163b2/420/420/Shirt/Png/noFilter",
+        "color1":  "#603338",
+        "color2":  "#85807D",
+        "color3":  "#7D4D51",
+        "colors":  [
+                       {
+                           "hex":  "#603338",
+                           "coverage":  0.742
+                       },
+                       {
+                           "hex":  "#85807D",
+                           "coverage":  0.1733
+                       },
+                       {
+                           "hex":  "#7D4D51",
+                           "coverage":  0.0716
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226161366,
+        "name":  "+ Red Collar Shirt V3",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1624688312938140,
+        "collectibleItemId":  "3f53d5bf-f0fd-4b3f-bbb2-755c0eb69b54",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226161366",
+        "created":  "2021-01-11T08:25:17.853Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "red collar v3",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-37bb8ca4f02529e8eaaae43afc2b6868/420/420/Shirt/Png/noFilter",
+        "color1":  "#561823",
+        "color2":  "#858180",
+        "color3":  "#705356",
+        "colors":  [
+                       {
+                           "hex":  "#561823",
+                           "coverage":  0.7517
+                       },
+                       {
+                           "hex":  "#858180",
+                           "coverage":  0.1591
+                       },
+                       {
+                           "hex":  "#705356",
+                           "coverage":  0.0524
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  5817607452,
+        "name":  "+ Button-Down Long Sleeve Shirt W/ Tie Untucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6372511124219848,
+        "collectibleItemId":  "62f0af92-f239-44fa-af71-40ab9206fdc7",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/5817607452",
+        "created":  "2020-10-11T19:57:35.857Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down long sleeve w tie untucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-21e231aecbdb67de80d0a776edf104cd/420/420/Shirt/Png/noFilter",
+        "color1":  "#848481",
+        "color2":  "#EAEAE9",
+        "color3":  "#2A2A2A",
+        "colors":  [
+                       {
+                           "hex":  "#848481",
+                           "coverage":  0.5324
+                       },
+                       {
+                           "hex":  "#EAEAE9",
+                           "coverage":  0.2374
+                       },
+                       {
+                           "hex":  "#2A2A2A",
+                           "coverage":  0.1367
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071109812,
+        "name":  "+ I LOVE SYRIA T-Shirt V2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  4245556314450711,
+        "collectibleItemId":  "481885a8-ea5e-4cae-a33a-9e221bf03b5a",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071109812",
+        "created":  "2020-12-11T06:33:04.397Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "i love syria t v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-22bdeab31b963b70ed539a7feb5a9817/420/420/Shirt/Png/noFilter",
+        "color1":  "#878681",
+        "color2":  "#5A5955",
+        "color3":  "#E9E8E3",
+        "colors":  [
+                       {
+                           "hex":  "#878681",
+                           "coverage":  0.6857
+                       },
+                       {
+                           "hex":  "#5A5955",
+                           "coverage":  0.1829
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.04
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6227408264,
+        "name":  "+ Blue Collar Shirt V4",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  4005170202884928,
+        "collectibleItemId":  "e95a0966-43b6-4db8-acf5-fda89262a017",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6227408264",
+        "created":  "2021-01-11T14:01:13.713Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collar v4",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-91bc46e584150159a4cd9174ab45f0b1/420/420/Shirt/Png/noFilter",
+        "color1":  "#283157",
+        "color2":  "#828181",
+        "color3":  "#585D70",
+        "colors":  [
+                       {
+                           "hex":  "#283157",
+                           "coverage":  0.7557
+                       },
+                       {
+                           "hex":  "#828181",
+                           "coverage":  0.1722
+                       },
+                       {
+                           "hex":  "#585D70",
+                           "coverage":  0.0369
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071109814,
+        "name":  "+ I LOVE EGYPT T-Shirt V2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8376398000142842,
+        "collectibleItemId":  "0c8b7c41-970c-4d62-9eb5-1485d29fae7b",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071109814",
+        "created":  "2020-12-11T06:33:04.467Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "i love egypt t v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-e71bbc9af6d6caf15bcfa1c3a78dd479/420/420/Shirt/Png/noFilter",
+        "color1":  "#868581",
+        "color2":  "#5A5855",
+        "color3":  "#E9E8E3",
+        "colors":  [
+                       {
+                           "hex":  "#868581",
+                           "coverage":  0.6897
+                       },
+                       {
+                           "hex":  "#5A5855",
+                           "coverage":  0.1782
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.0402
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6383650392,
+        "name":  "+ Light Grey Collar Shirt V5",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1214561517390515,
+        "collectibleItemId":  "0ef45b5a-b2e5-42df-a74b-8271904d067c",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383650392",
+        "created":  "2021-02-12T16:54:34.557Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "light grey collar v5",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-e437ac79d99bafed04dc0964614c83bd/420/420/Shirt/Png/noFilter",
+        "color1":  "#828281",
+        "color2":  "#E8E8E3",
+        "color3":  "#525250",
+        "colors":  [
+                       {
+                           "hex":  "#828281",
+                           "coverage":  0.9811
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0147
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0042
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6383650368,
+        "name":  "+ Light Grey Collar Shirt V3",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  2674784825707183,
+        "collectibleItemId":  "0bf19ed7-76f8-45d4-b720-b83f7360ce1f",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383650368",
+        "created":  "2021-02-12T16:54:34.26Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "light grey collar v3",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-878242feba7fc3d55438e3b9637485eb/420/420/Shirt/Png/noFilter",
+        "color1":  "#828281",
+        "color2":  "#504440",
+        "color3":  "#E9E8E4",
+        "colors":  [
+                       {
+                           "hex":  "#828281",
+                           "coverage":  0.954
+                       },
+                       {
+                           "hex":  "#504440",
+                           "coverage":  0.028
+                       },
+                       {
+                           "hex":  "#E9E8E4",
+                           "coverage":  0.014
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6383652498,
+        "name":  "+ White Tie Shirt with M1911 Holster V3",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6652535277043798,
+        "collectibleItemId":  "ef4ec4cc-0e52-4dc6-873a-bcf020cf2e0c",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383652498",
+        "created":  "2021-02-12T16:55:00.68Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "white tie with m1911 holster v3",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-ac03c682c9ff6366f39c85fc93f25f97/420/420/Shirt/Png/noFilter",
+        "color1":  "#848280",
+        "color2":  "#393636",
+        "color3":  "#605F5E",
+        "colors":  [
+                       {
+                           "hex":  "#848280",
+                           "coverage":  0.4408
+                       },
+                       {
+                           "hex":  "#393636",
+                           "coverage":  0.2776
+                       },
+                       {
+                           "hex":  "#605F5E",
+                           "coverage":  0.1469
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226161870,
+        "name":  "+ Blue Collar Shirt V1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  7639042630211220,
+        "collectibleItemId":  "76ef6d79-ad8f-45c9-95b2-3edb8c160726",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226161870",
+        "created":  "2021-01-11T08:25:24.073Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collar v1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-d9aaf42925a6f890e900730c196850ff/420/420/Shirt/Png/noFilter",
+        "color1":  "#283057",
+        "color2":  "#818181",
+        "color3":  "#53586E",
+        "colors":  [
+                       {
+                           "hex":  "#283057",
+                           "coverage":  0.8255
+                       },
+                       {
+                           "hex":  "#818181",
+                           "coverage":  0.1293
+                       },
+                       {
+                           "hex":  "#53586E",
+                           "coverage":  0.0343
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071108347,
+        "name":  "+ Button-Down Blue Shirt Tucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8911610057962175,
+        "collectibleItemId":  "1fdd03c6-fccc-4ab8-adb5-4ee69118473e",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071108347",
+        "created":  "2020-12-11T06:32:31.303Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down blue tucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-f374eae5d73895c6f1f25f6d25cb2099/420/420/Shirt/Png/noFilter",
+        "color1":  "#4A586B",
+        "color2":  "#7A7F86",
+        "color3":  "#E8E8E3",
+        "colors":  [
+                       {
+                           "hex":  "#4A586B",
+                           "coverage":  0.749
+                       },
+                       {
+                           "hex":  "#7A7F86",
+                           "coverage":  0.2371
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0139
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  5817607431,
+        "name":  "+ Black Suit Jacket Top",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1433059681532045,
+        "collectibleItemId":  "3691f28f-ad3c-484b-af05-9c8116c05a0c",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/5817607431",
+        "created":  "2020-10-11T19:57:35.28Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "black suit",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-cd252f8d16cf1f9e9ee6f0c46461ce60/420/420/Shirt/Png/noFilter",
+        "color1":  "#191919",
+        "color2":  "#82827F",
+        "color3":  "#444443",
+        "colors":  [
+                       {
+                           "hex":  "#191919",
+                           "coverage":  0.7934
+                       },
+                       {
+                           "hex":  "#82827F",
+                           "coverage":  0.1221
+                       },
+                       {
+                           "hex":  "#444443",
+                           "coverage":  0.0563
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6383652506,
+        "name":  "+ White Tie Shirt with M1911 Holster V5",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1465651825507371,
+        "collectibleItemId":  "22f3ff93-3b38-4322-9e28-ecc684641556",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383652506",
+        "created":  "2021-02-12T16:55:00.737Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "white tie with m1911 holster v5",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-30b0d0b66c1bf33e44f9990f8767f402/420/420/Shirt/Png/noFilter",
+        "color1":  "#848280",
+        "color2":  "#393636",
+        "color3":  "#605F5E",
+        "colors":  [
+                       {
+                           "hex":  "#848280",
+                           "coverage":  0.4431
+                       },
+                       {
+                           "hex":  "#393636",
+                           "coverage":  0.2764
+                       },
+                       {
+                           "hex":  "#605F5E",
+                           "coverage":  0.1463
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6227408266,
+        "name":  "+ Blue Collar Shirt V6",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  3057045362752608,
+        "collectibleItemId":  "ff3a7660-2a7d-4695-a657-4c3f59e9c42a",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6227408266",
+        "created":  "2021-01-11T14:01:13.763Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collar v6",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-91fde5ff3836ed4026f705f8091c170f/420/420/Shirt/Png/noFilter",
+        "color1":  "#283157",
+        "color2":  "#818281",
+        "color3":  "#565A6E",
+        "colors":  [
+                       {
+                           "hex":  "#283157",
+                           "coverage":  0.7839
+                       },
+                       {
+                           "hex":  "#818281",
+                           "coverage":  0.1648
+                       },
+                       {
+                           "hex":  "#565A6E",
+                           "coverage":  0.0385
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6227408942,
+        "name":  "+ Red Collar Shirt V5",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  7282437852114992,
+        "collectibleItemId":  "74a2afae-c768-4f57-977a-7f31e9a110a6",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6227408942",
+        "created":  "2021-01-11T14:01:28.417Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "red collar v5",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-e0388d4bcd4b60d2076cfea2cfa6cc94/420/420/Shirt/Png/noFilter",
+        "color1":  "#561723",
+        "color2":  "#86807E",
+        "color3":  "#725055",
+        "colors":  [
+                       {
+                           "hex":  "#561723",
+                           "coverage":  0.7778
+                       },
+                       {
+                           "hex":  "#86807E",
+                           "coverage":  0.1548
+                       },
+                       {
+                           "hex":  "#725055",
+                           "coverage":  0.051
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7117773263,
+        "name":  "+ Blue Collared Shirt Variant #1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  4886743766884960,
+        "collectibleItemId":  "f51da5bd-7771-4634-aa8e-03a75a92b225",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7117773263",
+        "created":  "2021-07-19T00:20:56.637Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collared 1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-bcc4132a8adeda864d32bd4fe653df21/420/420/Shirt/Png/noFilter",
+        "color1":  "#42587B",
+        "color2":  "#838482",
+        "color3":  "#6479A0",
+        "colors":  [
+                       {
+                           "hex":  "#42587B",
+                           "coverage":  0.8037
+                       },
+                       {
+                           "hex":  "#838482",
+                           "coverage":  0.1028
+                       },
+                       {
+                           "hex":  "#6479A0",
+                           "coverage":  0.0732
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6383650391,
+        "name":  "+ Light Grey Collar Shirt V4",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  3715656698442617,
+        "collectibleItemId":  "b6c8dff3-cd6c-4a0a-a4f5-5699fe63fd06",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383650391",
+        "created":  "2021-02-12T16:54:34.53Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "light grey collar v4",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-4051f76b39c0692cbbce2cc3a065d110/420/420/Shirt/Png/noFilter",
+        "color1":  "#818181",
+        "color2":  "#E8E8E3",
+        "color3":  "#525250",
+        "colors":  [
+                       {
+                           "hex":  "#818181",
+                           "coverage":  0.9845
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0121
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0035
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226321486,
+        "name":  "+ CIA Agent V1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  643737954506487,
+        "collectibleItemId":  "cd60c71d-aab8-48ce-bbc4-4d78e0917ec9",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226321486",
+        "created":  "2021-01-11T08:59:34.74Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "cia agent v1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-be3983c656c25d74c6187f04e07af506/420/420/Shirt/Png/noFilter",
+        "color1":  "#838381",
+        "color2":  "#373534",
+        "color3":  "#5F5E5E",
+        "colors":  [
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.4358
+                       },
+                       {
+                           "hex":  "#373534",
+                           "coverage":  0.2661
+                       },
+                       {
+                           "hex":  "#5F5E5E",
+                           "coverage":  0.1468
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6227408261,
+        "name":  "+ Blue Collar Shirt V5",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  3862637572671960,
+        "collectibleItemId":  "c4b8096e-8df1-4c4c-aa2c-17afd59586a0",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6227408261",
+        "created":  "2021-01-11T14:01:13.69Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collar v5",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-2dfb5a786d944fd80fb82c779b451013/420/420/Shirt/Png/noFilter",
+        "color1":  "#283057",
+        "color2":  "#818181",
+        "color3":  "#53586E",
+        "colors":  [
+                       {
+                           "hex":  "#283057",
+                           "coverage":  0.8255
+                       },
+                       {
+                           "hex":  "#818181",
+                           "coverage":  0.1293
+                       },
+                       {
+                           "hex":  "#53586E",
+                           "coverage":  0.0343
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071108317,
+        "name":  "+ Button-Down Grey Shirt Tucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  2985923796633442,
+        "collectibleItemId":  "9a71f6a0-3840-44b1-b6b8-53f5c908e4c7",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071108317",
+        "created":  "2020-12-11T06:32:24.25Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down grey tucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-52c67871969c54d0235c278d8d1ede28/420/420/Shirt/Png/noFilter",
+        "color1":  "#7B8381",
+        "color2":  "#E9E8E4",
+        "color3":  "#525250",
+        "colors":  [
+                       {
+                           "hex":  "#7B8381",
+                           "coverage":  0.9798
+                       },
+                       {
+                           "hex":  "#E9E8E4",
+                           "coverage":  0.0157
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0045
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7118290553,
+        "name":  "- Blue Collared Shirt With Black Tie Dropdown",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8706422496507446,
+        "collectibleItemId":  "049916df-2e03-4959-84c8-bfa6ac7b142c",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7118290553",
+        "created":  "2021-07-19T02:41:12.083Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collared with black tie",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-ed17c9d13369b35c28d92fcab2feb26a/420/420/Pants/Png/noFilter",
+        "color1":  "#1A1A1C",
+        "color2":  "#43597D",
+        "color3":  "#838383",
+        "colors":  [
+                       {
+                           "hex":  "#1A1A1C",
+                           "coverage":  0.3993
+                       },
+                       {
+                           "hex":  "#43597D",
+                           "coverage":  0.3433
+                       },
+                       {
+                           "hex":  "#838383",
+                           "coverage":  0.1594
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6228290458,
+        "name":  "+ Agent 47\u0027s Signature Suit with Gloves",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8986808515000386,
+        "collectibleItemId":  "5789cbc3-e8e7-486f-927b-07ec9933d71a",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6228290458",
+        "created":  "2021-01-11T17:54:15.48Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "agent 47 s signature suit with gloves",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-0d024f5b2d309a42aa28287cc5e37a1c/420/420/Shirt/Png/noFilter",
+        "color1":  "#1E1E1E",
+        "color2":  "#83807F",
+        "color3":  "#715B5C",
+        "colors":  [
+                       {
+                           "hex":  "#1E1E1E",
+                           "coverage":  0.7783
+                       },
+                       {
+                           "hex":  "#83807F",
+                           "coverage":  0.1256
+                       },
+                       {
+                           "hex":  "#715B5C",
+                           "coverage":  0.0295
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6070857969,
+        "name":  "+ I LOVE EGYPT T-Shirt V1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  402713055612578,
+        "collectibleItemId":  "6a2ac96d-7f28-47f5-a22b-705847b2e4d8",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6070857969",
+        "created":  "2020-12-11T04:44:07.937Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "i love egypt t v1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-a8a1ba7826ef06e5d87e01e3df03825b/420/420/Shirt/Png/noFilter",
+        "color1":  "#868581",
+        "color2":  "#5A5855",
+        "color3":  "#E9E8E3",
+        "colors":  [
+                       {
+                           "hex":  "#868581",
+                           "coverage":  0.6932
+                       },
+                       {
+                           "hex":  "#5A5855",
+                           "coverage":  0.1761
+                       },
+                       {
+                           "hex":  "#E9E8E3",
+                           "coverage":  0.0398
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226162794,
+        "name":  "+ Blue Collar Shirt V2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  417929822566131,
+        "collectibleItemId":  "384406ba-bdaf-46e4-bfd4-3d8961d93a6c",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226162794",
+        "created":  "2021-01-11T08:25:36.463Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collar v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-ea610d1ddf081d02fb0d669555f94e62/420/420/Shirt/Png/noFilter",
+        "color1":  "#283157",
+        "color2":  "#818281",
+        "color3":  "#565A6E",
+        "colors":  [
+                       {
+                           "hex":  "#283157",
+                           "coverage":  0.7839
+                       },
+                       {
+                           "hex":  "#818281",
+                           "coverage":  0.1648
+                       },
+                       {
+                           "hex":  "#565A6E",
+                           "coverage":  0.0385
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6227408939,
+        "name":  "+ Red Collar Shirt V6",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  4674274698456348,
+        "collectibleItemId":  "e118efda-1849-45ed-950c-c4d5986a4d05",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6227408939",
+        "created":  "2021-01-11T14:01:28.2Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "red collar v6",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-bdd45879e5ea37ee3e394ec41c95c3e2/420/420/Shirt/Png/noFilter",
+        "color1":  "#551621",
+        "color2":  "#85807F",
+        "color3":  "#715156",
+        "colors":  [
+                       {
+                           "hex":  "#551621",
+                           "coverage":  0.8264
+                       },
+                       {
+                           "hex":  "#85807F",
+                           "coverage":  0.1225
+                       },
+                       {
+                           "hex":  "#715156",
+                           "coverage":  0.0372
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071092100,
+        "name":  "+ Button-Down Black Shirt Untucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  7671571772982930,
+        "collectibleItemId":  "7325c9f8-1865-4231-b9ac-913162ab5dfc",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071092100",
+        "created":  "2020-12-11T06:25:11.407Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down black untucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-51ee99674dec62d679f6e74a9a47a66e/420/420/Shirt/Png/noFilter",
+        "color1":  "#222121",
+        "color2":  "#838280",
+        "color3":  "#4F4E4D",
+        "colors":  [
+                       {
+                           "hex":  "#222121",
+                           "coverage":  0.7709
+                       },
+                       {
+                           "hex":  "#838280",
+                           "coverage":  0.1546
+                       },
+                       {
+                           "hex":  "#4F4E4D",
+                           "coverage":  0.0428
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6383650296,
+        "name":  "+ Light Grey Collar Shirt V1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  6686582429281606,
+        "collectibleItemId":  "97a49477-f712-4d64-a498-f6b16ecba6cf",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383650296",
+        "created":  "2021-02-12T16:54:33.447Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "light grey collar v1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-61cf8e38ba867f08aa855b808b937e23/420/420/Shirt/Png/noFilter",
+        "color1":  "#818181",
+        "color2":  "#E8E8E3",
+        "color3":  "#525250",
+        "colors":  [
+                       {
+                           "hex":  "#818181",
+                           "coverage":  0.9845
+                       },
+                       {
+                           "hex":  "#E8E8E3",
+                           "coverage":  0.0121
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0035
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6383650405,
+        "name":  "+ Light Grey Collar Shirt V6",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  2074966124409994,
+        "collectibleItemId":  "1865bf24-c4d0-4a48-8ed4-0c62a3e4855f",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383650405",
+        "created":  "2021-02-12T16:54:34.75Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "light grey collar v6",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-55891568019836904fb1da06bf412d0d/420/420/Shirt/Png/noFilter",
+        "color1":  "#828281",
+        "color2":  "#504440",
+        "color3":  "#E9E8E4",
+        "colors":  [
+                       {
+                           "hex":  "#828281",
+                           "coverage":  0.954
+                       },
+                       {
+                           "hex":  "#504440",
+                           "coverage":  0.028
+                       },
+                       {
+                           "hex":  "#E9E8E4",
+                           "coverage":  0.014
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6228295015,
+        "name":  "- Agent 47\u0027s Signature Suit",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  4741186936667644,
+        "collectibleItemId":  "7d6ca915-f4df-42e5-8706-361c3af83b4d",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6228295015",
+        "created":  "2021-01-11T17:55:18.047Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "agent 47 s signature suit",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-c8c50fef372495b5ac734ba395354854/420/420/Pants/Png/noFilter",
+        "color1":  "#1C1C1C",
+        "color2":  "#848280",
+        "color3":  "#444443",
+        "colors":  [
+                       {
+                           "hex":  "#1C1C1C",
+                           "coverage":  0.6414
+                       },
+                       {
+                           "hex":  "#848280",
+                           "coverage":  0.1676
+                       },
+                       {
+                           "hex":  "#444443",
+                           "coverage":  0.0739
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071108324,
+        "name":  "+ Button-Down Black Shirt Tucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  3655213618337228,
+        "collectibleItemId":  "c0c49399-4ae0-4885-abe9-c6ccc02a65af",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071108324",
+        "created":  "2020-12-11T06:32:24.42Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down black tucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-4943f594425bbb3c185edb3a432c1adb/420/420/Shirt/Png/noFilter",
+        "color1":  "#222122",
+        "color2":  "#838380",
+        "color3":  "#4E4D4C",
+        "colors":  [
+                       {
+                           "hex":  "#222122",
+                           "coverage":  0.7588
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.1654
+                       },
+                       {
+                           "hex":  "#4E4D4C",
+                           "coverage":  0.0409
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226163317,
+        "name":  "+ Blue Collar Shirt V3",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  2228215650996510,
+        "collectibleItemId":  "5dd09e8e-1cea-4e0f-adae-e96c078957ad",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226163317",
+        "created":  "2021-01-11T08:25:42.473Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collar v3",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-a0bc3bf0e9216efdafaa061be869aa34/420/420/Shirt/Png/noFilter",
+        "color1":  "#283157",
+        "color2":  "#828282",
+        "color3":  "#595C6D",
+        "colors":  [
+                       {
+                           "hex":  "#283157",
+                           "coverage":  0.761
+                       },
+                       {
+                           "hex":  "#828282",
+                           "coverage":  0.167
+                       },
+                       {
+                           "hex":  "#595C6D",
+                           "coverage":  0.0439
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071092105,
+        "name":  "+ Button-Down Grey Shirt Untucked",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  3371359096269300,
+        "collectibleItemId":  "ff716ba5-187d-47aa-a05c-41c69df03269",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071092105",
+        "created":  "2020-12-11T06:25:11.517Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "button down grey untucked",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-cf87a496908609e58f4db52c6003e197/420/420/Shirt/Png/noFilter",
+        "color1":  "#7C8482",
+        "color2":  "#EAE8E4",
+        "color3":  "#525250",
+        "colors":  [
+                       {
+                           "hex":  "#7C8482",
+                           "coverage":  0.9809
+                       },
+                       {
+                           "hex":  "#EAE8E4",
+                           "coverage":  0.0149
+                       },
+                       {
+                           "hex":  "#525250",
+                           "coverage":  0.0042
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226322034,
+        "name":  "+ CIA Agent V2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  814031089532653,
+        "collectibleItemId":  "0e6c7d41-1c45-4012-a17f-da4e374a3240",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226322034",
+        "created":  "2021-01-11T08:59:42.183Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "cia agent v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-4a9161eccea48b4718a05a5570c08ebe/420/420/Shirt/Png/noFilter",
+        "color1":  "#838381",
+        "color2":  "#373534",
+        "color3":  "#5F5E5E",
+        "colors":  [
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.4332
+                       },
+                       {
+                           "hex":  "#373534",
+                           "coverage":  0.2673
+                       },
+                       {
+                           "hex":  "#5F5E5E",
+                           "coverage":  0.1475
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6383652502,
+        "name":  "+ White Tie Shirt with M1911 Holster V6",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1640266986892566,
+        "collectibleItemId":  "24c8ddbb-ccec-437a-a380-baa002cf0e16",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6383652502",
+        "created":  "2021-02-12T16:55:00.543Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "white tie with m1911 holster v6",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-b6f2437cd5a8b037c3843dd7dbdbfc3a/420/420/Shirt/Png/noFilter",
+        "color1":  "#838381",
+        "color2":  "#373534",
+        "color3":  "#5F5E5E",
+        "colors":  [
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.4459
+                       },
+                       {
+                           "hex":  "#373534",
+                           "coverage":  0.2613
+                       },
+                       {
+                           "hex":  "#5F5E5E",
+                           "coverage":  0.1441
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6226160114,
+        "name":  "+ Red Collar Shirt V1",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1241023401341010,
+        "collectibleItemId":  "035f357b-fa90-4381-ad4f-07742a405005",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6226160114",
+        "created":  "2021-01-11T08:24:59.663Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "red collar v1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-6ad9eb9ced5af72b9907adc095a6a8bc/420/420/Shirt/Png/noFilter",
+        "color1":  "#551622",
+        "color2":  "#85807E",
+        "color3":  "#725155",
+        "colors":  [
+                       {
+                           "hex":  "#551622",
+                           "coverage":  0.8264
+                       },
+                       {
+                           "hex":  "#85807E",
+                           "coverage":  0.1225
+                       },
+                       {
+                           "hex":  "#725155",
+                           "coverage":  0.0372
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  7117772593,
+        "name":  "+ Blue Collared Shirt With Black Tie Variant #2",
+        "role":  "top",
+        "assetType":  11,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8608656945882856,
+        "collectibleItemId":  "fe0451c6-3e50-4b6f-9e4b-b5ae5b661d7e",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/7117772593",
+        "created":  "2021-07-19T00:20:46.047Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "blue collared with black tie 2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-c7d769a4fdcfb461f8f37328e9be2e0c/420/420/Shirt/Png/noFilter",
+        "color1":  "#42587A",
+        "color2":  "#838482",
+        "color3":  "#64799F",
+        "colors":  [
+                       {
+                           "hex":  "#42587A",
+                           "coverage":  0.7589
+                       },
+                       {
+                           "hex":  "#838482",
+                           "coverage":  0.1042
+                       },
+                       {
+                           "hex":  "#64799F",
+                           "coverage":  0.0731
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  5817608534,
+        "name":  "- Black Suit Pants V1",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8993854050983708,
+        "collectibleItemId":  "43520b5b-c4a0-42be-9221-cf646f245838",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/5817608534",
+        "created":  "2020-10-11T19:58:11.027Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "unclassified",
+        "outfitKey":  "black suit v1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-96ef24a9042c738a34e361f3f02137e1/420/420/Pants/Png/noFilter",
+        "color1":  "#171717",
+        "color2":  "#838380",
+        "color3":  "#E8E7E2",
+        "colors":  [
+                       {
+                           "hex":  "#171717",
+                           "coverage":  0.6166
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.2239
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "colorSource":  "self"
     }
 ]

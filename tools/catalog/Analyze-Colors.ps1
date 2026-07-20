@@ -131,14 +131,6 @@ if ($Limit -gt 0 -and $toAnalyze.Count -gt $Limit) {
 }
 
 Write-Host ("Assets to analyze: {0} (tops + unmatched bottoms; paired bottoms omitted)" -f $toAnalyze.Count)
-if ($toAnalyze.Count -eq 0) {
-    Write-Host "Nothing to do."
-    return
-}
-
-Write-Host "Resolving CDN thumbnail URLs..."
-$urlMap = Get-AssetThumbnailUrls -Ids $toAnalyze
-Write-Host ("  resolved {0}/{1}" -f $urlMap.Count, $toAnalyze.Count)
 
 $results = @{}
 foreach ($k in $existing.Keys) { $results[$k] = $existing[$k] }
@@ -147,44 +139,52 @@ $done = 0
 $failed = 0
 $sw = [System.Diagnostics.Stopwatch]::StartNew()
 
-foreach ($id in $toAnalyze) {
-    $done++
-    $url = $null
-    if ($urlMap.ContainsKey($id)) { $url = $urlMap[$id] }
+if ($toAnalyze.Count -eq 0) {
+    Write-Host "No new assets to analyze; re-merging existing colors into catalog/matches."
+} else {
+    Write-Host "Resolving CDN thumbnail URLs..."
+    $urlMap = Get-AssetThumbnailUrls -Ids $toAnalyze
+    Write-Host ("  resolved {0}/{1}" -f $urlMap.Count, $toAnalyze.Count)
 
-    $analysis = Get-AssetDominantColors -AssetId $id -ThumbnailUrl $url
-    $fields = Get-ColorFields -Analysis $analysis
+    foreach ($id in $toAnalyze) {
+        $done++
+        $url = $null
+        if ($urlMap.ContainsKey($id)) { $url = $urlMap[$id] }
 
-    $results[$id] = [pscustomobject]@{
-        id           = $id
-        thumbnailUrl = $fields.thumbnailUrl
-        color1       = $fields.color1
-        color1Cov    = $fields.color1Cov
-        color2       = $fields.color2
-        color2Cov    = $fields.color2Cov
-        color3       = $fields.color3
-        color3Cov    = $fields.color3Cov
-        colors       = $fields.colors
-        error        = $fields.colorError
-        source       = 'roblox-cdn-thumbnail'
+        $analysis = Get-AssetDominantColors -AssetId $id -ThumbnailUrl $url
+        $fields = Get-ColorFields -Analysis $analysis
+
+        $results[$id] = [pscustomobject]@{
+            id           = $id
+            thumbnailUrl = $fields.thumbnailUrl
+            color1       = $fields.color1
+            color1Cov    = $fields.color1Cov
+            color2       = $fields.color2
+            color2Cov    = $fields.color2Cov
+            color3       = $fields.color3
+            color3Cov    = $fields.color3Cov
+            colors       = $fields.colors
+            error        = $fields.colorError
+            source       = 'roblox-cdn-thumbnail'
+        }
+
+        if ($fields.colorError) { $failed++ }
+
+        if (($done % 25) -eq 0 -or $done -eq $toAnalyze.Count) {
+            $rate = if ($sw.Elapsed.TotalSeconds -gt 0) { [Math]::Round($done / $sw.Elapsed.TotalSeconds, 2) } else { 0 }
+                Write-Host ("  [{0}/{1}] fail={2} {3}/s  last={4} {5}" -f `
+                    $done, $toAnalyze.Count, $failed, $rate, $id, `
+                    ((@($fields.colors) | ForEach-Object { $_.hex }) -join ','))
+        }
+
+        # Checkpoint every 100 so a long run can resume.
+        if (($done % 100) -eq 0) {
+            @($results.Values | Sort-Object id) | ConvertTo-Json -Depth 6 |
+                Set-Content -Path $colorsPath -Encoding UTF8
+        }
+
+        Start-Sleep -Milliseconds 40
     }
-
-    if ($fields.colorError) { $failed++ }
-
-    if (($done % 25) -eq 0 -or $done -eq $toAnalyze.Count) {
-        $rate = if ($sw.Elapsed.TotalSeconds -gt 0) { [Math]::Round($done / $sw.Elapsed.TotalSeconds, 2) } else { 0 }
-            Write-Host ("  [{0}/{1}] fail={2} {3}/s  last={4} {5}" -f `
-                $done, $toAnalyze.Count, $failed, $rate, $id, `
-                ((@($fields.colors) | ForEach-Object { $_.hex }) -join ','))
-    }
-
-    # Checkpoint every 100 so a long run can resume.
-    if (($done % 100) -eq 0) {
-        @($results.Values | Sort-Object id) | ConvertTo-Json -Depth 6 |
-            Set-Content -Path $colorsPath -Encoding UTF8
-    }
-
-    Start-Sleep -Milliseconds 40
 }
 
 Write-Host "`nWriting colors.json..."

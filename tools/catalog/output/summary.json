@@ -1,5 +1,5 @@
 ﻿{
-    "generatedUtc":  "2026-07-18T23:55:48.3568079Z",
+    "generatedUtc":  "2026-07-20T21:58:54.1111310Z",
     "scope":  "Classic Shirts + Classic Pants only (no t-shirts, no 3D clothing)",
     "groups":  [
                    {
@@ -100,17 +100,26 @@
                        "tops":  299,
                        "bottoms":  280,
                        "total":  579
+                   },
+                   {
+                       "group":  "Studio 20 Clothing Co.",
+                       "slug":  "studio-20-clothing-co",
+                       "groupId":  7800647,
+                       "defaultGender":  "unclassified",
+                       "tops":  56,
+                       "bottoms":  15,
+                       "total":  71
                    }
                ],
     "byGender":  {
                      "masculine":  {
                                        "gender":  "masculine",
-                                       "items":  3878,
+                                       "items":  3882,
                                        "tops":  2094,
-                                       "bottoms":  1784,
-                                       "matchedOutfits":  1513,
-                                       "unmatchedTops":  642,
-                                       "unmatchedBottoms":  334
+                                       "bottoms":  1788,
+                                       "matchedOutfits":  1514,
+                                       "unmatchedTops":  641,
+                                       "unmatchedBottoms":  337
                                    },
                      "feminine":  {
                                       "gender":  "feminine",
@@ -123,26 +132,26 @@
                                   },
                      "unclassified":  {
                                           "gender":  "unclassified",
-                                          "items":  1804,
-                                          "tops":  982,
-                                          "bottoms":  822,
-                                          "matchedOutfits":  776,
-                                          "unmatchedTops":  616,
-                                          "unmatchedBottoms":  468
+                                          "items":  1871,
+                                          "tops":  1038,
+                                          "bottoms":  833,
+                                          "matchedOutfits":  783,
+                                          "unmatchedTops":  666,
+                                          "unmatchedBottoms":  472
                                       }
                  },
     "totals":  {
-                   "items":  6064,
-                   "masculine":  3878,
+                   "items":  6135,
+                   "masculine":  3882,
                    "feminine":  382,
-                   "unclassified":  1804,
-                   "matchedOutfits":  2454
+                   "unclassified":  1871,
+                   "matchedOutfits":  2462
                },
     "colors":  {
-                   "analyzed":  4177,
+                   "analyzed":  4244,
                    "failed":  1,
-                   "pairedBottomsSkipped":  1887,
+                   "pairedBottomsSkipped":  1895,
                    "source":  "roblox-cdn-thumbnail (in-memory; CDN URL stored)",
-                   "generatedUtc":  "2026-07-19T00:54:53.1559392Z"
+                   "generatedUtc":  "2026-07-20T22:00:41.5028308Z"
                }
 }

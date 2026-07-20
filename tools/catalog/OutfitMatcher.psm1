@@ -23,7 +23,9 @@ $script:RoleTokens = @(
     # Top garment types (stripping keeps the outfit base name consistent)
     'polo', 'polos', 'waistcoat', 'waistcoats', 'blazer', 'blazers',
     'jacket', 'jackets', 'hoodie', 'hoodies', 'sweater', 'sweaters',
-    'vest', 'vests', 'coat', 'coats'
+    'vest', 'vests', 'coat', 'coats',
+    # Studio 20 Clothing Co. uses Variant (tops) / Dropdown (bottoms)
+    'variant', 'variants', 'dropdown', 'dropdowns'
 )
 
 function Get-OutfitKey {

@@ -56902,8 +56902,7 @@
         "colors":  [
 
                    ],
-        "colorSource":  "failed",
-        "colorError":  "thumbnail_unavailable (Roblox state=Pending permanently; item IsForSale=false, IconImageAssetId=0)"
+        "colorSource":  "self"
     },
     {
         "id":  287993509,
@@ -73390,7 +73389,7 @@
         "created":  "2022-02-22T22:19:09.843Z",
         "groupSlug":  "obleceni",
         "gender":  "masculine",
-        "outfitKey":  "john got ti dapper overcoat variant",
+        "outfitKey":  "john got ti dapper overcoat",
         "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-c125f7a65a98432adb769b9ef37969b6/420/420/Shirt/Png/noFilter",
         "color1":  "#72727A",
         "color2":  "#525255",
@@ -113493,6 +113492,150 @@
                        {
                            "hex":  "#424440",
                            "coverage":  0.0319
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071094668,
+        "name":  "- Levi\u0027s Men\u0027s Straight Pants V1",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  2252466947159056,
+        "collectibleItemId":  "cc64bac5-e1bc-4382-81a8-6af862175804",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071094668",
+        "created":  "2020-12-11T06:26:19.783Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "masculine",
+        "outfitKey":  "levi s men s straight v1",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-94ea6bf9a1845e6092e4bfbaf106e2cc/420/420/Pants/Png/noFilter",
+        "color1":  "#1F2A34",
+        "color2":  "#838381",
+        "color3":  "#E8E7E2",
+        "colors":  [
+                       {
+                           "hex":  "#1F2A34",
+                           "coverage":  0.6288
+                       },
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.2301
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071094672,
+        "name":  "- Levi\u0027s Men\u0027s Straight Pants V3",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  2918815343324591,
+        "collectibleItemId":  "6ef2f5e8-1a15-4423-97d5-1995f5594c8f",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071094672",
+        "created":  "2020-12-11T06:26:19.863Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "masculine",
+        "outfitKey":  "levi s men s straight v3",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-203d2b03a698411a5d902b5b4af7b749/420/420/Pants/Png/noFilter",
+        "color1":  "#212B38",
+        "color2":  "#838380",
+        "color3":  "#E8E7E2",
+        "colors":  [
+                       {
+                           "hex":  "#212B38",
+                           "coverage":  0.5613
+                       },
+                       {
+                           "hex":  "#838380",
+                           "coverage":  0.2607
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071094669,
+        "name":  "- Levi\u0027s Men\u0027s Straight Pants V2",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  1400064772371887,
+        "collectibleItemId":  "11b05882-34ab-4550-a35d-fed4e88b0c6c",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071094669",
+        "created":  "2020-12-11T06:26:19.8Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "masculine",
+        "outfitKey":  "levi s men s straight v2",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-f2ab053640aa38bf7e4f643ad8fb6603/420/420/Pants/Png/noFilter",
+        "color1":  "#1F2A34",
+        "color2":  "#838381",
+        "color3":  "#E8E7E2",
+        "colors":  [
+                       {
+                           "hex":  "#1F2A34",
+                           "coverage":  0.6258
+                       },
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.2301
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
+                       }
+                   ],
+        "colorSource":  "self"
+    },
+    {
+        "id":  6071094676,
+        "name":  "- Levi\u0027s Men\u0027s Straight Pants V4",
+        "role":  "bottom",
+        "assetType":  12,
+        "price":  5,
+        "lowestPrice":  5,
+        "productId":  8087734352626779,
+        "collectibleItemId":  "c1fc664a-81bd-4a4a-b6f4-f74c62fdebfe",
+        "groupId":  7800647,
+        "groupName":  "Studio 20 Clothing Co.",
+        "url":  "https://www.roblox.com/catalog/6071094676",
+        "created":  "2020-12-11T06:26:26.3Z",
+        "groupSlug":  "studio-20-clothing-co",
+        "gender":  "masculine",
+        "outfitKey":  "levi s men s straight v4",
+        "thumbnailUrl":  "https://tr.rbxcdn.com/180DAY-6d30b984038ef8d5a2e40942d1ce7a3f/420/420/Pants/Png/noFilter",
+        "color1":  "#212D3A",
+        "color2":  "#838381",
+        "color3":  "#E8E7E2",
+        "colors":  [
+                       {
+                           "hex":  "#212D3A",
+                           "coverage":  0.5521
+                       },
+                       {
+                           "hex":  "#838381",
+                           "coverage":  0.2638
+                       },
+                       {
+                           "hex":  "#E8E7E2",
+                           "coverage":  0.1043
                        }
                    ],
         "colorSource":  "self"
