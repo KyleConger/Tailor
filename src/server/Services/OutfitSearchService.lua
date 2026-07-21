@@ -9,6 +9,7 @@ local MIN_RADIUS = 0.025
 local MAX_RADIUS = 0.35
 local DEFAULT_RADIUS = 0.12
 local MAX_RESULTS = 40
+local MAX_OFFSET = 5000
 local MIN_INCLUDE_COVERAGE = 0.02
 local MIN_EXCLUDE_COVERAGE = 0.05
 local REQUEST_COOLDOWN = 0.15
@@ -36,6 +37,10 @@ local GROUP_PRIORITY = {
 	{ match = "gravelle", weight = 0.01 },
 	{ match = "style abby", weight = 0.01 },
 }
+
+-- Similar-search gender boost: matching masculine/feminine get +0.5 display
+-- priority so preferred gender ranks above brand weights (max brand is 0.30).
+local PREFER_GENDER_PRIORITY = 0.5
 
 local function getDisplayPriority(groupName)
 	local group = string.lower(groupName or "")
@@ -113,6 +118,14 @@ local function normalizeGender(value)
 	return false
 end
 
+local function normalizePreferGender(value)
+	local gender = normalizeGender(value)
+	if gender == 1 or gender == 2 then
+		return gender
+	end
+	return nil
+end
+
 local OutfitSearchService = Knit.CreateService({
 	Name = "OutfitSearchService",
 	Client = {},
@@ -168,13 +181,17 @@ function OutfitSearchService:_validateRequest(request)
 		return nil, "Invalid gender filter"
 	end
 
+	local preferGender = normalizePreferGender(request.preferGender)
+
 	return {
 		include1 = color3ToOklab(request.include1),
 		include2 = color3ToOklab(request.include2),
 		exclude = if useExclude and request.exclude then color3ToOklab(request.exclude) else nil,
 		radius = math.clamp(tonumber(request.radius) or DEFAULT_RADIUS, MIN_RADIUS, MAX_RADIUS),
 		limit = math.clamp(math.floor(tonumber(request.limit) or 24), 1, MAX_RESULTS),
+		offset = math.clamp(math.floor(tonumber(request.offset) or 0), 0, MAX_OFFSET),
 		gender = gender,
+		preferGender = preferGender,
 	}, nil
 end
 
@@ -267,12 +284,15 @@ function OutfitSearchService:Search(request)
 		local paletteIndex = rawOutfit[1]
 		local score = paletteScores[paletteIndex]
 		if score and (normalized.gender == nil or rawOutfit[5] == normalized.gender) then
-			local palette = self._palettes[paletteIndex]
+			local displayPriority = getDisplayPriority(rawOutfit[7])
+			if normalized.preferGender and rawOutfit[5] == normalized.preferGender then
+				displayPriority += PREFER_GENDER_PRIORITY
+			end
 			table.insert(matches, {
 				paletteIndex = paletteIndex,
 				raw = rawOutfit,
 				score = score,
-				displayPriority = getDisplayPriority(rawOutfit[7]),
+				displayPriority = displayPriority,
 			})
 		end
 	end
@@ -297,11 +317,14 @@ function OutfitSearchService:Search(request)
 	end)
 
 	local results = {}
-	for index = 1, math.min(normalized.limit, #matches) do
+	local startIndex = normalized.offset + 1
+	local endIndex = math.min(normalized.offset + normalized.limit, #matches)
+	for index = startIndex, endIndex do
 		local match = matches[index]
 		local palette = self._palettes[match.paletteIndex]
 		local raw = match.raw
-		results[index] = {
+		local swatches = palette.swatches
+		results[#results + 1] = {
 			topId = palette.topId,
 			topName = palette.topName,
 			topUrl = palette.topUrl,
@@ -312,6 +335,8 @@ function OutfitSearchService:Search(request)
 			priceTotal = raw[6],
 			groupName = raw[7],
 			thumbnailUrl = palette.thumbnailUrl,
+			color1Hex = swatches[1] and rgb24ToHex(swatches[1].rgb) or nil,
+			color2Hex = swatches[2] and rgb24ToHex(swatches[2].rgb) or nil,
 			firstHex = match.score.firstHex,
 			secondHex = match.score.secondHex,
 			firstDistance = match.score.firstDistance,
@@ -323,15 +348,19 @@ function OutfitSearchService:Search(request)
 		ok = true,
 		radius = normalized.radius,
 		total = #matches,
+		offset = normalized.offset,
+		hasMore = endIndex < #matches,
 		results = results,
 		note = "Colors are extracted from the top garment.",
 	}
 end
 
 function OutfitSearchService.Client:Search(player, request)
+	local offset = type(request) == "table" and tonumber(request.offset) or 0
 	local now = os.clock()
 	local previous = OutfitSearchService._lastRequest[player] or 0
-	if now - previous < REQUEST_COOLDOWN then
+	-- Continuations of the same search skip the cooldown so scroll-loading stays responsive.
+	if (not offset or offset <= 0) and now - previous < REQUEST_COOLDOWN then
 		return {
 			ok = false,
 			error = "Please wait before searching again",

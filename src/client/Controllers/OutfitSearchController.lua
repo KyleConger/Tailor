@@ -11,6 +11,8 @@ local ColorPicker = require(script.Parent.Parent.Components.ColorPicker)
 local PLAYER = Players.LocalPlayer
 local DEFAULT_RADIUS = 0.12
 local RECOMMENDATION_PAGE_SIZE = 10
+local SEARCH_PAGE_SIZE = 30
+local LOAD_MORE_THRESHOLD = 80
 
 local THEME = {
 	background = Color3.fromRGB(17, 19, 24),
@@ -187,12 +189,41 @@ function OutfitSearchController:_applyPreset(preset)
 	self._colors.include2 = Color3.fromHex(preset.secondary)
 	self._colors.exclude = Color3.fromHex(preset.exclude)
 	self._excludeEnabled = true
+	self._preferGender = nil
 
 	self:_updateColorSlot("include1")
 	self:_updateColorSlot("include2")
 	self:_updateColorSlot("exclude")
 	self:_updateExcludeToggle()
 	self._status.Text = preset.name .. " preset applied with omit enabled."
+end
+
+function OutfitSearchController:_applyColorsFromShirt(color1Hex, color2Hex, gender)
+	if not color1Hex or not color2Hex then
+		return
+	end
+
+	if self._picker then
+		self._picker:Destroy()
+		self._picker = nil
+		self._activeSlot = nil
+	end
+
+	self._colors.include1 = Color3.fromHex(color1Hex)
+	self._colors.include2 = Color3.fromHex(color2Hex)
+	self._excludeEnabled = false
+	self._preferGender = if gender == "masculine" or gender == "feminine" then gender else nil
+
+	self:_updateColorSlot("include1")
+	self:_updateColorSlot("include2")
+	self:_updateExcludeToggle()
+	self._status.Text = if self._preferGender
+		then string.format(
+			"Include colors set from this shirt. Omit off. Preferring %s (+50%%).",
+			self._preferGender
+		)
+		else "Include colors set from this shirt. Omit color off."
+	self:_search()
 end
 
 function OutfitSearchController:_makePresetButton(parent, preset, order)
@@ -397,21 +428,31 @@ function OutfitSearchController:_renderResult(result, order, parent, options)
 	local match = makeLabel(card, matchText, UDim2.new(1, -135, 0, 20), UDim2.fromOffset(128, 73), 11, THEME.muted)
 	match.Font = Enum.Font.Code
 
-	local topButton = makeButton(card, "Buy top", UDim2.fromOffset(82, 25), UDim2.fromOffset(128, 96), THEME.accent)
+	local topButton = makeButton(card, "Buy top", UDim2.fromOffset(68, 25), UDim2.fromOffset(128, 96), THEME.accent)
 	topButton.Activated:Connect(function()
 		self:_promptAsset(result.topId, result)
 	end)
 
 	local bottomButton =
-		makeButton(card, "Buy bottom", UDim2.fromOffset(90, 25), UDim2.fromOffset(218, 96), THEME.panel)
+		makeButton(card, "Buy bottom", UDim2.fromOffset(78, 25), UDim2.fromOffset(202, 96), THEME.panel)
 	bottomButton.Activated:Connect(function()
 		self:_promptAsset(result.bottomId, result)
 	end)
 
-	local tryOnButton = makeButton(card, "Try on", UDim2.fromOffset(78, 25), UDim2.fromOffset(316, 96), THEME.panel)
+	local tryOnButton = makeButton(card, "Try on", UDim2.fromOffset(62, 25), UDim2.fromOffset(286, 96), THEME.panel)
 	tryOnButton.Activated:Connect(function()
 		self:_tryOn(result, tryOnButton)
 	end)
+
+	local color1Hex = result.color1Hex or result.firstHex
+	local color2Hex = result.color2Hex or result.secondHex
+	if color1Hex and color2Hex then
+		local similarButton =
+			makeButton(card, "Similar", UDim2.fromOffset(62, 25), UDim2.fromOffset(354, 96), THEME.panel)
+		similarButton.Activated:Connect(function()
+			self:_applyColorsFromShirt(color1Hex, color2Hex, result.gender)
+		end)
+	end
 
 	if options.logImpression then
 		self:_logImpression(result, order)
@@ -461,7 +502,7 @@ function OutfitSearchController:_renderRecommendations(response)
 
 	for index, result in response.results do
 		self:_renderResult(result, index, self._recommended, {
-			size = UDim2.fromOffset(404, 126),
+			size = UDim2.fromOffset(424, 126),
 			logImpression = true,
 		})
 	end
@@ -481,23 +522,38 @@ function OutfitSearchController:_loadRecommendations()
 		end)
 end
 
-function OutfitSearchController:_renderResponse(response)
-	self:_clearResults()
+function OutfitSearchController:_renderResponse(response, append)
 	self._searchButton.Text = "Find outfits"
 	self._searchButton.Active = true
+	self._loadingMore = false
 
 	if not response or not response.ok then
-		self._status.Text = if response then response.error else "Search failed"
+		if not append then
+			self:_clearResults()
+			self._status.Text = if response then response.error else "Search failed"
+			self._hasMore = false
+			self._searchLoaded = 0
+			self._searchTotal = 0
+		end
 		return
 	end
 
+	if not append then
+		self:_clearResults()
+		self._searchLoaded = 0
+	end
+
+	self._searchTotal = response.total or 0
+	self._searchLoaded += #response.results
+	self._hasMore = response.hasMore == true
+
 	self._status.Text = string.format(
 		"%d matching outfits • showing %d • colors currently describe tops",
-		response.total,
-		#response.results
+		self._searchTotal,
+		self._searchLoaded
 	)
 
-	if #response.results == 0 then
+	if not append and #response.results == 0 then
 		local empty = makeLabel(
 			self._results,
 			"No outfits matched your color rules. Increase the radius, turn omit off, or choose broader colors.",
@@ -508,11 +564,77 @@ function OutfitSearchController:_renderResponse(response)
 		)
 		empty.LayoutOrder = 1
 		empty.TextXAlignment = Enum.TextXAlignment.Center
+		return
 	end
 
+	local startOrder = if append then self._searchLoaded - #response.results + 1 else 1
 	for index, result in response.results do
-		self:_renderResult(result, index)
+		self:_renderResult(result, startOrder + index - 1)
 	end
+
+	task.defer(function()
+		self:_maybeLoadMore()
+	end)
+end
+
+function OutfitSearchController:_buildSearchRequest(offset)
+	return {
+		include1 = self._colors.include1,
+		include2 = self._colors.include2,
+		useExclude = self._excludeEnabled,
+		exclude = if self._excludeEnabled then self._colors.exclude else nil,
+		radius = self:_getRadius(),
+		limit = SEARCH_PAGE_SIZE,
+		offset = offset,
+		preferGender = self._preferGender,
+	}
+end
+
+function OutfitSearchController:_maybeLoadMore()
+	if not self._hasMore or self._loadingMore or not self._results then
+		return
+	end
+
+	local windowHeight = self._results.AbsoluteWindowSize.Y
+	local canvasHeight = self._results.AbsoluteCanvasSize.Y
+	local scrollY = self._results.CanvasPosition.Y
+	local distanceFromBottom = canvasHeight - (scrollY + windowHeight)
+
+	-- Also load when the first page does not fill the viewport.
+	if canvasHeight > windowHeight + 1 and distanceFromBottom > LOAD_MORE_THRESHOLD then
+		return
+	end
+
+	self:_loadMoreResults()
+end
+
+function OutfitSearchController:_loadMoreResults()
+	if not self._hasMore or self._loadingMore then
+		return
+	end
+
+	self._loadingMore = true
+	self._status.Text = string.format(
+		"%d matching outfits • loading more… • showing %d",
+		self._searchTotal,
+		self._searchLoaded
+	)
+
+	local offset = self._searchLoaded
+	self._service
+		:Search(self:_buildSearchRequest(offset))
+		:andThen(function(response)
+			self:_renderResponse(response, true)
+		end)
+		:catch(function(errorMessage)
+			self._loadingMore = false
+			self._status.Text = string.format(
+				"%d matching outfits • showing %d • %s",
+				self._searchTotal,
+				self._searchLoaded,
+				tostring(errorMessage)
+			)
+		end)
 end
 
 function OutfitSearchController:_search()
@@ -523,24 +645,21 @@ function OutfitSearchController:_search()
 	self._searchButton.Active = false
 	self._searchButton.Text = "Searching..."
 	self._status.Text = "Comparing 2,454 outfits in perceptual color space..."
+	self._hasMore = false
+	self._loadingMore = false
+	self._searchLoaded = 0
+	self._searchTotal = 0
 
 	self._service
-		:Search({
-			include1 = self._colors.include1,
-			include2 = self._colors.include2,
-			useExclude = self._excludeEnabled,
-			exclude = if self._excludeEnabled then self._colors.exclude else nil,
-			radius = self:_getRadius(),
-			limit = 30,
-		})
+		:Search(self:_buildSearchRequest(0))
 		:andThen(function(response)
-			self:_renderResponse(response)
+			self:_renderResponse(response, false)
 		end)
 		:catch(function(errorMessage)
 			self:_renderResponse({
 				ok = false,
 				error = tostring(errorMessage),
-			})
+			}, false)
 		end)
 end
 
@@ -609,6 +728,7 @@ function OutfitSearchController:_buildInterface()
 	self._searchButton =
 		makeButton(sidebar, "Find outfits", UDim2.new(1, 0, 0, 44), UDim2.fromOffset(0, 422), THEME.accent)
 	self._searchButton.Activated:Connect(function()
+		self._preferGender = nil
 		self:_search()
 	end)
 
@@ -678,6 +798,12 @@ function OutfitSearchController:_buildInterface()
 		Padding = UDim.new(0, 10),
 		SortOrder = Enum.SortOrder.LayoutOrder,
 	})
+	self._results:GetPropertyChangedSignal("CanvasPosition"):Connect(function()
+		self:_maybeLoadMore()
+	end)
+	self._results:GetPropertyChangedSignal("AbsoluteCanvasSize"):Connect(function()
+		self:_maybeLoadMore()
+	end)
 end
 
 function OutfitSearchController:KnitStart()
@@ -692,6 +818,11 @@ function OutfitSearchController:KnitStart()
 	self._excludeEnabled = false
 	self._impressedItems = {}
 	self._pendingPurchases = {}
+	self._searchLoaded = 0
+	self._searchTotal = 0
+	self._hasMore = false
+	self._loadingMore = false
+	self._preferGender = nil
 	self:_buildInterface()
 	self:_updateExcludeToggle()
 

@@ -75,6 +75,9 @@ function OutfitRecommendationService:KnitInit()
 			local key = outfitKey(topId, bottomId)
 			local groupTag = "group:" .. sanitizeTag(rawOutfit[7])
 			local genderTag = "gender:" .. sanitizeTag(GENDER_NAMES[rawOutfit[5]] or "unclassified")
+			local swatches = palette[5]
+			local color1Hex = swatches[1] and string.format("#%06X", swatches[1][1]) or nil
+			local color2Hex = swatches[2] and string.format("#%06X", swatches[2][1]) or nil
 
 			self._outfitsByKey[key] = {
 				key = key,
@@ -88,6 +91,8 @@ function OutfitRecommendationService:KnitInit()
 				gender = GENDER_NAMES[rawOutfit[5]],
 				priceTotal = rawOutfit[6],
 				groupName = rawOutfit[7],
+				color1Hex = color1Hex,
+				color2Hex = color2Hex,
 				customTags = {
 					"content:outfit",
 					groupTag,
@@ -267,6 +272,8 @@ function OutfitRecommendationService:_resolveRecommendationItem(item)
 		priceTotal = outfit.priceTotal,
 		groupName = outfit.groupName,
 		thumbnailUrl = outfit.thumbnailUrl,
+		color1Hex = outfit.color1Hex,
+		color2Hex = outfit.color2Hex,
 	}
 end
 
