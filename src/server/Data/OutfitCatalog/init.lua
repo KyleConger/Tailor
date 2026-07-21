@@ -13,12 +13,14 @@ append(palettes, require(script.Palettes004))
 append(palettes, require(script.Palettes005))
 append(palettes, require(script.Palettes006))
 append(palettes, require(script.Palettes007))
+append(palettes, require(script.Palettes008))
 local outfits = {}
 append(outfits, require(script.Outfits001))
 append(outfits, require(script.Outfits002))
 append(outfits, require(script.Outfits003))
 append(outfits, require(script.Outfits004))
 append(outfits, require(script.Outfits005))
+append(outfits, require(script.Outfits006))
 
 return {
 	version = 1,

@@ -69,6 +69,21 @@ local function colorToHex(color)
 	return string.format("#%s", color:ToHex())
 end
 
+-- Classic dress/gown visuals live on the pants asset; use that for the card thumbnail.
+local function isFemaleDress(result)
+	local name = string.lower(tostring(result.topName or "") .. " " .. tostring(result.bottomName or ""))
+	return string.find(name, "dress") ~= nil
+		or string.find(name, "gown") ~= nil
+		or string.find(name, "frock") ~= nil
+end
+
+local function thumbnailAssetId(result)
+	if isFemaleDress(result) and result.bottomId then
+		return result.bottomId
+	end
+	return result.topId
+end
+
 local function makeLabel(parent, text, size, position, textSize, color)
 	return create("TextLabel", "Label", parent, {
 		BackgroundTransparency = 1,
@@ -341,7 +356,7 @@ function OutfitSearchController:_renderResult(result, order, parent, options)
 
 	create("ImageLabel", "Thumbnail", card, {
 		BackgroundColor3 = THEME.panel,
-		Image = string.format("rbxthumb://type=Asset&id=%s&w=150&h=150", tostring(result.topId)),
+		Image = string.format("rbxthumb://type=Asset&id=%s&w=150&h=150", tostring(thumbnailAssetId(result))),
 		Position = UDim2.fromOffset(8, 8),
 		Size = UDim2.fromOffset(110, 110),
 	})

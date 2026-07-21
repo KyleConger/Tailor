@@ -10,5 +10,16 @@
   { "id": 3100013,   "name": "Obleceni",                         "slug": "obleceni",            "defaultGender": "masculine" },
   { "id": 5049429,   "name": "Henri Bendel",                     "slug": "henri-bendel",        "defaultGender": "masculine" },
   { "id": 2617916,   "name": "Casablanca",                       "slug": "casablanca",          "defaultGender": "masculine" },
-  { "id": 7800647,   "name": "Studio 20 Clothing Co.",           "slug": "studio-20-clothing-co","defaultGender": "unclassified" }
+  { "id": 7800647,   "name": "Studio 20 Clothing Co.",           "slug": "studio-20-clothing-co","defaultGender": "unclassified" },
+  { "id": 10792742,  "name": "Argento",                          "slug": "argento",             "defaultGender": "masculine" },
+  { "id": 16736549,  "name": "Kamuro Formalwear",                "slug": "kamuro-formalwear",   "defaultGender": "masculine" },
+  { "id": 33762639,  "name": "Kamuro Casualwear",                "slug": "kamuro-casualwear",   "defaultGender": "masculine" },
+  { "id": 8431614,   "name": "Infamous Outfitters",              "slug": "infamous-outfitters", "defaultGender": "masculine" },
+  { "id": 12033577,  "name": "Beyoglu & Co.",                    "slug": "beyoglu-co",          "defaultGender": "masculine" },
+  { "id": 11596925,  "name": "Hayashi Tailor Co.",               "slug": "hayashi-tailor-co",   "defaultGender": "masculine" },
+  { "id": 8686107,   "name": "GIORGIO | EST.2020",               "slug": "giorgio",             "defaultGender": "masculine" },
+  { "id": 8141844,   "name": "Legion Luxury Co.",                "slug": "legion-luxury-co",    "defaultGender": "masculine" },
+  { "id": 7933490,   "name": "Outfitter en Francais | LV",       "slug": "outfitter-en-francais-lv", "defaultGender": "masculine" },
+  { "id": 11161732,  "name": "Gianniotti",                       "slug": "gianniotti",          "defaultGender": "masculine" },
+  { "id": 14954920,  "name": "Schneider Co.",                    "slug": "schneider-co",        "defaultGender": "masculine" }
 ]
